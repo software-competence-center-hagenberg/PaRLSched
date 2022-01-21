@@ -1,0 +1,127 @@
+.TH "ThreadControl" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ThreadControl \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ThreadControl\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBthd_init_counters\fP (pthread_t thread_id, void *arg)"
+.br
+.ti -1c
+.RI "bool \fBthd_init_counters\fP (pthread_t thread_id, \fBthread_info\fP &info)"
+.br
+.ti -1c
+.RI "bool \fBthd_stop_counters\fP (const int &thread_id, \fBthread_info\fP &info)"
+.br
+.ti -1c
+.RI "bool \fBthd_record_counters\fP (pthread_t thread, void *arg)"
+.br
+.ti -1c
+.RI "bool \fBthd_record_counters\fP (\fBthread_info\fP &info)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBThreadControl\fP
+.PP
+It includes all the necessary functions for recording the thread performance counters 
+.PP
+Definition at line 29 of file ThreadControl\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool ThreadControl::thd_init_counters (pthread_tthread_id, void *arg)"
+The function thd_initialize_counters initializes the PAPI counters
+.PP
+\fBParameters:\fP
+.RS 4
+\fIthread_id\fP an integer ID of this thread 
+.br
+\fIarg\fP the info related to this thread 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 28 of file ThreadControl\&.cpp\&.
+.SS "bool ThreadControl::thd_init_counters (pthread_tthread_id, \fBthread_info\fP &info)"
+Initialize counters
+.PP
+\fBParameters:\fP
+.RS 4
+\fIthread_id\fP 
+.br
+\fIinfo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 107 of file ThreadControl\&.cpp\&.
+.SS "bool ThreadControl::thd_record_counters (pthread_tthread, void *arg)"
+It records the selected counters for this thread
+.PP
+\fBParameters:\fP
+.RS 4
+\fIthread\fP the ID # of this thread 
+.br
+\fIarg\fP the info of this thread 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 212 of file ThreadControl\&.cpp\&.
+.PP
+Referenced by Scheduler::retrieve_performances()\&.
+.SS "bool ThreadControl::thd_record_counters (\fBthread_info\fP &info)"
+Thread record counters
+.PP
+\fBParameters:\fP
+.RS 4
+\fIinfo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 293 of file ThreadControl\&.cpp\&.
+.SS "bool ThreadControl::thd_stop_counters (const int &thread_id, \fBthread_info\fP &info)"
+Stop counters
+.PP
+\fBParameters:\fP
+.RS 4
+\fIthread_id\fP 
+.br
+\fIinfo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 184 of file ThreadControl\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

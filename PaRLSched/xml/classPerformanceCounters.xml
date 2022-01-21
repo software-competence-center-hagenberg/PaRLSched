@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classPerformanceCounters" kind="class" prot="public">
+    <compoundname>PerformanceCounters</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPerformanceCounters_1ab6d4601e0ea0a4229a99c528fc684a9e" prot="private" static="no" mutable="no">
+        <type>struct timeval</type>
+        <definition>struct timeval PerformanceCounters::tim</definition>
+        <argsstring></argsstring>
+        <name>tim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="50" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPerformanceCounters_1ac86fbbd6fea807ba236fce440b43add9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PerformanceCounters::EventSet</definition>
+        <argsstring></argsstring>
+        <name>EventSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="55" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPerformanceCounters_1af0041c4358f17ab78e035582f8ed3cb8" prot="private" static="no" mutable="no">
+        <type>long long int *</type>
+        <definition>long long int* PerformanceCounters::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="56" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPerformanceCounters_1a9eacf527472f652cc59024cb7910adc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PerformanceCounters::PerformanceCounters</definition>
+        <argsstring>()</argsstring>
+        <name>PerformanceCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="46" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classPerformanceCounters_1aeb98aae992624bb24e9fa068d062cb03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PerformanceCounters::~PerformanceCounters</definition>
+        <argsstring>()</argsstring>
+        <name>~PerformanceCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="47" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classPerformanceCounters_1a6da9d4ba5cdc2a27f12c134e3a536612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PerformanceCounters::initialize</definition>
+        <argsstring>(void)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="49" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.cpp" bodystart="47" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classPerformanceCounters_1aaf18c08421469aa6f5cae87d6a1721dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerformanceCounters::get_performance</definition>
+        <argsstring>(Performance &amp;performance)</argsstring>
+        <name>get_performance</name>
+        <param>
+          <type><ref refid="structPerformance" kindref="compound">Performance</ref> &amp;</type>
+          <declname>performance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="50" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.cpp" bodystart="83" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="44" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="43" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classPerformanceCounters_1ac86fbbd6fea807ba236fce440b43add9" prot="private" virt="non-virtual"><scope>PerformanceCounters</scope><name>EventSet</name></member>
+      <member refid="classPerformanceCounters_1aaf18c08421469aa6f5cae87d6a1721dd" prot="public" virt="non-virtual"><scope>PerformanceCounters</scope><name>get_performance</name></member>
+      <member refid="classPerformanceCounters_1a6da9d4ba5cdc2a27f12c134e3a536612" prot="public" virt="non-virtual"><scope>PerformanceCounters</scope><name>initialize</name></member>
+      <member refid="classPerformanceCounters_1a9eacf527472f652cc59024cb7910adc8" prot="public" virt="non-virtual"><scope>PerformanceCounters</scope><name>PerformanceCounters</name></member>
+      <member refid="classPerformanceCounters_1ab6d4601e0ea0a4229a99c528fc684a9e" prot="private" virt="non-virtual"><scope>PerformanceCounters</scope><name>tim</name></member>
+      <member refid="classPerformanceCounters_1af0041c4358f17ab78e035582f8ed3cb8" prot="private" virt="non-virtual"><scope>PerformanceCounters</scope><name>values</name></member>
+      <member refid="classPerformanceCounters_1aeb98aae992624bb24e9fa068d062cb03" prot="public" virt="non-virtual"><scope>PerformanceCounters</scope><name>~PerformanceCounters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

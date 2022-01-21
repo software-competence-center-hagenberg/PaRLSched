@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__MethodsOptimize" kind="struct" prot="public">
+    <compoundname>Struct_MethodsOptimize</compoundname>
+    <includes refid="MethodsOptimize_8h" local="no">MethodsOptimize.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1aae92e8b55e02d8f476c70fd84a817b2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsOptimize::RL_optimize</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;vec_cummulative_estimates, const unsigned int &amp;num_choices, unsigned int &amp;action, const double &amp;LAMBDA, const double &amp;current_run_ave_performance)</argsstring>
+        <name>RL_optimize</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_cummulative_estimates</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_choices</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>LAMBDA</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>current_run_ave_performance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides a framework for computing the optimal allocation of resources based on the estimates created by an RL estimator.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_cummulative_estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of cummulative estimates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_choices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of choices </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>action </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LAMBDA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>perturbation factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_run_ave_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current running average performance </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="36" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="36" bodyend="56"/>
+        <references refid="structStruct__MethodsOptimize_1af46b3c9b62e65360adb3ac65d7ecd8d3" compoundref="MethodsOptimize_8h" startline="94" endline="113">random_selection_strategy</references>
+        <references refid="structStruct__MethodsOptimize_1a02f7220d538eae22064174816dd73bf6" compoundref="MethodsOptimize_8h" startline="64" endline="85">random_selection_uniform</references>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1a02f7220d538eae22064174816dd73bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_MethodsOptimize::random_selection_uniform</definition>
+        <argsstring>(const unsigned int &amp;num_choices)</argsstring>
+        <name>random_selection_uniform</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_choices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Random selection of resources based on a uniform distribution</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_choices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>available number of choices </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="64" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="64" bodyend="85"/>
+        <referencedby refid="structStruct__MethodsOptimize_1aec0f2037974da6b68e4e0fa7f84b8fa8" compoundref="MethodsOptimize_8h" startline="143" endline="190">AL_optimize</referencedby>
+        <referencedby refid="structStruct__MethodsOptimize_1aae92e8b55e02d8f476c70fd84a817b2d" compoundref="MethodsOptimize_8h" startline="36" endline="56">RL_optimize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1af46b3c9b62e65360adb3ac65d7ecd8d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_MethodsOptimize::random_selection_strategy</definition>
+        <argsstring>(const unsigned int &amp;num_choices, const std::vector&lt; double &gt; &amp;estimates)</argsstring>
+        <name>random_selection_strategy</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_choices</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>estimates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Random Selection Strategy assigns a random selection based on the provided estimates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_choices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="94" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="94" bodyend="113"/>
+        <referencedby refid="structStruct__MethodsOptimize_1aae92e8b55e02d8f476c70fd84a817b2d" compoundref="MethodsOptimize_8h" startline="36" endline="56">RL_optimize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1aec0f2037974da6b68e4e0fa7f84b8fa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsOptimize::AL_optimize</definition>
+        <argsstring>(const bool &amp;random_switch, const bool &amp;action_change, const double &amp;run_average_balanced_performance, const std::vector&lt; double &gt; &amp;run_ave_performance_per_main_resource, const double &amp;low_benchmark, const double &amp;high_benchmark, unsigned int &amp;action, unsigned int &amp;num_actions, const double &amp;LAMBDA, const unsigned int &amp;thread, const double &amp;numa_switch_threshold)</argsstring>
+        <name>AL_optimize</name>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>random_switch</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>action_change</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>run_average_balanced_performance</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>run_ave_performance_per_main_resource</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>low_benchmark</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>high_benchmark</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>num_actions</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>LAMBDA</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>numa_switch_threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>It provides a framework for computing the optimal allocation of resources based on Aspiration Learning</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>random_switch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicator that a Random Switch should be executed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action_change</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicator that the action should be changed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>run_average_balanced_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Running average balanced performance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>run_ave_performance_per_main_resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Running average performance per main resource </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>low_benchmark</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Low benchmark of aspiration learning </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>high_benchmark</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>High benchmark of aspiration learning </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Action </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_actions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of actions </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LAMBDA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Perturbation factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thread indicator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numa_switch_threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Threshold over which the NUMA (main resource) is updated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="142" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="143" bodyend="190"/>
+        <references refid="structStruct__MethodsOptimize_1a02f7220d538eae22064174816dd73bf6" compoundref="MethodsOptimize_8h" startline="64" endline="85">random_selection_uniform</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>It provides the necessary functions/algorithms for optimizing the selection of resources from the threads. It may or may not make use of the estimates over the most rewarding resources, as created by the <ref refid="MethodsEstimate_8h_source" kindref="compound">MethodsEstimate.h</ref> library. </para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="25" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="24" bodyend="192"/>
+    <listofallmembers>
+      <member refid="structStruct__MethodsOptimize_1aec0f2037974da6b68e4e0fa7f84b8fa8" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>AL_optimize</name></member>
+      <member refid="structStruct__MethodsOptimize_1af46b3c9b62e65360adb3ac65d7ecd8d3" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>random_selection_strategy</name></member>
+      <member refid="structStruct__MethodsOptimize_1a02f7220d538eae22064174816dd73bf6" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>random_selection_uniform</name></member>
+      <member refid="structStruct__MethodsOptimize_1aae92e8b55e02d8f476c70fd84a817b2d" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>RL_optimize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

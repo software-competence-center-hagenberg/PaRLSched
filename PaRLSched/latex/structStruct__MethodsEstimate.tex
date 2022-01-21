@@ -1,0 +1,71 @@
+\hypertarget{structStruct__MethodsEstimate}{\section{Struct\-\_\-\-Methods\-Estimate Struct Reference}
+\label{structStruct__MethodsEstimate}\index{Struct\-\_\-\-Methods\-Estimate@{Struct\-\_\-\-Methods\-Estimate}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{structStruct__MethodsEstimate_a79b0089392ec35169c185f465f88b675}{R\-L\-\_\-update} (double \&maximum\-\_\-performance, std\-::vector$<$ double $>$ \&vec\-\_\-estimates, std\-::vector$<$ double $>$ \&vec\-\_\-cummulative\-\_\-estimates, const double \&current\-\_\-performance, const double \&current\-\_\-run\-\_\-ave\-\_\-performance, const unsigned int \&current\-\_\-action, const bool \&action\-\_\-main\-\_\-changed, const double \&step\-\_\-size\-\_\-\-R\-L, const bool \&R\-L\-\_\-active\-\_\-reshuffling, const bool \&R\-L\-\_\-performance\-\_\-reshuffling, const double \&factor\-\_\-h, const bool \&active\-\_\-threads\-\_\-change, const unsigned int \&thread)
+\item 
+\hypertarget{structStruct__MethodsEstimate_a13f8ba793252f8883a1769dbee5ddaaa}{void {\bfseries R\-L\-\_\-reshuffle\-\_\-mixed} (std\-::vector$<$ double $>$ \&vec\-\_\-estimates)}\label{structStruct__MethodsEstimate_a13f8ba793252f8883a1769dbee5ddaaa}
+
+\item 
+void \hyperlink{structStruct__MethodsEstimate_a81e63589cf2c8a3f83fbef1a16491aea}{A\-L\-\_\-update} (const double \&current\-\_\-performance, const double \&current\-\_\-run\-\_\-ave\-\_\-performance, const double \&run\-\_\-ave\-\_\-performance\-\_\-before, const double \&step\-\_\-size, const bool \&active\-\_\-threads\-\_\-change, const unsigned int \&thread, double \&low\-\_\-benchmark, double \&high\-\_\-benchmark, bool \&random\-\_\-switch, bool \&action\-\_\-change)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 223 of file Methods\-Estimate.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structStruct__MethodsEstimate_a81e63589cf2c8a3f83fbef1a16491aea}{\index{Struct\-\_\-\-Methods\-Estimate@{Struct\-\_\-\-Methods\-Estimate}!A\-L\-\_\-update@{A\-L\-\_\-update}}
+\index{A\-L\-\_\-update@{A\-L\-\_\-update}!Struct_MethodsEstimate@{Struct\-\_\-\-Methods\-Estimate}}
+\subsubsection[{A\-L\-\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Methods\-Estimate\-::\-A\-L\-\_\-update (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{current\-\_\-performance, }
+\item[{const double \&}]{current\-\_\-run\-\_\-ave\-\_\-performance, }
+\item[{const double \&}]{run\-\_\-ave\-\_\-performance\-\_\-before, }
+\item[{const double \&}]{step\-\_\-size, }
+\item[{const bool \&}]{active\-\_\-threads\-\_\-change, }
+\item[{const unsigned int \&}]{thread, }
+\item[{double \&}]{low\-\_\-benchmark, }
+\item[{double \&}]{high\-\_\-benchmark, }
+\item[{bool \&}]{random\-\_\-switch, }
+\item[{bool \&}]{action\-\_\-change}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsEstimate_a81e63589cf2c8a3f83fbef1a16491aea}
+$<$ Updating benchmarks 
+
+Definition at line 358 of file Methods\-Estimate.\-h.
+
+\hypertarget{structStruct__MethodsEstimate_a79b0089392ec35169c185f465f88b675}{\index{Struct\-\_\-\-Methods\-Estimate@{Struct\-\_\-\-Methods\-Estimate}!R\-L\-\_\-update@{R\-L\-\_\-update}}
+\index{R\-L\-\_\-update@{R\-L\-\_\-update}!Struct_MethodsEstimate@{Struct\-\_\-\-Methods\-Estimate}}
+\subsubsection[{R\-L\-\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Methods\-Estimate\-::\-R\-L\-\_\-update (
+\begin{DoxyParamCaption}
+\item[{double \&}]{maximum\-\_\-performance, }
+\item[{std\-::vector$<$ double $>$ \&}]{vec\-\_\-estimates, }
+\item[{std\-::vector$<$ double $>$ \&}]{vec\-\_\-cummulative\-\_\-estimates, }
+\item[{const double \&}]{current\-\_\-performance, }
+\item[{const double \&}]{current\-\_\-run\-\_\-ave\-\_\-performance, }
+\item[{const unsigned int \&}]{current\-\_\-action, }
+\item[{const bool \&}]{action\-\_\-main\-\_\-changed, }
+\item[{const double \&}]{step\-\_\-size\-\_\-\-R\-L, }
+\item[{const bool \&}]{R\-L\-\_\-active\-\_\-reshuffling, }
+\item[{const bool \&}]{R\-L\-\_\-performance\-\_\-reshuffling, }
+\item[{const double \&}]{factor\-\_\-h, }
+\item[{const bool \&}]{active\-\_\-threads\-\_\-change, }
+\item[{const unsigned int \&}]{thread}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsEstimate_a79b0089392ec35169c185f465f88b675}
+We define a new step-\/size just for updating the R\-L 
+
+Definition at line 230 of file Methods\-Estimate.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Estimate.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,224 @@
+\hypertarget{structStruct__Estimate}{\section{Struct\-\_\-\-Estimate Struct Reference}
+\label{structStruct__Estimate}\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}}
+}
+
+
+{\ttfamily \#include $<$Methods\-Estimate.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{structStruct__Estimate_a86b258312b0cbd9a988a8b8c80f72fb4}{initialize} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const unsigned int \&initial\-\_\-action, const bool \&mixed)
+\item 
+void \hyperlink{structStruct__Estimate_a14707ec3b60745fc143894f8b335e2eb}{initialize\-\_\-w\-\_\-child} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const std\-::string \&child\-\_\-resource, const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num)
+\item 
+void \hyperlink{structStruct__Estimate_a1319536e0446f7017c1551375b7bd6bc}{update\-\_\-estimates} (const std\-::vector$<$ double $>$ \&vec\-\_\-estimates)
+\item 
+void \hyperlink{structStruct__Estimate_aafbf20ed9ca283b3d8e2da6a2d44a43e}{update\-\_\-child\-\_\-estimate} (const std\-::vector$<$ double $>$ \&vec\-\_\-estimates, const unsigned int \&source\-\_\-num)
+\item 
+void \hyperlink{structStruct__Estimate_a304683373750daa1d4409658ab5e3164}{update\-\_\-action} (const std\-::vector$<$ double $>$ \&vec\-\_\-estimates, const unsigned int \&source\-\_\-num)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__Estimate_a7866b20f273f4bbe7ce2645c5b434a35}{std\-::string {\bfseries resource\-\_\-}}\label{structStruct__Estimate_a7866b20f273f4bbe7ce2645c5b434a35}
+
+\item 
+\hypertarget{structStruct__Estimate_a24bdea270a40349a809470af81bafb0e}{unsigned int {\bfseries num\-\_\-sources\-\_\-}}\label{structStruct__Estimate_a24bdea270a40349a809470af81bafb0e}
+
+\item 
+\hypertarget{structStruct__Estimate_adabb78baf36f2ef0bc0d0e8e04828b97}{std\-::vector$<$ std\-::vector\\*
+$<$ unsigned int $>$ $>$ {\bfseries vec\-\_\-child\-\_\-sources\-\_\-}}\label{structStruct__Estimate_adabb78baf36f2ef0bc0d0e8e04828b97}
+
+\item 
+\hypertarget{structStruct__Estimate_a0b0945a15f4acdd71673c1d1e45b567a}{std\-::vector$<$ double $>$ {\bfseries vec\-\_\-estimates\-\_\-}}\label{structStruct__Estimate_a0b0945a15f4acdd71673c1d1e45b567a}
+
+\item 
+\hypertarget{structStruct__Estimate_a897b46cd85b87c27a982bf18186c9f64}{std\-::vector$<$ double $>$ {\bfseries vec\-\_\-cummulative\-\_\-estimates\-\_\-}}\label{structStruct__Estimate_a897b46cd85b87c27a982bf18186c9f64}
+
+\item 
+\hypertarget{structStruct__Estimate_a85fe5ddb41f66097b960f2f715cc82c4}{double {\bfseries run\-\_\-average\-\_\-performance\-\_\-}}\label{structStruct__Estimate_a85fe5ddb41f66097b960f2f715cc82c4}
+
+\item 
+\hypertarget{structStruct__Estimate_a94dbf41446b7bad1f8c161c16e9f22c1}{std\-::vector$<$ \hyperlink{structStruct__Estimate}{Struct\-\_\-\-Estimate} $>$ {\bfseries vec\-\_\-child\-\_\-estimates\-\_\-}}\label{structStruct__Estimate_a94dbf41446b7bad1f8c161c16e9f22c1}
+
+\item 
+\hypertarget{structStruct__Estimate_a39eecaa17793e0813cdb89338ed794f3}{double {\bfseries low\-\_\-benchmark\-\_\-}}\label{structStruct__Estimate_a39eecaa17793e0813cdb89338ed794f3}
+
+\item 
+\hypertarget{structStruct__Estimate_aa876453ecd5a4e13ab9bf772ea4daac5}{double {\bfseries high\-\_\-benchmark\-\_\-}}\label{structStruct__Estimate_aa876453ecd5a4e13ab9bf772ea4daac5}
+
+\item 
+\hypertarget{structStruct__Estimate_a9fba7f1bb54a7b5a3f1683f2a567e3d7}{double {\bfseries maximum\-\_\-performance\-\_\-}}\label{structStruct__Estimate_a9fba7f1bb54a7b5a3f1683f2a567e3d7}
+
+\item 
+\hypertarget{structStruct__Estimate_aa1470fc0ef35f78f59abd0cc51916711}{bool {\bfseries random\-\_\-switch\-\_\-}}\label{structStruct__Estimate_aa1470fc0ef35f78f59abd0cc51916711}
+
+\item 
+\hypertarget{structStruct__Estimate_ac267b3a432bde596b9bf3548c7ac65df}{bool {\bfseries action\-\_\-change\-\_\-}}\label{structStruct__Estimate_ac267b3a432bde596b9bf3548c7ac65df}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{structStruct__Estimate}{Struct\-\_\-\-Estimate}
+
+It provides the necessary information for keeping track our estimates for the performance of a thread over a specific node/cpu or the performance of a thread's memory over a specific node (or some further refinement if possible)
+
+This structure is planned for 'per-\/thread' use, since it will hold estimates over the proper use of resources by each thread separately.
+
+Within this structure, there is an additional struct that tracks the performances of the threads throughout the running time. 
+
+Definition at line 43 of file Methods\-Estimate.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structStruct__Estimate_a86b258312b0cbd9a988a8b8c80f72fb4}{\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}!initialize@{initialize}}
+\index{initialize@{initialize}!Struct_Estimate@{Struct\-\_\-\-Estimate}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Estimate\-::initialize (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{resource, }
+\item[{const unsigned int \&}]{num\-\_\-sources, }
+\item[{const unsigned int \&}]{max\-\_\-num\-\_\-sources\-\_\-user, }
+\item[{const unsigned int \&}]{initial\-\_\-action, }
+\item[{const bool \&}]{mixed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Estimate_a86b258312b0cbd9a988a8b8c80f72fb4}
+This function initializes the structure
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource} & resource type \\
+\hline
+{\em num\-\_\-sources} & number of sources \\
+\hline
+{\em max\-\_\-num\-\_\-sources\-\_\-user} & maximum number of sources per user \\
+\hline
+{\em initial\-\_\-action} & initial action \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 74 of file Methods\-Estimate.\-h.
+
+
+
+Referenced by initialize\-\_\-w\-\_\-child().
+
+\hypertarget{structStruct__Estimate_a14707ec3b60745fc143894f8b335e2eb}{\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}!initialize\-\_\-w\-\_\-child@{initialize\-\_\-w\-\_\-child}}
+\index{initialize\-\_\-w\-\_\-child@{initialize\-\_\-w\-\_\-child}!Struct_Estimate@{Struct\-\_\-\-Estimate}}
+\subsubsection[{initialize\-\_\-w\-\_\-child}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Estimate\-::initialize\-\_\-w\-\_\-child (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{resource, }
+\item[{const unsigned int \&}]{num\-\_\-sources, }
+\item[{const unsigned int \&}]{max\-\_\-num\-\_\-sources\-\_\-user, }
+\item[{const std\-::string \&}]{child\-\_\-resource, }
+\item[{const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&}]{vec\-\_\-num\-\_\-child\-\_\-sources, }
+\item[{const std\-::vector$<$ unsigned int $>$ \&}]{vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, }
+\item[{const unsigned int \&}]{thread\-\_\-num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Estimate_a14707ec3b60745fc143894f8b335e2eb}
+It is implicitly assumed that the main resource also has a child resource For example, in the case of P\-R\-O\-C\-E\-S\-S\-I\-N\-G\-\_\-\-B\-A\-N\-D\-W\-I\-D\-T\-H, the main sources correspond to the N\-U\-M\-A nodes (if available) while the child sources correspond to the C\-P\-U units available in each N\-U\-M\-A node.
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource} & resource type \\
+\hline
+{\em num\-\_\-sources} & number of sources \\
+\hline
+{\em max\-\_\-num\-\_\-sources\-\_\-user} & maximum number of sources per user \\
+\hline
+{\em child\-\_\-resource} & child resource type \\
+\hline
+{\em vec\-\_\-num\-\_\-child\-\_\-sources} & vector of number of child sources \\
+\hline
+{\em vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user} & vector of maximum number of child sources per user \\
+\hline
+{\em thread\-\_\-num} & thread number \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 129 of file Methods\-Estimate.\-h.
+
+
+
+References Struct\-\_\-\-Actions\-::compute\-\_\-initial\-\_\-action(), and initialize().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structStruct__Estimate_a14707ec3b60745fc143894f8b335e2eb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structStruct__Estimate_a304683373750daa1d4409658ab5e3164}{\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}!update\-\_\-action@{update\-\_\-action}}
+\index{update\-\_\-action@{update\-\_\-action}!Struct_Estimate@{Struct\-\_\-\-Estimate}}
+\subsubsection[{update\-\_\-action}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Estimate\-::update\-\_\-action (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ double $>$ \&}]{vec\-\_\-estimates, }
+\item[{const unsigned int \&}]{source\-\_\-num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Estimate_a304683373750daa1d4409658ab5e3164}
+
+\begin{DoxyParams}{Parameters}
+{\em vec\-\_\-estimates} & \\
+\hline
+{\em source\-\_\-num} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 225 of file Methods\-Estimate.\-h.
+
+\hypertarget{structStruct__Estimate_aafbf20ed9ca283b3d8e2da6a2d44a43e}{\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}!update\-\_\-child\-\_\-estimate@{update\-\_\-child\-\_\-estimate}}
+\index{update\-\_\-child\-\_\-estimate@{update\-\_\-child\-\_\-estimate}!Struct_Estimate@{Struct\-\_\-\-Estimate}}
+\subsubsection[{update\-\_\-child\-\_\-estimate}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Estimate\-::update\-\_\-child\-\_\-estimate (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ double $>$ \&}]{vec\-\_\-estimates, }
+\item[{const unsigned int \&}]{source\-\_\-num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Estimate_aafbf20ed9ca283b3d8e2da6a2d44a43e}
+This function receives a vector of estimates for the child resources, and assigns it to the existing structure
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec\-\_\-estimates} & \\
+\hline
+{\em source\-\_\-num} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 213 of file Methods\-Estimate.\-h.
+
+\hypertarget{structStruct__Estimate_a1319536e0446f7017c1551375b7bd6bc}{\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}!update\-\_\-estimates@{update\-\_\-estimates}}
+\index{update\-\_\-estimates@{update\-\_\-estimates}!Struct_Estimate@{Struct\-\_\-\-Estimate}}
+\subsubsection[{update\-\_\-estimates}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Estimate\-::update\-\_\-estimates (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ double $>$ \&}]{vec\-\_\-estimates}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Estimate_a1319536e0446f7017c1551375b7bd6bc}
+This function receives a vector of estimates, and assigns it to the existing structure
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec\-\_\-estimates} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 201 of file Methods\-Estimate.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Estimate.\-h\end{DoxyCompactItemize}

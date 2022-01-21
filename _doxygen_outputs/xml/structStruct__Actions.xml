@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__Actions" kind="struct" prot="public">
+    <compoundname>Struct_Actions</compoundname>
+    <includes refid="MethodsActions_8h" local="no">MethodsActions.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStruct__Actions_1ac929169603c419d6a0d1e6cb8dacc980" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Struct_Actions::resource_</definition>
+        <argsstring></argsstring>
+        <name>resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="32" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1aa3d36d82f026212fb1f59dac88da98b2" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Struct_Actions::child_resource_</definition>
+        <argsstring></argsstring>
+        <name>child_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="33" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1a5042128cbd5fb915614f1309ad1b2cf2" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_Actions::num_actions_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>num_actions_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="34" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1a7e5104b8c833631f55201f20433680f4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; Struct_Actions::vec_num_child_actions_per_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>vec_num_child_actions_per_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="35" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1ae03ee4c360ea92bd7c381d113047c11f" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::tuple&lt; unsigned int, unsigned int, unsigned int &gt;, std::vector&lt; unsigned int &gt; &gt;</type>
+        <definition>std::map&lt;std::tuple&lt;unsigned int,unsigned int,unsigned int&gt;, std::vector&lt;unsigned int&gt; &gt; Struct_Actions::map_neighbors_</definition>
+        <argsstring></argsstring>
+        <name>map_neighbors_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="36" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1a687f670fd743b3c4ae86daf8cf2be3b4" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_Actions::action_per_main_source_</definition>
+        <argsstring></argsstring>
+        <name>action_per_main_source_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="45" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1a500af033d64e40e926d47ca3abb69397" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_Actions::previous_action_per_main_source_</definition>
+        <argsstring></argsstring>
+        <name>previous_action_per_main_source_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="46" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1a58e3c004e83fe50762c69d6d4bc50022" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_Actions::action_per_child_source_</definition>
+        <argsstring></argsstring>
+        <name>action_per_child_source_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="47" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1abf351c2b735511e15a54c3821002b9da" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_Actions::previous_action_per_child_source_</definition>
+        <argsstring></argsstring>
+        <name>previous_action_per_child_source_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="48" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Actions_1aae321f0f30f1249a87113e4dd9644630" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; unsigned int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; unsigned int &gt; &gt; Struct_Actions::vec_child_sources_</definition>
+        <argsstring></argsstring>
+        <name>vec_child_sources_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="49" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__Actions_1ad28379afcba301fca72e1e6939fa4c4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Actions::initialize</definition>
+        <argsstring>(const std::string &amp;resource, const unsigned int &amp;num_sources, const unsigned int &amp;max_num_sources_user, std::vector&lt; unsigned int &gt; &amp;action_main_old, const unsigned int &amp;thread_num)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_sources</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_num_sources_user</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>action_main_old</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>We initialize the structure <ref refid="structStruct__Actions" kindref="compound">Struct_Actions</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resource type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_num_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum number of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action_main_old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>old action of the main resource </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="60" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="61" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Actions_1a65aec6da3f4aa08047e285566fe45487" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Actions::initialize_w_child</definition>
+        <argsstring>(const std::string &amp;resource, const unsigned int &amp;num_sources, const unsigned int &amp;max_num_sources_user, const std::string &amp;child_resource, const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;vec_num_child_sources, const std::vector&lt; unsigned int &gt; &amp;vec_max_num_child_sources_user, const unsigned int &amp;thread_num, std::vector&lt; unsigned int &gt; &amp;action_main_old, const unsigned int &amp;policy, const unsigned int &amp;neighborhood_size)</argsstring>
+        <name>initialize_w_child</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_sources</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_num_sources_user</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>child_resource</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;</type>
+          <declname>vec_num_child_sources</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>vec_max_num_child_sources_user</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread_num</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>action_main_old</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>neighborhood_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize the performance tracking variables when child resources are also present.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of resource </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_num_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum number of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>child_resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of child resource </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_num_child_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of number of child sources per main source </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_max_num_child_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of maximum number of child sources per main source </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread number </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action_main_old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>old action of the main resource </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>policy </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>neighborhood_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>neighborhood size (for considering groups of child sources) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="92" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="93" bodyend="174"/>
+        <references refid="structStruct__Actions_1a2d1d697fe7778e807179b7bef8c809db" compoundref="MethodsActions_8h" startline="185" endline="229">compute_initial_action</references>
+        <references refid="structStruct__Actions_1a41346a1cddc836c0fcf0509debb5bcd6" compoundref="MethodsActions_8h" startline="241" endline="286">compute_initial_action_rr</references>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Actions_1a2d1d697fe7778e807179b7bef8c809db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; Struct_Actions::compute_initial_action</definition>
+        <argsstring>(const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;vec_num_child_sources, const std::vector&lt; unsigned int &gt; &amp;vec_max_num_child_sources_user, const unsigned int &amp;thread_num, const unsigned int &amp;max_number_available_main_sources)</argsstring>
+        <name>compute_initial_action</name>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;</type>
+          <declname>vec_num_child_sources</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>vec_max_num_child_sources_user</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread_num</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_number_available_main_sources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute initial action</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_num_child_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of number of child sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_max_num_child_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of maximum number of child sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread number </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_number_available_main_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum number of available main sources </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="185" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="185" bodyend="229"/>
+        <referencedby refid="structStruct__Actions_1a65aec6da3f4aa08047e285566fe45487" compoundref="MethodsActions_8h" startline="93" endline="174">initialize_w_child</referencedby>
+        <referencedby refid="structStruct__Estimate_1a14707ec3b60745fc143894f8b335e2eb" compoundref="MethodsEstimate_8h" startline="129" endline="193">Struct_Estimate::initialize_w_child</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Actions_1a41346a1cddc836c0fcf0509debb5bcd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; Struct_Actions::compute_initial_action_rr</definition>
+        <argsstring>(const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;vec_num_child_sources, const std::vector&lt; unsigned int &gt; &amp;vec_max_num_child_sources_user, const unsigned int &amp;thread_num)</argsstring>
+        <name>compute_initial_action_rr</name>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;</type>
+          <declname>vec_num_child_sources</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>vec_max_num_child_sources_user</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute initial action with Round Robin algorithm</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_num_child_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of number of child sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_max_num_child_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of maximum number of child sources per user </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="240" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="241" bodyend="286"/>
+        <referencedby refid="structStruct__Actions_1a65aec6da3f4aa08047e285566fe45487" compoundref="MethodsActions_8h" startline="93" endline="174">initialize_w_child</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure gathers information that is relevant for keeping in track the actions selected by each thread with respect to the resources that need to be optimized (e.g., cpu placement, memory placement) </para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" line="24" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsActions.h" bodystart="23" bodyend="288"/>
+    <listofallmembers>
+      <member refid="structStruct__Actions_1a58e3c004e83fe50762c69d6d4bc50022" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>action_per_child_source_</name></member>
+      <member refid="structStruct__Actions_1a687f670fd743b3c4ae86daf8cf2be3b4" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>action_per_main_source_</name></member>
+      <member refid="structStruct__Actions_1aa3d36d82f026212fb1f59dac88da98b2" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>child_resource_</name></member>
+      <member refid="structStruct__Actions_1a2d1d697fe7778e807179b7bef8c809db" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>compute_initial_action</name></member>
+      <member refid="structStruct__Actions_1a41346a1cddc836c0fcf0509debb5bcd6" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>compute_initial_action_rr</name></member>
+      <member refid="structStruct__Actions_1ad28379afcba301fca72e1e6939fa4c4f" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>initialize</name></member>
+      <member refid="structStruct__Actions_1a65aec6da3f4aa08047e285566fe45487" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>initialize_w_child</name></member>
+      <member refid="structStruct__Actions_1ae03ee4c360ea92bd7c381d113047c11f" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>map_neighbors_</name></member>
+      <member refid="structStruct__Actions_1a5042128cbd5fb915614f1309ad1b2cf2" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>num_actions_main_resource_</name></member>
+      <member refid="structStruct__Actions_1abf351c2b735511e15a54c3821002b9da" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>previous_action_per_child_source_</name></member>
+      <member refid="structStruct__Actions_1a500af033d64e40e926d47ca3abb69397" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>previous_action_per_main_source_</name></member>
+      <member refid="structStruct__Actions_1ac929169603c419d6a0d1e6cb8dacc980" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>resource_</name></member>
+      <member refid="structStruct__Actions_1aae321f0f30f1249a87113e4dd9644630" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>vec_child_sources_</name></member>
+      <member refid="structStruct__Actions_1a7e5104b8c833631f55201f20433680f4" prot="public" virt="non-virtual"><scope>Struct_Actions</scope><name>vec_num_child_actions_per_main_resource_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

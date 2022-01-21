@@ -1,0 +1,316 @@
+\hypertarget{classScheduler}{\section{Scheduler Class Reference}
+\label{classScheduler}\index{Scheduler@{Scheduler}}
+}
+
+
+{\ttfamily \#include $<$Scheduler.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classScheduler_a9d9fdac53788885928fa849892250819}{Scheduler} (const std\-::string \&in\-\_\-file, const unsigned int \&num\-\_\-threads)
+\item 
+\hypertarget{classScheduler_aa55196b20c6a062b2f479776738622fd}{{\bfseries Scheduler} (const \hyperlink{classScheduler}{Scheduler} \&other)}\label{classScheduler_aa55196b20c6a062b2f479776738622fd}
+
+\item 
+\hypertarget{classScheduler_a8a41677eaa1266ec0ab41dcf0ac0d865}{\hyperlink{classScheduler}{Scheduler} \& {\bfseries operator=} (const \hyperlink{classScheduler}{Scheduler} \&other)}\label{classScheduler_a8a41677eaa1266ec0ab41dcf0ac0d865}
+
+\item 
+void \hyperlink{classScheduler_a27e2a247cde3ad80ac25b9188a1e17ee}{initialize} (const unsigned int \&num\-\_\-threads, const bool \&R\-L\-\_\-active\-\_\-reshuffling, const bool \&R\-L\-\_\-performance\-\_\-reshuffling, const double \&step\-\_\-size, const double \&L\-A\-M\-B\-D\-A, const double \&sched\-\_\-period, const bool \&suspend\-\_\-threads, const bool \&printout\-\_\-strategies, const bool \&printout\-\_\-actions, const bool \&write\-\_\-to\-\_\-files, const bool \&write\-\_\-to\-\_\-files\-\_\-details, const double \&gamma, const bool \&O\-S\-\_\-mapping, const bool \&R\-L\-\_\-mapping, const bool \&P\-R\-\_\-mapping, const bool \&S\-T\-\_\-mapping, const bool \&optimize\-\_\-main\-\_\-resource)
+\item 
+void \hyperlink{classScheduler_ac0f68dd6a14fdf70dc964c67dc8d39b2}{update} (const unsigned int \&resource\-\_\-ind, std\-::vector$<$ bool $>$ \&update\-\_\-inds)
+\item 
+void \hyperlink{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3}{run} ()
+\item 
+void \hyperlink{classScheduler_ad187198f24a2b283a4628f0e0b3ffd84}{retrieve\-\_\-performances} (const unsigned int \&resource\-\_\-ind)
+\item 
+void \hyperlink{classScheduler_a2e8eeafda5ee215213d1a8ad076e86e7}{performance\-\_\-preprocessing} (const unsigned int \&resource\-\_\-ind)
+\item 
+void \hyperlink{classScheduler_a782dd674fc65f8f96bbcdad24e48b75e}{apply\-\_\-scheduling\-\_\-policy} ()
+\item 
+\hyperlink{structthread__info}{thread\-\_\-info} $\ast$ \hyperlink{classScheduler_a9e0189d3b9815eac90901ba171722525}{get\-\_\-tinfo} (void)
+\item 
+const unsigned int \& \hyperlink{classScheduler_ab640e06ed98152a9acd8cf032b7ad455}{get\-\_\-number\-\_\-threads} (void) const 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classScheduler_adc23bd3b2f1babde08ce237c8f43cc19}{static void $\ast$ {\bfseries send\-\_\-wrapper} (void $\ast$object)}\label{classScheduler_adc23bd3b2f1babde08ce237c8f43cc19}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classScheduler_a991ae0f798df9ce56116d5c66f615c9f}{unsigned int {\bfseries counter\-\_\-of\-\_\-threads\-\_\-}}\label{classScheduler_a991ae0f798df9ce56116d5c66f615c9f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classScheduler}{Scheduler} 
+
+Definition at line 36 of file Scheduler.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classScheduler_a9d9fdac53788885928fa849892250819}{\index{Scheduler@{Scheduler}!Scheduler@{Scheduler}}
+\index{Scheduler@{Scheduler}!Scheduler@{Scheduler}}
+\subsubsection[{Scheduler}]{\setlength{\rightskip}{0pt plus 5cm}Scheduler\-::\-Scheduler (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{in\-\_\-file, }
+\item[{const unsigned int \&}]{num\-\_\-threads}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a9d9fdac53788885928fa849892250819}
+The first part defines the number of N\-U\-M\-A nodes that should be used for pinning
+
+The first pair defines the number of C\-P\-U nodes that should be used for pinning from each N\-U\-M\-A node
+
+N\-O\-N-\/\-A\-D\-J\-U\-S\-T\-A\-B\-L\-E P\-A\-R\-A\-M\-E\-T\-E\-R\-S (Please, do not change the following)
+
+Definition at line 274 of file Scheduler.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classScheduler_a782dd674fc65f8f96bbcdad24e48b75e}{\index{Scheduler@{Scheduler}!apply\-\_\-scheduling\-\_\-policy@{apply\-\_\-scheduling\-\_\-policy}}
+\index{apply\-\_\-scheduling\-\_\-policy@{apply\-\_\-scheduling\-\_\-policy}!Scheduler@{Scheduler}}
+\subsubsection[{apply\-\_\-scheduling\-\_\-policy}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::apply\-\_\-scheduling\-\_\-policy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a782dd674fc65f8f96bbcdad24e48b75e}
+Applying scheduling policy 
+
+Definition at line 1535 of file Scheduler.\-cpp.
+
+
+
+Referenced by run().
+
+\hypertarget{classScheduler_ab640e06ed98152a9acd8cf032b7ad455}{\index{Scheduler@{Scheduler}!get\-\_\-number\-\_\-threads@{get\-\_\-number\-\_\-threads}}
+\index{get\-\_\-number\-\_\-threads@{get\-\_\-number\-\_\-threads}!Scheduler@{Scheduler}}
+\subsubsection[{get\-\_\-number\-\_\-threads}]{\setlength{\rightskip}{0pt plus 5cm}const unsigned int\& Scheduler\-::get\-\_\-number\-\_\-threads (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classScheduler_ab640e06ed98152a9acd8cf032b7ad455}
+Get number of threads \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 139 of file Scheduler.\-h.
+
+\hypertarget{classScheduler_a9e0189d3b9815eac90901ba171722525}{\index{Scheduler@{Scheduler}!get\-\_\-tinfo@{get\-\_\-tinfo}}
+\index{get\-\_\-tinfo@{get\-\_\-tinfo}!Scheduler@{Scheduler}}
+\subsubsection[{get\-\_\-tinfo}]{\setlength{\rightskip}{0pt plus 5cm}{\bf thread\-\_\-info}$\ast$ Scheduler\-::get\-\_\-tinfo (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classScheduler_a9e0189d3b9815eac90901ba171722525}
+Get information of thread \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 122 of file Scheduler.\-h.
+
+\hypertarget{classScheduler_a27e2a247cde3ad80ac25b9188a1e17ee}{\index{Scheduler@{Scheduler}!initialize@{initialize}}
+\index{initialize@{initialize}!Scheduler@{Scheduler}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::initialize (
+\begin{DoxyParamCaption}
+\item[{const unsigned int \&}]{num\-\_\-threads, }
+\item[{const bool \&}]{R\-L\-\_\-active\-\_\-reshuffling, }
+\item[{const bool \&}]{R\-L\-\_\-performance\-\_\-reshuffling, }
+\item[{const double \&}]{step\-\_\-size, }
+\item[{const double \&}]{L\-A\-M\-B\-D\-A, }
+\item[{const double \&}]{sched\-\_\-period, }
+\item[{const bool \&}]{suspend\-\_\-threads, }
+\item[{const bool \&}]{printout\-\_\-strategies, }
+\item[{const bool \&}]{printout\-\_\-actions, }
+\item[{const bool \&}]{write\-\_\-to\-\_\-files, }
+\item[{const bool \&}]{write\-\_\-to\-\_\-files\-\_\-details, }
+\item[{const double \&}]{gamma, }
+\item[{const bool \&}]{O\-S\-\_\-mapping, }
+\item[{const bool \&}]{R\-L\-\_\-mapping, }
+\item[{const bool \&}]{P\-R\-\_\-mapping, }
+\item[{const bool \&}]{S\-T\-\_\-mapping, }
+\item[{const bool \&}]{optimize\-\_\-main\-\_\-resource}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a27e2a247cde3ad80ac25b9188a1e17ee}
+Initialize \hyperlink{classScheduler}{Scheduler}
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-threads} & Number of threads \\
+\hline
+{\em R\-L\-\_\-active\-\_\-reshuffling} & Reshuffle R\-L strategies if active threads have changed \\
+\hline
+{\em R\-L\-\_\-performance\-\_\-reshuffling} & Reshuffle R\-L strategies if performance of active threads has dropped significantly \\
+\hline
+{\em step\-\_\-size} & Step size of R\-L algorithm \\
+\hline
+{\em L\-A\-M\-B\-D\-A} & Perturbation factor of R\-L algorithm \\
+\hline
+{\em sched\-\_\-period} & Scheduling period of the child resources \\
+\hline
+{\em suspend\-\_\-threads} & Suspend threads when switching N\-U\-M\-A nodes \\
+\hline
+{\em printout\-\_\-strategies} & \\
+\hline
+{\em printout\-\_\-actions} & \\
+\hline
+{\em write\-\_\-to\-\_\-files} & \\
+\hline
+{\em write\-\_\-to\-\_\-files\-\_\-details} & \\
+\hline
+{\em gamma} & Factor related to the definition of the balanced performance indicator \\
+\hline
+{\em O\-S\-\_\-mapping} & Mapping according to the O\-S scheduler \\
+\hline
+{\em R\-L\-\_\-mapping} & Mapping according to the R\-L scheduler \\
+\hline
+{\em P\-R\-\_\-mapping} & Mapping according to a predefined map \\
+\hline
+{\em S\-T\-\_\-mapping} & Perform also allocation of thread memory \\
+\hline
+{\em optimize\-\_\-main\-\_\-resource} & Optimize the use of N\-U\-M\-A nodes \\
+\hline
+\end{DoxyParams}
+\hypertarget{classScheduler_a2e8eeafda5ee215213d1a8ad076e86e7}{\index{Scheduler@{Scheduler}!performance\-\_\-preprocessing@{performance\-\_\-preprocessing}}
+\index{performance\-\_\-preprocessing@{performance\-\_\-preprocessing}!Scheduler@{Scheduler}}
+\subsubsection[{performance\-\_\-preprocessing}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::performance\-\_\-preprocessing (
+\begin{DoxyParamCaption}
+\item[{const unsigned int \&}]{resource\-\_\-ind}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a2e8eeafda5ee215213d1a8ad076e86e7}
+Preprocessing of performances 
+\begin{DoxyParams}{Parameters}
+{\em resource\-\_\-ind} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1364 of file Scheduler.\-cpp.
+
+
+
+References Struct\-\_\-\-Overall\-Performance\-::update\-\_\-ave\-\_\-balanced\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-ave\-\_\-balanced\-\_\-performances\-\_\-per\-\_\-main\-\_\-resource\-\_\-per\-\_\-action(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-ave\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-num\-\_\-threads\-\_\-using\-\_\-main\-\_\-resource\-\_\-per\-\_\-action(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-run\-\_\-average\-\_\-balanced\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-run\-\_\-average\-\_\-balanced\-\_\-performances\-\_\-per\-\_\-main\-\_\-resource\-\_\-per\-\_\-action(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-run\-\_\-average\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-sum\-\_\-balanced\-\_\-performances\-\_\-per\-\_\-main\-\_\-resource(), Struct\-\_\-\-Overall\-Performance\-::update\-\_\-sum\-\_\-balanced\-\_\-performances\-\_\-per\-\_\-main\-\_\-resource\-\_\-per\-\_\-action(), and Struct\-\_\-\-Overall\-Performance\-::update\-\_\-sum\-\_\-performances\-\_\-per\-\_\-main\-\_\-resource().
+
+
+
+Referenced by run().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classScheduler_a2e8eeafda5ee215213d1a8ad076e86e7_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classScheduler_ad187198f24a2b283a4628f0e0b3ffd84}{\index{Scheduler@{Scheduler}!retrieve\-\_\-performances@{retrieve\-\_\-performances}}
+\index{retrieve\-\_\-performances@{retrieve\-\_\-performances}!Scheduler@{Scheduler}}
+\subsubsection[{retrieve\-\_\-performances}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::retrieve\-\_\-performances (
+\begin{DoxyParamCaption}
+\item[{const unsigned int \&}]{resource\-\_\-ind}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_ad187198f24a2b283a4628f0e0b3ffd84}
+Retrieve performances
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource\-\_\-ind} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1298 of file Scheduler.\-cpp.
+
+
+
+References Thread\-Control\-::thd\-\_\-record\-\_\-counters().
+
+
+
+Referenced by run().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{classScheduler_ad187198f24a2b283a4628f0e0b3ffd84_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3}{\index{Scheduler@{Scheduler}!run@{run}}
+\index{run@{run}!Scheduler@{Scheduler}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3}
+Run scheduler
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-threads} & \\
+\hline
+{\em rl\-\_\-mapping} & N\-O\-N-\/\-A\-D\-J\-U\-S\-T\-A\-B\-L\-E P\-A\-R\-A\-M\-E\-T\-E\-R\-S (Please, do not change the following) Parameters w.\-r.\-t. the R\-L\-\_\-mapping algorithm \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 856 of file Scheduler.\-cpp.
+
+
+
+References apply\-\_\-scheduling\-\_\-policy(), performance\-\_\-preprocessing(), retrieve\-\_\-performances(), and update().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classScheduler_ac0f68dd6a14fdf70dc964c67dc8d39b2}{\index{Scheduler@{Scheduler}!update@{update}}
+\index{update@{update}!Scheduler@{Scheduler}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::update (
+\begin{DoxyParamCaption}
+\item[{const unsigned int \&}]{resource\-\_\-ind, }
+\item[{std\-::vector$<$ bool $>$ \&}]{update\-\_\-inds}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_ac0f68dd6a14fdf70dc964c67dc8d39b2}
+Update scheduling decisions 
+\begin{DoxyParams}{Parameters}
+{\em resource\-\_\-ind} & \\
+\hline
+{\em update\-\_\-inds} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 924 of file Scheduler.\-cpp.
+
+
+
+Referenced by run().
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Scheduler.\-h\item 
+Scheduler.\-cpp\end{DoxyCompactItemize}

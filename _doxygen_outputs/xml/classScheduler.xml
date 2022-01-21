@@ -1,0 +1,2012 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classScheduler" kind="class" prot="public">
+    <compoundname>Scheduler</compoundname>
+    <includes refid="Scheduler_8h" local="no">Scheduler.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classScheduler_1a991ae0f798df9ce56116d5c66f615c9f" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::counter_of_threads_</definition>
+        <argsstring></argsstring>
+        <name>counter_of_threads_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="133" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classScheduler_1a75381138dace8bdf9cf60b7cfdb1981c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::RL_mapping_</definition>
+        <argsstring></argsstring>
+        <name>RL_mapping_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="147" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ad110a49b7ba98034c4df1fdccb3d6527" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::OS_mapping_</definition>
+        <argsstring></argsstring>
+        <name>OS_mapping_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="148" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a36e8cbe0570eefa161e626c34f60c5cf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::PR_mapping_</definition>
+        <argsstring></argsstring>
+        <name>PR_mapping_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="149" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a6529f81309ce5a5c9823a622b0a83139" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::ST_mapping_</definition>
+        <argsstring></argsstring>
+        <name>ST_mapping_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="150" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a35a6d317817a4eb816cce1a3c9735d7b" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::current_most_popular_node_</definition>
+        <argsstring></argsstring>
+        <name>current_most_popular_node_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="152" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a0a67f8f703bc8f9284c3399f096c9cb9" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::previous_most_popular_node_</definition>
+        <argsstring></argsstring>
+        <name>previous_most_popular_node_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="153" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a496f4a768412ca6d031c43dfd02f9be2" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::current_popularity_</definition>
+        <argsstring></argsstring>
+        <name>current_popularity_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="154" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a2d4a0c6a18c2f110d3bcb1ae2aef1c69" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::previous_popularity_</definition>
+        <argsstring></argsstring>
+        <name>previous_popularity_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="155" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1abe0b07d73c0a330c1d0ee57fc29e284f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::reallocate_memory_</definition>
+        <argsstring></argsstring>
+        <name>reallocate_memory_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="156" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ab815752ba8495b1cca52a7e7463121b8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::optimize_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>optimize_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="158" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ad7840db51da0c2f22b173ac9e7fecc67" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Scheduler::RESOURCES_</definition>
+        <argsstring></argsstring>
+        <name>RESOURCES_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="249" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a3f6dbde858e98d0c35b6dc78397c342f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Scheduler::CHILD_RESOURCES_</definition>
+        <argsstring></argsstring>
+        <name>CHILD_RESOURCES_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="250" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a4d2e6801515dbe51efd715799fd61599" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Scheduler::RESOURCES_OPT_METHODS_</definition>
+        <argsstring></argsstring>
+        <name>RESOURCES_OPT_METHODS_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="251" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ab66d41a1332faf8abeaf9429111351e5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Scheduler::CHILD_RESOURCES_OPT_METHODS_</definition>
+        <argsstring></argsstring>
+        <name>CHILD_RESOURCES_OPT_METHODS_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="252" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a3e833b8a11beb5f1cef5240953d6422d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Scheduler::RESOURCES_EST_METHODS_</definition>
+        <argsstring></argsstring>
+        <name>RESOURCES_EST_METHODS_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="253" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ad110dd0890b941cda3ef5c2656c8937c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Scheduler::CHILD_RESOURCES_EST_METHODS_</definition>
+        <argsstring></argsstring>
+        <name>CHILD_RESOURCES_EST_METHODS_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="254" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a6f805e401c91e4e5c6770afde7e987fe" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt; unsigned int &gt; Scheduler::MAX_NUMBER_MAIN_RESOURCES_</definition>
+        <argsstring></argsstring>
+        <name>MAX_NUMBER_MAIN_RESOURCES_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="255" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a43ea81a578cafb81cff20a75008515a1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; unsigned int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;unsigned int&gt; &gt; Scheduler::MAX_NUMBER_CHILD_RESOURCES_</definition>
+        <argsstring></argsstring>
+        <name>MAX_NUMBER_CHILD_RESOURCES_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="256" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a3d9896ba3b5770928ad138e02e9c3b36" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::support_numa_</definition>
+        <argsstring></argsstring>
+        <name>support_numa_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="261" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a607b21c05ed92f660da1d42b381f36ba" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::num_threads_</definition>
+        <argsstring></argsstring>
+        <name>num_threads_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="262" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a63e8c3e4ad5c6945c78e2ff4e1bd630a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::suspend_threads_</definition>
+        <argsstring></argsstring>
+        <name>suspend_threads_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="263" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a0ad67df280343abd3b5dca114a5783fd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::time_</definition>
+        <argsstring></argsstring>
+        <name>time_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="268" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a74a54d95e2cbde9db8706a839c501ee4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::time_before_</definition>
+        <argsstring></argsstring>
+        <name>time_before_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="269" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a760a9aaf0b31ed0660d30035a233e435" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::sched_iteration_</definition>
+        <argsstring></argsstring>
+        <name>sched_iteration_</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="270" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a6ee6a71fc9f6654be83f01da317142d6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::step_size_RL_</definition>
+        <argsstring></argsstring>
+        <name>step_size_RL_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="271" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a7e9720e1a9c7e53ff2c191b569d75f75" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::step_size_AL_</definition>
+        <argsstring></argsstring>
+        <name>step_size_AL_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="272" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a779a0d3b46dd3ff030ea2f0238c359b2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::LAMBDA_RL_</definition>
+        <argsstring></argsstring>
+        <name>LAMBDA_RL_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="273" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ae5f723059d7b9bf3c54b5dc05a9739c5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::LAMBDA_AL_</definition>
+        <argsstring></argsstring>
+        <name>LAMBDA_AL_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="274" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1abca76aafe9a50156ea8b31e57ad6810f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::gamma_</definition>
+        <argsstring></argsstring>
+        <name>gamma_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="275" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a7dacde72d2478cffc2273f000939f8d5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::RL_active_reshuffling_</definition>
+        <argsstring></argsstring>
+        <name>RL_active_reshuffling_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="276" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ad6d90bb07fce88ce0e7044e86211d1fe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::RL_performance_reshuffling_</definition>
+        <argsstring></argsstring>
+        <name>RL_performance_reshuffling_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="277" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a5f930975171f8a754d281b93639d9c17" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::neighborhood_size_</definition>
+        <argsstring></argsstring>
+        <name>neighborhood_size_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="278" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ae16302beb5eae71a043645918751b870" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::factor_h_</definition>
+        <argsstring></argsstring>
+        <name>factor_h_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="279" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a239f283183753e6afa33e520b2977ab8" prot="private" static="no" mutable="no">
+        <type>std::map&lt; unsigned int, std::set&lt; unsigned int &gt; &gt;</type>
+        <definition>std::map&lt; unsigned int, std::set&lt;unsigned int&gt; &gt; Scheduler::map_neighbors_</definition>
+        <argsstring></argsstring>
+        <name>map_neighbors_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="285" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a1a877325695a99f8e54ca4f9dbce6ae1" prot="private" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec Scheduler::ts_</definition>
+        <argsstring></argsstring>
+        <name>ts_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="285" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a6eff39d8aa65b54904433af273ed695a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Scheduler::numa_sched_period_</definition>
+        <argsstring></argsstring>
+        <name>numa_sched_period_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="301" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1af576579ca968b93f96447803d0a560e8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::numa_switch_threshold_</definition>
+        <argsstring></argsstring>
+        <name>numa_switch_threshold_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="302" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1aae61241ed40baf62fc683c3ff432ab19" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::zeta_</definition>
+        <argsstring></argsstring>
+        <name>zeta_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="303" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ae452cbca47255a578c7503ac5536a888" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::utility_normalization_</definition>
+        <argsstring></argsstring>
+        <name>utility_normalization_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="304" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a4eaa12473109b04810911c25969d8ff8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::active_threads_</definition>
+        <argsstring></argsstring>
+        <name>active_threads_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="309" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a14c0c6a4d6c5878bacd49d41f9a59685" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; Scheduler::vec_active_threads_</definition>
+        <argsstring></argsstring>
+        <name>vec_active_threads_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="310" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ac0efa198aca5959f6637c117e6c1f206" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::printout_strategies_</definition>
+        <argsstring></argsstring>
+        <name>printout_strategies_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="315" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a575d681773c09287d8f30292b2fd2c43" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::printout_actions_</definition>
+        <argsstring></argsstring>
+        <name>printout_actions_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="316" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a14fff6c169d75cef7e4a6ced2b8cada1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::write_to_files_</definition>
+        <argsstring></argsstring>
+        <name>write_to_files_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="317" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1af79811c361edd1036f7fa934ecb2f5cc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Scheduler::write_to_files_details_</definition>
+        <argsstring></argsstring>
+        <name>write_to_files_details_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="318" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ab1c18dce9f4d5ecc6da7b86cfdbedcf4" prot="private" static="no" mutable="no">
+        <type>std::map&lt; unsigned int, std::vector&lt; <ref refid="structStruct__Estimate" kindref="compound">Struct_Estimate</ref> &gt; &gt;</type>
+        <definition>std::map&lt; unsigned int, std::vector&lt; Struct_Estimate &gt; &gt; Scheduler::map_Estimate_per_Thread_</definition>
+        <argsstring></argsstring>
+        <name>map_Estimate_per_Thread_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="327" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a59b128654dc906a482aa97777cc5ee4d" prot="private" static="no" mutable="no">
+        <type>std::map&lt; unsigned int, std::vector&lt; <ref refid="structStruct__PerformanceMonitoring" kindref="compound">Struct_PerformanceMonitoring</ref> &gt; &gt;</type>
+        <definition>std::map&lt; unsigned int, std::vector&lt; Struct_PerformanceMonitoring&gt; &gt; Scheduler::map_PerformanceMonitoring_per_Thread_</definition>
+        <argsstring></argsstring>
+        <name>map_PerformanceMonitoring_per_Thread_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="328" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a9f1dea4fd1b8b0a2c59f0f11d09a3593" prot="private" static="no" mutable="no">
+        <type>std::map&lt; unsigned int, std::vector&lt; <ref refid="structStruct__Actions" kindref="compound">Struct_Actions</ref> &gt; &gt;</type>
+        <definition>std::map&lt; unsigned int, std::vector&lt; Struct_Actions &gt; &gt; Scheduler::map_Actions_per_Thread_</definition>
+        <argsstring></argsstring>
+        <name>map_Actions_per_Thread_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="329" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a749be18751e80437cef6f9617501a857" prot="private" static="no" mutable="no">
+        <type><ref refid="structStruct__OverallPerformance" kindref="compound">Struct_OverallPerformance</ref></type>
+        <definition>Struct_OverallPerformance Scheduler::overall_Performance_</definition>
+        <argsstring></argsstring>
+        <name>overall_Performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="331" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ab31019571b064ea74927f42ecc88667d" prot="private" static="no" mutable="no">
+        <type><ref refid="structStruct__MethodsOptimize" kindref="compound">Struct_MethodsOptimize</ref></type>
+        <definition>Struct_MethodsOptimize Scheduler::methods_optimize_</definition>
+        <argsstring></argsstring>
+        <name>methods_optimize_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="332" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1adbe461b5d7e07f2d28f23f0ed5fae63e" prot="private" static="no" mutable="no">
+        <type><ref refid="structStruct__MethodsEstimate" kindref="compound">Struct_MethodsEstimate</ref></type>
+        <definition>Struct_MethodsEstimate Scheduler::methods_estimate_</definition>
+        <argsstring></argsstring>
+        <name>methods_estimate_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="333" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ab76dda2d7c26afc1a5aabfeaf58c9b2c" prot="private" static="no" mutable="no">
+        <type><ref refid="structthread__info" kindref="compound">thread_info</ref> *</type>
+        <definition>thread_info* Scheduler::tinfo_</definition>
+        <argsstring></argsstring>
+        <name>tinfo_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="338" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1abb68620d47ed382dfc3b6e001dabd820" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Scheduler::vec_performances_</definition>
+        <argsstring></argsstring>
+        <name>vec_performances_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="343" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ae87d8bc528192bd2d250f911bc3d32e9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Scheduler::vec_balanced_performances_</definition>
+        <argsstring></argsstring>
+        <name>vec_balanced_performances_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="344" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a487b7738ca212f4bb330b64797895c3d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; Scheduler::vec_performances_update_inds_</definition>
+        <argsstring></argsstring>
+        <name>vec_performances_update_inds_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="345" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a9dccd4391a9d2c8bf975f36194b4b3c1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::cur_average_performance_</definition>
+        <argsstring></argsstring>
+        <name>cur_average_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="346" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a770e866a833a202cc2402c37f930c5bc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::cur_balanced_performance_</definition>
+        <argsstring></argsstring>
+        <name>cur_balanced_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="347" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a419b1aa87521c8cfce7b41463370a898" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::run_average_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="348" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a49e458b2601afba32ebc4ee64a72164c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Scheduler::run_average_balanced_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_balanced_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="349" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1abe977ec666e1448cae418708e6cd4087" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Scheduler::vec_run_average_performances_</definition>
+        <argsstring></argsstring>
+        <name>vec_run_average_performances_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="350" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a96492e4a2f0b2ad9adecb106d6b71819" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector &lt; double &gt; &gt; Scheduler::map_run_average_performances_cpu_</definition>
+        <argsstring></argsstring>
+        <name>map_run_average_performances_cpu_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="351" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a936f624457dd0a9ee47250f800b7379f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector &lt; double &gt; &gt; Scheduler::map_run_average_balanced_performances_cpu_</definition>
+        <argsstring></argsstring>
+        <name>map_run_average_balanced_performances_cpu_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="352" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a743831fc7d32783d450ffca298f29672" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Scheduler::vec_min_performances_</definition>
+        <argsstring></argsstring>
+        <name>vec_min_performances_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="353" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ae3cba6934b1b61eb72695837090dadfc" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Scheduler::vec_alg_performances_</definition>
+        <argsstring></argsstring>
+        <name>vec_alg_performances_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="354" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a0465e0291c9b387da7595b9c8cd453cf" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::num_active_threads_</definition>
+        <argsstring></argsstring>
+        <name>num_active_threads_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="360" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a0487a187d99447b1f0872088673cbcc9" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::num_active_threads_before_</definition>
+        <argsstring></argsstring>
+        <name>num_active_threads_before_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="361" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a933e8c7ad1bd1514797625eb0e4c2d03" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::max_num_numa_nodes_</definition>
+        <argsstring></argsstring>
+        <name>max_num_numa_nodes_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="366" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a9515936f823daede57e1fd2ca530aa1a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Scheduler::max_num_cpus_</definition>
+        <argsstring></argsstring>
+        <name>max_num_cpus_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="367" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1af34cdb76bdd4a7c9402c93979256be89" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; unsigned int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; unsigned int &gt; &gt; Scheduler::cpu_nodes_per_numa_node_</definition>
+        <argsstring></argsstring>
+        <name>cpu_nodes_per_numa_node_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="368" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a295a1484da9ca9907fd0f51a895d16f5" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::actionsfile_</definition>
+        <argsstring></argsstring>
+        <name>actionsfile_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="388" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1ac91cb4109e9f6ca1ee6bd3cf96562853" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::avespeedfile_</definition>
+        <argsstring></argsstring>
+        <name>avespeedfile_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="389" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a4e3ca8076bc388a35e710df0b928f284" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::avebalancedspeedfile_</definition>
+        <argsstring></argsstring>
+        <name>avebalancedspeedfile_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="390" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1adf89db1efa5cae100c13310a36d96426" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::timefile_</definition>
+        <argsstring></argsstring>
+        <name>timefile_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="391" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a0d685cccf27dd5009b16743c94a1af31" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::aveperformancefile1_</definition>
+        <argsstring></argsstring>
+        <name>aveperformancefile1_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="392" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a4f8067efd748758c1079ec77248ffbf8" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::aveperformancefile2_</definition>
+        <argsstring></argsstring>
+        <name>aveperformancefile2_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="393" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a2b3e7db2d87f8b9a5348b31262ca3263" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::aveperformancefile3_</definition>
+        <argsstring></argsstring>
+        <name>aveperformancefile3_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="394" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a15d66917547be4e48d2cc4a4a4ffda7c" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::aveperformancefile4_</definition>
+        <argsstring></argsstring>
+        <name>aveperformancefile4_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="395" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a32c78c02fef36ce56db42240f71e4ec5" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::strategiesfile1_</definition>
+        <argsstring></argsstring>
+        <name>strategiesfile1_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="396" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a47afd1ab729551f9fb15f230136f9556" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::strategiesfile2_</definition>
+        <argsstring></argsstring>
+        <name>strategiesfile2_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="397" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a9e09a2cb703e8083bb6c0debc9146900" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::strategiesfile3_</definition>
+        <argsstring></argsstring>
+        <name>strategiesfile3_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="398" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a318d0af7840875ea08057b7265fde83a" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream Scheduler::strategiesfile4_</definition>
+        <argsstring></argsstring>
+        <name>strategiesfile4_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="399" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classScheduler_1a1b774d7e44bcc72ac7cbc73b9b28386d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; Scheduler::action_main_old_</definition>
+        <argsstring></argsstring>
+        <name>action_main_old_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="411" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classScheduler_1a3b61aac11466cd45ae42ab8c2b0013f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scheduler::Scheduler</definition>
+        <argsstring>()</argsstring>
+        <name>Scheduler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="40" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="72" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a9d9fdac53788885928fa849892250819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scheduler::Scheduler</definition>
+        <argsstring>(const std::string &amp;in_file, const unsigned int &amp;num_threads)</argsstring>
+        <name>Scheduler</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>in_file</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_threads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>The first part defines the number of NUMA nodes that should be used for pinning</para><para>The first pair defines the number of CPU nodes that should be used for pinning from each NUMA node</para><para>NON-ADJUSTABLE PARAMETERS (Please, do not change the following)</para>        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="41" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="274" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1aa55196b20c6a062b2f479776738622fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scheduler::Scheduler</definition>
+        <argsstring>(const Scheduler &amp;other)</argsstring>
+        <name>Scheduler</name>
+        <param>
+          <type>const <ref refid="classScheduler" kindref="compound">Scheduler</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="42" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="130" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a8a41677eaa1266ec0ab41dcf0ac0d865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classScheduler" kindref="compound">Scheduler</ref> &amp;</type>
+        <definition>Scheduler &amp; Scheduler::operator=</definition>
+        <argsstring>(const Scheduler &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classScheduler" kindref="compound">Scheduler</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="43" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="197" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1afc8187779b46f64039d3ffa58f0dbe51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scheduler::~Scheduler</definition>
+        <argsstring>()</argsstring>
+        <name>~Scheduler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="44" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="48" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a27e2a247cde3ad80ac25b9188a1e17ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::initialize</definition>
+        <argsstring>(const unsigned int &amp;num_threads, const bool &amp;RL_active_reshuffling, const bool &amp;RL_performance_reshuffling, const double &amp;step_size, const double &amp;LAMBDA, const double &amp;sched_period, const bool &amp;suspend_threads, const bool &amp;printout_strategies, const bool &amp;printout_actions, const bool &amp;write_to_files, const bool &amp;write_to_files_details, const double &amp;gamma, const bool &amp;OS_mapping, const bool &amp;RL_mapping, const bool &amp;PR_mapping, const bool &amp;ST_mapping, const bool &amp;optimize_main_resource)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_threads</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>RL_active_reshuffling</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>RL_performance_reshuffling</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>LAMBDA</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>sched_period</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>suspend_threads</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>printout_strategies</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>printout_actions</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>write_to_files</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>write_to_files_details</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>OS_mapping</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>RL_mapping</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>PR_mapping</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>ST_mapping</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>optimize_main_resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize <ref refid="classScheduler" kindref="compound">Scheduler</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_threads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of threads </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RL_active_reshuffling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reshuffle RL strategies if active threads have changed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RL_performance_reshuffling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reshuffle RL strategies if performance of active threads has dropped significantly </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Step size of RL algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LAMBDA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Perturbation factor of RL algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sched_period</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Scheduling period of the child resources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>suspend_threads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Suspend threads when switching NUMA nodes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>printout_strategies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>printout_actions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>write_to_files</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>write_to_files_details</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Factor related to the definition of the balanced performance indicator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>OS_mapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mapping according to the OS scheduler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RL_mapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mapping according to the RL scheduler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PR_mapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mapping according to a predefined map </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ST_mapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Perform also allocation of thread memory </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>optimize_main_resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optimize the use of NUMA nodes </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1ac0f68dd6a14fdf70dc964c67dc8d39b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::update</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, std::vector&lt; bool &gt; &amp;update_inds)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; bool &gt; &amp;</type>
+          <declname>update_inds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update scheduling decisions <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>update_inds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="93" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="924" bodyend="944"/>
+        <referencedby refid="classScheduler_1a58fba108ce2748870a6288cd6f5fd1e3" compoundref="Scheduler_8cpp" startline="856" endline="911">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a58fba108ce2748870a6288cd6f5fd1e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run scheduler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_threads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rl_mapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NON-ADJUSTABLE PARAMETERS (Please, do not change the following) Parameters w.r.t. the RL_mapping algorithm </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="98" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="856" bodyend="911"/>
+        <references refid="classScheduler_1a782dd674fc65f8f96bbcdad24e48b75e" compoundref="Scheduler_8cpp" startline="1535" endline="1832">apply_scheduling_policy</references>
+        <references refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">performance_preprocessing</references>
+        <references refid="classScheduler_1ad187198f24a2b283a4628f0e0b3ffd84" compoundref="Scheduler_8cpp" startline="1298" endline="1361">retrieve_performances</references>
+        <references refid="classScheduler_1ac0f68dd6a14fdf70dc964c67dc8d39b2" compoundref="Scheduler_8cpp" startline="924" endline="944">update</references>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1ad187198f24a2b283a4628f0e0b3ffd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::retrieve_performances</definition>
+        <argsstring>(const unsigned int &amp;resource_ind)</argsstring>
+        <name>retrieve_performances</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve performances</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="105" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1298" bodyend="1361"/>
+        <references refid="classThreadControl_1a61d268caa2b8dd55ef1c412fa86ada25" compoundref="ThreadControl_8cpp" startline="212" endline="291">ThreadControl::thd_record_counters</references>
+        <referencedby refid="classScheduler_1a58fba108ce2748870a6288cd6f5fd1e3" compoundref="Scheduler_8cpp" startline="856" endline="911">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::performance_preprocessing</definition>
+        <argsstring>(const unsigned int &amp;resource_ind)</argsstring>
+        <name>performance_preprocessing</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Preprocessing of performances <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="111" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1364" bodyend="1532"/>
+        <references refid="structStruct__OverallPerformance_1a600d40acdcd532ad9a69451192e5c72f" compoundref="MethodsPerformanceMonitoring_8h" startline="125" endline="128">Struct_OverallPerformance::update_ave_balanced_performance_per_main_resource</references>
+        <references refid="structStruct__OverallPerformance_1ab1ac4196ecdc79d80b79bada3a05fbd9" compoundref="MethodsPerformanceMonitoring_8h" startline="194" endline="197">Struct_OverallPerformance::update_ave_balanced_performances_per_main_resource_per_action</references>
+        <references refid="structStruct__OverallPerformance_1ac89f69c2e0042fb2294a280259c59014" compoundref="MethodsPerformanceMonitoring_8h" startline="103" endline="106">Struct_OverallPerformance::update_ave_performance_per_main_resource</references>
+        <references refid="structStruct__OverallPerformance_1aafe90e8e3cc2632788e1f9018613db68" compoundref="MethodsPerformanceMonitoring_8h" startline="205" endline="208">Struct_OverallPerformance::update_num_threads_using_main_resource_per_action</references>
+        <references refid="structStruct__OverallPerformance_1a935b197290050caf10fc7449c3888fbe" compoundref="MethodsPerformanceMonitoring_8h" startline="161" endline="175">Struct_OverallPerformance::update_run_average_balanced_performance_per_main_resource</references>
+        <references refid="structStruct__OverallPerformance_1a9e7fb7b45be4dfab7234e626cd576aeb" compoundref="MethodsPerformanceMonitoring_8h" startline="218" endline="235">Struct_OverallPerformance::update_run_average_balanced_performances_per_main_resource_per_action</references>
+        <references refid="structStruct__OverallPerformance_1ac454dbd325a845a55aa4270a2776eb10" compoundref="MethodsPerformanceMonitoring_8h" startline="137" endline="152">Struct_OverallPerformance::update_run_average_performance_per_main_resource</references>
+        <references refid="structStruct__OverallPerformance_1a2657703dcd0c2d95fd91e7cf7d36f104" compoundref="MethodsPerformanceMonitoring_8h" startline="114" endline="117">Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource</references>
+        <references refid="structStruct__OverallPerformance_1a4d1d91cfa679c3ecc8672ab20935aef1" compoundref="MethodsPerformanceMonitoring_8h" startline="183" endline="186">Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource_per_action</references>
+        <references refid="structStruct__OverallPerformance_1adbf1ef74ab376a91a004e66c2307bda8" compoundref="MethodsPerformanceMonitoring_8h" startline="92" endline="95">Struct_OverallPerformance::update_sum_performances_per_main_resource</references>
+        <referencedby refid="classScheduler_1a58fba108ce2748870a6288cd6f5fd1e3" compoundref="Scheduler_8cpp" startline="856" endline="911">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a782dd674fc65f8f96bbcdad24e48b75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::apply_scheduling_policy</definition>
+        <argsstring>()</argsstring>
+        <name>apply_scheduling_policy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Applying scheduling policy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="116" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1535" bodyend="1832"/>
+        <referencedby refid="classScheduler_1a58fba108ce2748870a6288cd6f5fd1e3" compoundref="Scheduler_8cpp" startline="856" endline="911">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a9e0189d3b9815eac90901ba171722525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structthread__info" kindref="compound">thread_info</ref> *</type>
+        <definition>thread_info* Scheduler::get_tinfo</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_tinfo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get information of thread <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="122" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1ab640e06ed98152a9acd8cf032b7ad455" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const unsigned int &amp;</type>
+        <definition>const unsigned int&amp; Scheduler::get_number_threads</definition>
+        <argsstring>(void) const </argsstring>
+        <name>get_number_threads</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get number of threads <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="139" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="139" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classScheduler_1adc23bd3b2f1babde08ce237c8f43cc19" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* Scheduler::send_wrapper</definition>
+        <argsstring>(void *object)</argsstring>
+        <name>send_wrapper</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="127" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="127" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classScheduler_1aec00627953592ff0146158ad8347746c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::assign_processing_node</definition>
+        <argsstring>(const unsigned int &amp;i, const unsigned int &amp;new_numa_node, const unsigned int &amp;previous_numa_node, const std::vector&lt; unsigned int &gt; &amp;new_cpu_node, const unsigned int &amp;previous_cpu_node)</argsstring>
+        <name>assign_processing_node</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>new_numa_node</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>previous_numa_node</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>new_cpu_node</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>previous_cpu_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign processing NUMA node</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_numa_node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>previous_numa_node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_cpu_node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>previous_cpu_node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="169" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1838" bodyend="1941"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1aeecb89cdf988ea889d499367395d4b6c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::assign_memory_node_test</definition>
+        <argsstring>(const unsigned int &amp;thread_num, const unsigned int &amp;old_numa_node, const unsigned int &amp;new_numa_node)</argsstring>
+        <name>assign_memory_node_test</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread_num</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>old_numa_node</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>new_numa_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign memory NUMA node (test function, it is not used)</para><para>Here, we wish to migrate the pages of the process, to the NUMA node which is closer to the majority of the running threads. For example, the scheduler may keep track of the NUMA node that each thread is running and depending on whether the majority of them is running decides to move the pages of the process, or thread.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>thread_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>old_numa_node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_numa_node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="187" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1943" bodyend="1973"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a6b4702c304106fc6aa676665d398eb83" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::assign_memory_node_test2</definition>
+        <argsstring>(std::vector&lt; unsigned int &gt; &amp;num_threads_per_resource)</argsstring>
+        <name>assign_memory_node_test2</name>
+        <param>
+          <type>std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>num_threads_per_resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign memory NUMA node (test function, it is not used)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_threads_per_resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="198" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1975" bodyend="2087"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a5a5c3c9b1407f3e1c409865775087e73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::estimate</definition>
+        <argsstring>(const unsigned int &amp;resource_ind)</argsstring>
+        <name>estimate</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform estimation (or formulate beliefs) over potentially beneficial allocations</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="207" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="950" bodyend="1103"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a45a1e763c5ae96ece3df4fab00c665f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::optimize</definition>
+        <argsstring>(const unsigned int &amp;resource_ind)</argsstring>
+        <name>optimize</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize with respect to resources</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="214" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1114" bodyend="1206"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a729775a0c98a42a897370c64cbb18618" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::initialize_estimates</definition>
+        <argsstring>()</argsstring>
+        <name>initialize_estimates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize Estimates </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="219" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1209" bodyend="1237"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a5e619e937ba5316ff339598d33b331b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::initialize_performancemonitoring</definition>
+        <argsstring>()</argsstring>
+        <name>initialize_performancemonitoring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize <ref refid="structPerformance" kindref="compound">Performance</ref> Monitoring</para><para>This function admits a similar structure to the initialize_estimates() function and initializes all the necessary variables for keeping track of the performance of the threads with respect to the resources to be optimized. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="228" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1240" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a316b6d9ac577caad1baf52869907565f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::initialize_actions</definition>
+        <argsstring>(const unsigned int &amp;policy)</argsstring>
+        <name>initialize_actions</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize Actions</para><para>This function admits a similar structure to the initialize_estimates() function and initializes all the necessary variables for keeping track of the actions of the threads with respect to the optimized resources</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="239" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="1265" bodyend="1291"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a2f17abb04fba07ee582e94a0a60de3b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::write_to_files</definition>
+        <argsstring>()</argsstring>
+        <name>write_to_files</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write actions selected to files </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="244" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="2124" bodyend="2151"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a5762d12f1c321e57a828bc22113a1d3a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>struct timespec</type>
+        <definition>struct timespec Scheduler::set_scheduling_period</definition>
+        <argsstring>(const double &amp;sched_period)</argsstring>
+        <name>set_scheduling_period</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>sched_period</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="285" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="291" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a0c6149da39ffb5caf3cdf559df7a8144" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::set_cpu_nodes_per_numa_node</definition>
+        <argsstring>()</argsstring>
+        <name>set_cpu_nodes_per_numa_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="370" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="370" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a03bf7261d7177f8f558bbc647a3ea1bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scheduler::display_stack_related_attributes</definition>
+        <argsstring>(pthread_attr_t *attr, char *prefix)</argsstring>
+        <name>display_stack_related_attributes</name>
+        <param>
+          <type>pthread_attr_t *</type>
+          <declname>attr</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="403" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="2099" bodyend="2119"/>
+      </memberdef>
+      <memberdef kind="function" id="classScheduler_1a24ea2cd630be2bddc3095934add8133e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * Scheduler::PreFaultStack</definition>
+        <argsstring>()</argsstring>
+        <name>PreFaultStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="404" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.cpp" bodystart="2089" bodyend="2096"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classScheduler" kindref="compound">Scheduler</ref> </para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" line="37" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/Scheduler.h" bodystart="36" bodyend="414"/>
+    <listofallmembers>
+      <member refid="classScheduler_1a1b774d7e44bcc72ac7cbc73b9b28386d" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>action_main_old_</name></member>
+      <member refid="classScheduler_1a295a1484da9ca9907fd0f51a895d16f5" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>actionsfile_</name></member>
+      <member refid="classScheduler_1a4eaa12473109b04810911c25969d8ff8" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>active_threads_</name></member>
+      <member refid="classScheduler_1a782dd674fc65f8f96bbcdad24e48b75e" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>apply_scheduling_policy</name></member>
+      <member refid="classScheduler_1aeecb89cdf988ea889d499367395d4b6c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>assign_memory_node_test</name></member>
+      <member refid="classScheduler_1a6b4702c304106fc6aa676665d398eb83" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>assign_memory_node_test2</name></member>
+      <member refid="classScheduler_1aec00627953592ff0146158ad8347746c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>assign_processing_node</name></member>
+      <member refid="classScheduler_1a4e3ca8076bc388a35e710df0b928f284" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>avebalancedspeedfile_</name></member>
+      <member refid="classScheduler_1a0d685cccf27dd5009b16743c94a1af31" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>aveperformancefile1_</name></member>
+      <member refid="classScheduler_1a4f8067efd748758c1079ec77248ffbf8" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>aveperformancefile2_</name></member>
+      <member refid="classScheduler_1a2b3e7db2d87f8b9a5348b31262ca3263" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>aveperformancefile3_</name></member>
+      <member refid="classScheduler_1a15d66917547be4e48d2cc4a4a4ffda7c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>aveperformancefile4_</name></member>
+      <member refid="classScheduler_1ac91cb4109e9f6ca1ee6bd3cf96562853" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>avespeedfile_</name></member>
+      <member refid="classScheduler_1a3f6dbde858e98d0c35b6dc78397c342f" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>CHILD_RESOURCES_</name></member>
+      <member refid="classScheduler_1ad110dd0890b941cda3ef5c2656c8937c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>CHILD_RESOURCES_EST_METHODS_</name></member>
+      <member refid="classScheduler_1ab66d41a1332faf8abeaf9429111351e5" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>CHILD_RESOURCES_OPT_METHODS_</name></member>
+      <member refid="classScheduler_1a991ae0f798df9ce56116d5c66f615c9f" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>counter_of_threads_</name></member>
+      <member refid="classScheduler_1af34cdb76bdd4a7c9402c93979256be89" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>cpu_nodes_per_numa_node_</name></member>
+      <member refid="classScheduler_1a9dccd4391a9d2c8bf975f36194b4b3c1" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>cur_average_performance_</name></member>
+      <member refid="classScheduler_1a770e866a833a202cc2402c37f930c5bc" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>cur_balanced_performance_</name></member>
+      <member refid="classScheduler_1a35a6d317817a4eb816cce1a3c9735d7b" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>current_most_popular_node_</name></member>
+      <member refid="classScheduler_1a496f4a768412ca6d031c43dfd02f9be2" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>current_popularity_</name></member>
+      <member refid="classScheduler_1a03bf7261d7177f8f558bbc647a3ea1bd" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>display_stack_related_attributes</name></member>
+      <member refid="classScheduler_1a5a5c3c9b1407f3e1c409865775087e73" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>estimate</name></member>
+      <member refid="classScheduler_1ae16302beb5eae71a043645918751b870" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>factor_h_</name></member>
+      <member refid="classScheduler_1abca76aafe9a50156ea8b31e57ad6810f" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>gamma_</name></member>
+      <member refid="classScheduler_1ab640e06ed98152a9acd8cf032b7ad455" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>get_number_threads</name></member>
+      <member refid="classScheduler_1a9e0189d3b9815eac90901ba171722525" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>get_tinfo</name></member>
+      <member refid="classScheduler_1a27e2a247cde3ad80ac25b9188a1e17ee" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>initialize</name></member>
+      <member refid="classScheduler_1a316b6d9ac577caad1baf52869907565f" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>initialize_actions</name></member>
+      <member refid="classScheduler_1a729775a0c98a42a897370c64cbb18618" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>initialize_estimates</name></member>
+      <member refid="classScheduler_1a5e619e937ba5316ff339598d33b331b6" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>initialize_performancemonitoring</name></member>
+      <member refid="classScheduler_1ae5f723059d7b9bf3c54b5dc05a9739c5" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>LAMBDA_AL_</name></member>
+      <member refid="classScheduler_1a779a0d3b46dd3ff030ea2f0238c359b2" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>LAMBDA_RL_</name></member>
+      <member refid="classScheduler_1a9f1dea4fd1b8b0a2c59f0f11d09a3593" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>map_Actions_per_Thread_</name></member>
+      <member refid="classScheduler_1ab1c18dce9f4d5ecc6da7b86cfdbedcf4" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>map_Estimate_per_Thread_</name></member>
+      <member refid="classScheduler_1a239f283183753e6afa33e520b2977ab8" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>map_neighbors_</name></member>
+      <member refid="classScheduler_1a59b128654dc906a482aa97777cc5ee4d" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>map_PerformanceMonitoring_per_Thread_</name></member>
+      <member refid="classScheduler_1a936f624457dd0a9ee47250f800b7379f" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>map_run_average_balanced_performances_cpu_</name></member>
+      <member refid="classScheduler_1a96492e4a2f0b2ad9adecb106d6b71819" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>map_run_average_performances_cpu_</name></member>
+      <member refid="classScheduler_1a9515936f823daede57e1fd2ca530aa1a" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>max_num_cpus_</name></member>
+      <member refid="classScheduler_1a933e8c7ad1bd1514797625eb0e4c2d03" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>max_num_numa_nodes_</name></member>
+      <member refid="classScheduler_1a43ea81a578cafb81cff20a75008515a1" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>MAX_NUMBER_CHILD_RESOURCES_</name></member>
+      <member refid="classScheduler_1a6f805e401c91e4e5c6770afde7e987fe" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>MAX_NUMBER_MAIN_RESOURCES_</name></member>
+      <member refid="classScheduler_1adbe461b5d7e07f2d28f23f0ed5fae63e" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>methods_estimate_</name></member>
+      <member refid="classScheduler_1ab31019571b064ea74927f42ecc88667d" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>methods_optimize_</name></member>
+      <member refid="classScheduler_1a5f930975171f8a754d281b93639d9c17" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>neighborhood_size_</name></member>
+      <member refid="classScheduler_1a0465e0291c9b387da7595b9c8cd453cf" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>num_active_threads_</name></member>
+      <member refid="classScheduler_1a0487a187d99447b1f0872088673cbcc9" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>num_active_threads_before_</name></member>
+      <member refid="classScheduler_1a607b21c05ed92f660da1d42b381f36ba" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>num_threads_</name></member>
+      <member refid="classScheduler_1a6eff39d8aa65b54904433af273ed695a" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>numa_sched_period_</name></member>
+      <member refid="classScheduler_1af576579ca968b93f96447803d0a560e8" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>numa_switch_threshold_</name></member>
+      <member refid="classScheduler_1a8a41677eaa1266ec0ab41dcf0ac0d865" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>operator=</name></member>
+      <member refid="classScheduler_1a45a1e763c5ae96ece3df4fab00c665f9" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>optimize</name></member>
+      <member refid="classScheduler_1ab815752ba8495b1cca52a7e7463121b8" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>optimize_main_resource_</name></member>
+      <member refid="classScheduler_1ad110a49b7ba98034c4df1fdccb3d6527" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>OS_mapping_</name></member>
+      <member refid="classScheduler_1a749be18751e80437cef6f9617501a857" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>overall_Performance_</name></member>
+      <member refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>performance_preprocessing</name></member>
+      <member refid="classScheduler_1a36e8cbe0570eefa161e626c34f60c5cf" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>PR_mapping_</name></member>
+      <member refid="classScheduler_1a24ea2cd630be2bddc3095934add8133e" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>PreFaultStack</name></member>
+      <member refid="classScheduler_1a0a67f8f703bc8f9284c3399f096c9cb9" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>previous_most_popular_node_</name></member>
+      <member refid="classScheduler_1a2d4a0c6a18c2f110d3bcb1ae2aef1c69" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>previous_popularity_</name></member>
+      <member refid="classScheduler_1a575d681773c09287d8f30292b2fd2c43" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>printout_actions_</name></member>
+      <member refid="classScheduler_1ac0efa198aca5959f6637c117e6c1f206" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>printout_strategies_</name></member>
+      <member refid="classScheduler_1abe0b07d73c0a330c1d0ee57fc29e284f" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>reallocate_memory_</name></member>
+      <member refid="classScheduler_1ad7840db51da0c2f22b173ac9e7fecc67" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>RESOURCES_</name></member>
+      <member refid="classScheduler_1a3e833b8a11beb5f1cef5240953d6422d" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>RESOURCES_EST_METHODS_</name></member>
+      <member refid="classScheduler_1a4d2e6801515dbe51efd715799fd61599" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>RESOURCES_OPT_METHODS_</name></member>
+      <member refid="classScheduler_1ad187198f24a2b283a4628f0e0b3ffd84" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>retrieve_performances</name></member>
+      <member refid="classScheduler_1a7dacde72d2478cffc2273f000939f8d5" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>RL_active_reshuffling_</name></member>
+      <member refid="classScheduler_1a75381138dace8bdf9cf60b7cfdb1981c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>RL_mapping_</name></member>
+      <member refid="classScheduler_1ad6d90bb07fce88ce0e7044e86211d1fe" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>RL_performance_reshuffling_</name></member>
+      <member refid="classScheduler_1a58fba108ce2748870a6288cd6f5fd1e3" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>run</name></member>
+      <member refid="classScheduler_1a49e458b2601afba32ebc4ee64a72164c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>run_average_balanced_performance_</name></member>
+      <member refid="classScheduler_1a419b1aa87521c8cfce7b41463370a898" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>run_average_performance_</name></member>
+      <member refid="classScheduler_1a760a9aaf0b31ed0660d30035a233e435" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>sched_iteration_</name></member>
+      <member refid="classScheduler_1a3b61aac11466cd45ae42ab8c2b0013f6" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>Scheduler</name></member>
+      <member refid="classScheduler_1a9d9fdac53788885928fa849892250819" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>Scheduler</name></member>
+      <member refid="classScheduler_1aa55196b20c6a062b2f479776738622fd" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>Scheduler</name></member>
+      <member refid="classScheduler_1adc23bd3b2f1babde08ce237c8f43cc19" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>send_wrapper</name></member>
+      <member refid="classScheduler_1a0c6149da39ffb5caf3cdf559df7a8144" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>set_cpu_nodes_per_numa_node</name></member>
+      <member refid="classScheduler_1a5762d12f1c321e57a828bc22113a1d3a" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>set_scheduling_period</name></member>
+      <member refid="classScheduler_1a6529f81309ce5a5c9823a622b0a83139" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>ST_mapping_</name></member>
+      <member refid="classScheduler_1a7e9720e1a9c7e53ff2c191b569d75f75" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>step_size_AL_</name></member>
+      <member refid="classScheduler_1a6ee6a71fc9f6654be83f01da317142d6" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>step_size_RL_</name></member>
+      <member refid="classScheduler_1a32c78c02fef36ce56db42240f71e4ec5" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>strategiesfile1_</name></member>
+      <member refid="classScheduler_1a47afd1ab729551f9fb15f230136f9556" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>strategiesfile2_</name></member>
+      <member refid="classScheduler_1a9e09a2cb703e8083bb6c0debc9146900" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>strategiesfile3_</name></member>
+      <member refid="classScheduler_1a318d0af7840875ea08057b7265fde83a" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>strategiesfile4_</name></member>
+      <member refid="classScheduler_1a3d9896ba3b5770928ad138e02e9c3b36" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>support_numa_</name></member>
+      <member refid="classScheduler_1a63e8c3e4ad5c6945c78e2ff4e1bd630a" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>suspend_threads_</name></member>
+      <member refid="classScheduler_1a0ad67df280343abd3b5dca114a5783fd" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>time_</name></member>
+      <member refid="classScheduler_1a74a54d95e2cbde9db8706a839c501ee4" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>time_before_</name></member>
+      <member refid="classScheduler_1adf89db1efa5cae100c13310a36d96426" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>timefile_</name></member>
+      <member refid="classScheduler_1ab76dda2d7c26afc1a5aabfeaf58c9b2c" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>tinfo_</name></member>
+      <member refid="classScheduler_1a1a877325695a99f8e54ca4f9dbce6ae1" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>ts_</name></member>
+      <member refid="classScheduler_1ac0f68dd6a14fdf70dc964c67dc8d39b2" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>update</name></member>
+      <member refid="classScheduler_1ae452cbca47255a578c7503ac5536a888" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>utility_normalization_</name></member>
+      <member refid="classScheduler_1a14c0c6a4d6c5878bacd49d41f9a59685" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_active_threads_</name></member>
+      <member refid="classScheduler_1ae3cba6934b1b61eb72695837090dadfc" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_alg_performances_</name></member>
+      <member refid="classScheduler_1ae87d8bc528192bd2d250f911bc3d32e9" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_balanced_performances_</name></member>
+      <member refid="classScheduler_1a743831fc7d32783d450ffca298f29672" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_min_performances_</name></member>
+      <member refid="classScheduler_1abb68620d47ed382dfc3b6e001dabd820" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_performances_</name></member>
+      <member refid="classScheduler_1a487b7738ca212f4bb330b64797895c3d" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_performances_update_inds_</name></member>
+      <member refid="classScheduler_1abe977ec666e1448cae418708e6cd4087" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>vec_run_average_performances_</name></member>
+      <member refid="classScheduler_1a2f17abb04fba07ee582e94a0a60de3b4" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>write_to_files</name></member>
+      <member refid="classScheduler_1a14fff6c169d75cef7e4a6ced2b8cada1" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>write_to_files_</name></member>
+      <member refid="classScheduler_1af79811c361edd1036f7fa934ecb2f5cc" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>write_to_files_details_</name></member>
+      <member refid="classScheduler_1aae61241ed40baf62fc683c3ff432ab19" prot="private" virt="non-virtual"><scope>Scheduler</scope><name>zeta_</name></member>
+      <member refid="classScheduler_1afc8187779b46f64039d3ffa58f0dbe51" prot="public" virt="non-virtual"><scope>Scheduler</scope><name>~Scheduler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

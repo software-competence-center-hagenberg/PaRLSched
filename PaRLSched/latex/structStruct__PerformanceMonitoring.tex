@@ -1,0 +1,88 @@
+\hypertarget{structStruct__PerformanceMonitoring}{\section{Struct\-\_\-\-Performance\-Monitoring Struct Reference}
+\label{structStruct__PerformanceMonitoring}\index{Struct\-\_\-\-Performance\-Monitoring@{Struct\-\_\-\-Performance\-Monitoring}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a97d5962047f0577a68ddd420b1da8a1e}{void {\bfseries initialize} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user)}\label{structStruct__PerformanceMonitoring_a97d5962047f0577a68ddd420b1da8a1e}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_aa7963e7c54d30095a7283bbf49f4a61b}{void {\bfseries initialize\-\_\-w\-\_\-child} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const std\-::string \&child\-\_\-resource, const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user)}\label{structStruct__PerformanceMonitoring_aa7963e7c54d30095a7283bbf49f4a61b}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_adcdd8d9911b6ef408cfe6680ab1fda43}{void {\bfseries update\-\_\-run\-\_\-average\-\_\-performance} (const double \&performance, const double \&step\-\_\-size, const unsigned int \&iteration)}\label{structStruct__PerformanceMonitoring_adcdd8d9911b6ef408cfe6680ab1fda43}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a73b2ca8763d02a85aa900c17c2187d18}{void {\bfseries update\-\_\-run\-\_\-average\-\_\-balanced\-\_\-performance} (const double \&balanced\-\_\-performance, const double \&step\-\_\-size, const unsigned int \&iteration)}\label{structStruct__PerformanceMonitoring_a73b2ca8763d02a85aa900c17c2187d18}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a19680cdaf279198b2065f97045aa7861}{void {\bfseries update\-\_\-run\-\_\-average\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource} (const double \&performance, const unsigned int \&main\-\_\-source, const double \&step\-\_\-size, const unsigned int \&iteration)}\label{structStruct__PerformanceMonitoring_a19680cdaf279198b2065f97045aa7861}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a797d2ddf9ac5543dbc8d1a1cc6a757ad}{void {\bfseries update\-\_\-run\-\_\-average\-\_\-performance\-\_\-per\-\_\-child\-\_\-resource} (const double \&performance, const unsigned int \&main\-\_\-source, const unsigned int \&child\-\_\-source, const double \&step\-\_\-size, const unsigned int \&iteration)}\label{structStruct__PerformanceMonitoring_a797d2ddf9ac5543dbc8d1a1cc6a757ad}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a4befcad39a937f6b5e700096c2c59db8}{std\-::string {\bfseries resource\-\_\-}}\label{structStruct__PerformanceMonitoring_a4befcad39a937f6b5e700096c2c59db8}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a4511f5fefac78cf5e8af5328b9c4fd4e}{unsigned int {\bfseries num\-\_\-sources\-\_\-}}\label{structStruct__PerformanceMonitoring_a4511f5fefac78cf5e8af5328b9c4fd4e}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a988731ba990b5c6b4ec504260de3f58e}{double {\bfseries performance\-\_\-}}\label{structStruct__PerformanceMonitoring_a988731ba990b5c6b4ec504260de3f58e}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_af0c1251314c796cae71ab26c207fc175}{double {\bfseries balanced\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_af0c1251314c796cae71ab26c207fc175}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_ae83002b76dac4f7250f1f5f85609b61c}{double {\bfseries alg\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_ae83002b76dac4f7250f1f5f85609b61c}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_ab31eba22d1c2c5035bdee635c8209f4c}{bool {\bfseries performance\-\_\-update\-\_\-ind\-\_\-}}\label{structStruct__PerformanceMonitoring_ab31eba22d1c2c5035bdee635c8209f4c}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_ada27304bbb88f857e4d732510127e1ae}{double {\bfseries overall\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_ada27304bbb88f857e4d732510127e1ae}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a08bc2db12b9e3a773ba69f5183615f51}{double {\bfseries overall\-\_\-balanced\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_a08bc2db12b9e3a773ba69f5183615f51}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_af00d1d134575d0f5ccc3088bc468ab89}{double {\bfseries min\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_af00d1d134575d0f5ccc3088bc468ab89}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a6a66143217c890e69bde67de78a38c80}{double {\bfseries max\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_a6a66143217c890e69bde67de78a38c80}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a05d5a654c9026decca3ea69752d7ef61}{double {\bfseries run\-\_\-average\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_a05d5a654c9026decca3ea69752d7ef61}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a2dcbd8f140c688c7efc2f5c755074d01}{double {\bfseries run\-\_\-average\-\_\-balanced\-\_\-performance\-\_\-}}\label{structStruct__PerformanceMonitoring_a2dcbd8f140c688c7efc2f5c755074d01}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_ab346e075b6035bd4cc75f4c6a3536c98}{double {\bfseries run\-\_\-average\-\_\-balanced\-\_\-performance\-\_\-before\-\_\-}}\label{structStruct__PerformanceMonitoring_ab346e075b6035bd4cc75f4c6a3536c98}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a55cf855d80649986fbb2530ea0fe80ba}{std\-::vector$<$ unsigned int $>$ {\bfseries vec\-\_\-num\-\_\-child\-\_\-sources\-\_\-}}\label{structStruct__PerformanceMonitoring_a55cf855d80649986fbb2530ea0fe80ba}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_a3b3938a4d94d1432357d6f577aba7839}{std\-::vector$<$ double $>$ {\bfseries vec\-\_\-run\-\_\-average\-\_\-performances\-\_\-per\-\_\-main\-\_\-resource\-\_\-}}\label{structStruct__PerformanceMonitoring_a3b3938a4d94d1432357d6f577aba7839}
+
+\item 
+\hypertarget{structStruct__PerformanceMonitoring_aba51ce2ae3d06715b36bb88676cff5ff}{std\-::vector$<$ std\-::vector\\*
+$<$ double $>$ $>$ {\bfseries vec\-\_\-run\-\_\-average\-\_\-performances\-\_\-per\-\_\-child\-\_\-resource\-\_\-}}\label{structStruct__PerformanceMonitoring_aba51ce2ae3d06715b36bb88676cff5ff}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 192 of file Methods\-Performance\-Monitoring.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Performance\-Monitoring.\-h\end{DoxyCompactItemize}

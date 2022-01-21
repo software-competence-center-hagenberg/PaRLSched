@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structPerformance" kind="struct" prot="public">
+    <compoundname>Performance</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPerformance_1a46b912e5250284e086eae918593ea80d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Performance::num_performance_counters</definition>
+        <argsstring></argsstring>
+        <name>num_performance_counters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="22" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPerformance_1ae4f81f358bb251363fd30b1af212e587" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Performance::initial_tot_ins</definition>
+        <argsstring></argsstring>
+        <name>initial_tot_ins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="23" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPerformance_1aba1f3bc10aae0d5ee9294b79fbef41c9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Performance::initial_tot_cyc</definition>
+        <argsstring></argsstring>
+        <name>initial_tot_cyc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="24" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPerformance_1aa22796680433fbf6ea9e7c0b3671e2bc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Performance::initial_lst_ins</definition>
+        <argsstring></argsstring>
+        <name>initial_lst_ins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="25" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPerformance_1a47d5e630cab47e7db419244884b6c67c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Performance::initial_L1misses</definition>
+        <argsstring></argsstring>
+        <name>initial_L1misses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="26" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPerformance_1abaa76cc9c0565e882f39ce7e67280c60" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Performance::initial_tlb_dm</definition>
+        <argsstring></argsstring>
+        <name>initial_tlb_dm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="27" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPerformance_1a6ecd82d6779e5862c75ec9978fbcc507" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Performance::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="28" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structPerformance_1a487d0bd5f7e07e516faf16def16d847f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Performance::reset</definition>
+        <argsstring>(void)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="29" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="29" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" line="21" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/PerformanceCounters.h" bodystart="20" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structPerformance_1a47d5e630cab47e7db419244884b6c67c" prot="public" virt="non-virtual"><scope>Performance</scope><name>initial_L1misses</name></member>
+      <member refid="structPerformance_1aa22796680433fbf6ea9e7c0b3671e2bc" prot="public" virt="non-virtual"><scope>Performance</scope><name>initial_lst_ins</name></member>
+      <member refid="structPerformance_1abaa76cc9c0565e882f39ce7e67280c60" prot="public" virt="non-virtual"><scope>Performance</scope><name>initial_tlb_dm</name></member>
+      <member refid="structPerformance_1aba1f3bc10aae0d5ee9294b79fbef41c9" prot="public" virt="non-virtual"><scope>Performance</scope><name>initial_tot_cyc</name></member>
+      <member refid="structPerformance_1ae4f81f358bb251363fd30b1af212e587" prot="public" virt="non-virtual"><scope>Performance</scope><name>initial_tot_ins</name></member>
+      <member refid="structPerformance_1a46b912e5250284e086eae918593ea80d" prot="public" virt="non-virtual"><scope>Performance</scope><name>num_performance_counters</name></member>
+      <member refid="structPerformance_1a487d0bd5f7e07e516faf16def16d847f" prot="public" virt="non-virtual"><scope>Performance</scope><name>reset</name></member>
+      <member refid="structPerformance_1a6ecd82d6779e5862c75ec9978fbcc507" prot="public" virt="non-virtual"><scope>Performance</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

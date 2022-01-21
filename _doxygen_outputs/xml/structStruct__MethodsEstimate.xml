@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__MethodsEstimate" kind="struct" prot="public">
+    <compoundname>Struct_MethodsEstimate</compoundname>
+    <includes refid="MethodsEstimate_8h" local="no">MethodsEstimate.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__MethodsEstimate_1a79b0089392ec35169c185f465f88b675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsEstimate::RL_update</definition>
+        <argsstring>(double &amp;maximum_performance, std::vector&lt; double &gt; &amp;vec_estimates, std::vector&lt; double &gt; &amp;vec_cummulative_estimates, const double &amp;current_performance, const double &amp;current_run_ave_performance, const unsigned int &amp;current_action, const bool &amp;action_main_changed, const double &amp;step_size_RL, const bool &amp;RL_active_reshuffling, const bool &amp;RL_performance_reshuffling, const double &amp;factor_h, const bool &amp;active_threads_change, const unsigned int &amp;thread)</argsstring>
+        <name>RL_update</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>maximum_performance</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_estimates</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_cummulative_estimates</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>current_performance</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>current_run_ave_performance</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>current_action</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>action_main_changed</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size_RL</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>RL_active_reshuffling</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>RL_performance_reshuffling</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>factor_h</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>active_threads_change</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides a framework for creating estimates over the best action, by using the current selection and the current performance It is assumed that a set of &apos;finite&apos; number of actions/selections is available (e.g., number of available nodes).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximum_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum performance observed so far </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of estimates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_cummulative_estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of cummulative estimates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current performance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_run_ave_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current running average performance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current action </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action_main_changed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicator that the action of the main resource has changed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_size_RL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>step size of RL algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RL_active_reshuffling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>strategies are reshuffled when a thread becomes inactive </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RL_performance_reshuffling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>strategies are reshuffled when the performance drops significantly </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>factor_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>factor h of aspiration-based RL algorithm </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active_threads_change</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicators that the active threads have changed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>We define a new step-size just for updating the RL </para>        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="259" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="259" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsEstimate_1a13f8ba793252f8883a1769dbee5ddaaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsEstimate::RL_reshuffle_mixed</definition>
+        <argsstring>(std::vector&lt; double &gt; &amp;vec_estimates)</argsstring>
+        <name>RL_reshuffle_mixed</name>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_estimates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="362" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="362" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsEstimate_1a81e63589cf2c8a3f83fbef1a16491aea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsEstimate::AL_update</definition>
+        <argsstring>(const double &amp;current_performance, const double &amp;current_run_ave_performance, const double &amp;run_ave_performance_before, const double &amp;step_size, const bool &amp;active_threads_change, const unsigned int &amp;thread, double &amp;low_benchmark, double &amp;high_benchmark, bool &amp;random_switch, bool &amp;action_change)</argsstring>
+        <name>AL_update</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>current_performance</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>current_run_ave_performance</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>run_ave_performance_before</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>active_threads_change</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>low_benchmark</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>high_benchmark</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>random_switch</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>action_change</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>AL: Aspiration-Learning Estimates Update based on Running Average <ref refid="structPerformance" kindref="compound">Performance</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current performance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_run_ave_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current running average performance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>run_ave_performance_before</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>previous running average performance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>step size </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active_threads_change</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicator that the active threads have changed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread indicator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>low_benchmark</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>low performance benchmark </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>high_benchmark</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>high performance benchmark </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>random_switch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicator random switch of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action_change</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicator that action has changed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>&lt; Updating benchmarks </para>        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="394" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="395" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure provides alternative methodologies for creating estimates over the best selection. Inputs: For now, we assume that it takes as inputs the following:<itemizedlist>
+<listitem><para>prior estimate data (maybe not created under the same rule)</para></listitem><listitem><para>current performance (this may take different values depending on the resource to be allocated) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="238" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="237" bodyend="443"/>
+    <listofallmembers>
+      <member refid="structStruct__MethodsEstimate_1a81e63589cf2c8a3f83fbef1a16491aea" prot="public" virt="non-virtual"><scope>Struct_MethodsEstimate</scope><name>AL_update</name></member>
+      <member refid="structStruct__MethodsEstimate_1a13f8ba793252f8883a1769dbee5ddaaa" prot="public" virt="non-virtual"><scope>Struct_MethodsEstimate</scope><name>RL_reshuffle_mixed</name></member>
+      <member refid="structStruct__MethodsEstimate_1a79b0089392ec35169c185f465f88b675" prot="public" virt="non-virtual"><scope>Struct_MethodsEstimate</scope><name>RL_update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

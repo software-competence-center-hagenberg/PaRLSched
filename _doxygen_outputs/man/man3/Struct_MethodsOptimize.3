@@ -1,0 +1,127 @@
+.TH "Struct_MethodsOptimize" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_MethodsOptimize \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MethodsOptimize\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBRL_optimize\fP (const std::vector< double > &vec_cummulative_estimates, const unsigned int &num_choices, unsigned int &action, const double &LAMBDA, const double &current_run_ave_performance)"
+.br
+.ti -1c
+.RI "unsigned int \fBrandom_selection_uniform\fP (const unsigned int &num_choices)"
+.br
+.ti -1c
+.RI "unsigned int \fBrandom_selection_strategy\fP (const unsigned int &num_choices, const std::vector< double > &estimates)"
+.br
+.ti -1c
+.RI "void \fBAL_optimize\fP (const bool &random_switch, const bool &action_change, const double &run_average_balanced_performance, const std::vector< double > &run_ave_performance_per_main_resource, const double &low_benchmark, const double &high_benchmark, unsigned int &action, unsigned int &num_actions, const double &LAMBDA, const unsigned int &thread, const double &numa_switch_threshold)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+It provides the necessary functions/algorithms for optimizing the selection of resources from the threads\&. It may or may not make use of the estimates over the most rewarding resources, as created by the \fBMethodsEstimate\&.h\fP library\&. 
+.PP
+Definition at line 24 of file MethodsOptimize\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_MethodsOptimize::AL_optimize (const bool &random_switch, const bool &action_change, const double &run_average_balanced_performance, const std::vector< double > &run_ave_performance_per_main_resource, const double &low_benchmark, const double &high_benchmark, unsigned int &action, unsigned int &num_actions, const double &LAMBDA, const unsigned int &thread, const double &numa_switch_threshold)\fC [inline]\fP"
+It provides a framework for computing the optimal allocation of resources based on Aspiration Learning
+.PP
+\fBParameters:\fP
+.RS 4
+\fIrandom_switch\fP Indicator that a Random Switch should be executed 
+.br
+\fIaction_change\fP Indicator that the action should be changed 
+.br
+\fIrun_average_balanced_performance\fP Running average balanced performance 
+.br
+\fIrun_ave_performance_per_main_resource\fP Running average performance per main resource 
+.br
+\fIlow_benchmark\fP Low benchmark of aspiration learning 
+.br
+\fIhigh_benchmark\fP High benchmark of aspiration learning 
+.br
+\fIaction\fP Action 
+.br
+\fInum_actions\fP Number of actions 
+.br
+\fILAMBDA\fP Perturbation factor 
+.br
+\fIthread\fP Thread indicator 
+.br
+\fInuma_switch_threshold\fP Threshold over which the NUMA (main resource) is updated 
+.RE
+.PP
+
+.PP
+Definition at line 143 of file MethodsOptimize\&.h\&.
+.PP
+References random_selection_uniform()\&.
+.SS "unsigned int Struct_MethodsOptimize::random_selection_strategy (const unsigned int &num_choices, const std::vector< double > &estimates)\fC [inline]\fP"
+Random Selection Strategy assigns a random selection based on the provided estimates 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInum_choices\fP 
+.br
+\fIestimates\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 94 of file MethodsOptimize\&.h\&.
+.PP
+Referenced by RL_optimize()\&.
+.SS "unsigned int Struct_MethodsOptimize::random_selection_uniform (const unsigned int &num_choices)\fC [inline]\fP"
+Random selection of resources based on a uniform distribution
+.PP
+\fBParameters:\fP
+.RS 4
+\fInum_choices\fP available number of choices 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 64 of file MethodsOptimize\&.h\&.
+.PP
+Referenced by AL_optimize(), and RL_optimize()\&.
+.SS "void Struct_MethodsOptimize::RL_optimize (const std::vector< double > &vec_cummulative_estimates, const unsigned int &num_choices, unsigned int &action, const double &LAMBDA, const double &current_run_ave_performance)\fC [inline]\fP"
+Provides a framework for computing the optimal allocation of resources based on the estimates created by an RL estimator\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvec_cummulative_estimates\fP vector of cummulative estimates 
+.br
+\fInum_choices\fP number of choices 
+.br
+\fIaction\fP action 
+.br
+\fILAMBDA\fP perturbation factor 
+.br
+\fIcurrent_run_ave_performance\fP current running average performance 
+.RE
+.PP
+
+.PP
+Definition at line 36 of file MethodsOptimize\&.h\&.
+.PP
+References random_selection_strategy(), and random_selection_uniform()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

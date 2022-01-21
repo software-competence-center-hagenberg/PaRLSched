@@ -1,0 +1,100 @@
+.TH "Struct_OverallPerformance" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_OverallPerformance \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const unsigned int &num_main_resources, const std::vector< unsigned int > &num_actions)"
+.br
+.ti -1c
+.RI "void \fBupdate_sum_performances_per_main_resource\fP (const unsigned int &resource_ind, const double &sum_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_ave_performance_per_main_resource\fP (const unsigned int &resource_ind, const double &ave_performance)"
+.br
+.ti -1c
+.RI "void \fBupdate_sum_balanced_performances_per_main_resource\fP (const unsigned int &resource_ind, const double &sum_balanced_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_ave_balanced_performance_per_main_resource\fP (const unsigned int &resource_ind, const double &ave_balanced_performance)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance_per_main_resource\fP (const unsigned int &resource_ind, const double &ave_performance, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_balanced_performance_per_main_resource\fP (const unsigned int &resource_ind, const double ave_balanced_performance, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_sum_balanced_performances_per_main_resource_per_action\fP (const unsigned int &resource_ind, const std::vector< double > &sum_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_ave_balanced_performances_per_main_resource_per_action\fP (const unsigned int &resource_ind, const std::vector< double > &ave_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_num_threads_using_main_resource_per_action\fP (const unsigned int &resource_ind, const std::vector< unsigned int > &vec_threads)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_balanced_performances_per_main_resource_per_action\fP (const unsigned int &resource_ind, const unsigned int &action, const double &ave_balanced_performance, const unsigned int &iteration)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::vector< double > \fBsum_performances_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBsum_balanced_performances_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBave_performance_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBave_balanced_performance_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBsum_balanced_performances_per_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBave_balanced_performances_per_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< unsigned int > > \fBnum_threads_using_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBrun_ave_balanced_performances_per_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBrun_average_performance_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBrun_average_balanced_performance_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 23 of file MethodsPerformanceMonitoring\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_OverallPerformance::update_run_average_balanced_performances_per_main_resource_per_action (const unsigned int &resource_ind, const unsigned int &action, const double &ave_balanced_performance, const unsigned int &iteration)\fC [inline]\fP"
+Here, we calculate the running average resource for each one of the actions of the main resource\&. 
+.PP
+Definition at line 159 of file MethodsPerformanceMonitoring\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

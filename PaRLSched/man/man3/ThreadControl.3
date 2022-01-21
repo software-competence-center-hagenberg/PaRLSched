@@ -1,0 +1,34 @@
+.TH "ThreadControl" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ThreadControl \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBthd_init_counters\fP (pthread_t thread_id, void *arg)"
+.br
+.ti -1c
+.RI "bool \fBthd_init_counters\fP (pthread_t thread_id, \fBthread_info\fP &info)"
+.br
+.ti -1c
+.RI "bool \fBthd_stop_counters\fP (const int &thread_id, \fBthread_info\fP &info)"
+.br
+.ti -1c
+.RI "bool \fBthd_record_counters\fP (pthread_t thread, void *arg)"
+.br
+.ti -1c
+.RI "bool \fBthd_record_counters\fP (\fBthread_info\fP &info)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 48 of file ThreadControl\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

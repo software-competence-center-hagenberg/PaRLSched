@@ -1,0 +1,91 @@
+.TH "Scheduler" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Scheduler \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBScheduler\fP (const std::string &in_file, const unsigned int &num_threads)"
+.br
+.ti -1c
+.RI "\fBScheduler\fP (const \fBScheduler\fP &other)"
+.br
+.ti -1c
+.RI "\fBScheduler\fP & \fBoperator=\fP (const \fBScheduler\fP &other)"
+.br
+.ti -1c
+.RI "void \fBinitialize\fP (const unsigned int &num_threads, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &step_size, const double &LAMBDA, const double &sched_period, const bool &suspend_threads, const bool &printout_strategies, const bool &printout_actions, const bool &write_to_files, const bool &write_to_files_details, const double &gamma, const bool &OS_mapping, const bool &RL_mapping, const bool &PR_mapping, const bool &ST_mapping, const bool &optimize_main_resource)"
+.br
+.ti -1c
+.RI "void \fBupdate\fP (const unsigned int &resource_ind, std::vector< bool > &update_inds)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBretrieve_performances\fP (const unsigned int &resource_ind)"
+.br
+.ti -1c
+.RI "void \fBperformance_preprocessing\fP (const unsigned int &resource_ind)"
+.br
+.ti -1c
+.RI "void \fBapply_scheduling_policy\fP ()"
+.br
+.ti -1c
+.RI "\fBthread_info\fP * \fBget_tinfo\fP (void)"
+.br
+.ti -1c
+.RI "const unsigned int & \fBget_number_threads\fP (void) const "
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void * \fBsend_wrapper\fP (void *object)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBcounter_of_threads_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 62 of file Scheduler\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Scheduler::Scheduler (const std::string &in_file, const unsigned int &num_threads)"
+The first part defines the number of NUMA nodes that should be used for pinning
+.PP
+The first pair defines the number of CPU nodes that should be used for pinning from each NUMA node
+.PP
+NON-ADJUSTABLE PARAMETERS (Please, do not change the following)
+.PP
+Definition at line 278 of file Scheduler\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Scheduler::run ()"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInum_threads\fP 
+.br
+\fIrl_mapping\fP NON-ADJUSTABLE PARAMETERS (Please, do not change the following) Parameters w\&.r\&.t\&. the RL_mapping algorithm 
+.RE
+.PP
+
+.PP
+Definition at line 861 of file Scheduler\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

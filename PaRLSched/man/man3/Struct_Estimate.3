@@ -1,0 +1,76 @@
+.TH "Struct_Estimate" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_Estimate \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const unsigned int &initial_action, const bool &mixed)"
+.br
+.ti -1c
+.RI "void \fBinitialize_w_child\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num)"
+.br
+.ti -1c
+.RI "void \fBupdate_estimates\fP (const std::vector< double > &vec_estimates)"
+.br
+.ti -1c
+.RI "void \fBupdate_child_estimate\fP (const std::vector< double > &vec_estimates, const unsigned int &source_num)"
+.br
+.ti -1c
+.RI "void \fBupdate_action\fP (const std::vector< double > &vec_estimates, const unsigned int &source_num)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBresource_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBnum_sources_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< unsigned int > > \fBvec_child_sources_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBvec_estimates_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBvec_cummulative_estimates_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_performance_\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBStruct_Estimate\fP > \fBvec_child_estimates_\fP"
+.br
+.ti -1c
+.RI "double \fBlow_benchmark_\fP"
+.br
+.ti -1c
+.RI "double \fBhigh_benchmark_\fP"
+.br
+.ti -1c
+.RI "double \fBmaximum_performance_\fP"
+.br
+.ti -1c
+.RI "bool \fBrandom_switch_\fP"
+.br
+.ti -1c
+.RI "bool \fBaction_change_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 54 of file MethodsEstimate\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

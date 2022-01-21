@@ -1,0 +1,211 @@
+#!/usr/bin/perl
+
+use Getopt::Long;
+use strict;
+use IPC::Open3;
+
+use Time::HiRes qw(nanosleep);
+use POSIX ":sys_wait_h";
+
+
+open (my $fh, ">", "scheduler.conf");
+open (my $fh2, "<", "disturbance.conf");
+
+sub create_sched_file {
+    open (my $fh, ">", "scheduler.conf");
+    my $osSched = shift;
+    print $fh "$osSched\n";
+    my $nrThreads = shift;
+    print $fh "$nrThreads\n";
+    my $numaNodes = shift;
+    print $fh "$numaNodes\n";
+    my $coresNode1 = shift;
+    print $fh "$coresNode1\n";
+    my $coresNode2 = shift;
+    print $fh "$coresNode2\n";
+    my $schedPeriod = shift;
+    print $fh "$schedPeriod\n";
+    my $numaSchedPeriod = shift;
+    print $fh "$numaSchedPeriod\n";
+    close ($fh);
+}
+
+sub process_output {
+    my $fh = shift;
+    my $maxTime = 0;
+    while (<$fh>) {
+	my $one = $_;
+	my @tokens = split (" ", $one);
+	if ($tokens[0] eq "Status") {
+	    my $time = $tokens[9];
+	    if ($time > $maxTime) {
+		$maxTime = $time;
+	    }
+	}
+    }
+
+    return $maxTime;
+}
+
+#set up disturbance app(s)
+my $disturbance_app = '';
+my @distOnOffRaw = split ("\n",<$fh2>);
+my $distOnOff = $distOnOffRaw[0];
+my $distCores = 0;
+my $distDelay = 0;
+my $distGran = 0;
+my $distBind = 0;
+
+if ($distOnOff > 0) {
+    my @distCoresRaw = split("\n", <$fh2>);
+    $distCores = $distCoresRaw[0];
+    my @distDelayRaw = split("\n", <$fh2>);
+    $distDelay = $distDelayRaw[0];
+    my @distGranRaw = split("\n", <$fh2>);
+    $distGran = $distGranRaw[0];
+    my @distBindRaw = split("\n", <$fh2>);
+    $distBind = $distBindRaw[0];
+}
+
+# set up a disturbance command
+if ($distOnOff>0) {
+    if ($distDelay>0) {
+	$disturbance_app = "sleep " . $distDelay . " && ";
+    }
+    my $granFactor = 1000;
+    if ($distGran>0) {
+	$granFactor = $distGran * 1000;
+    }
+    my $bind_app = '';
+    if ($distBind ne "0") {
+	$bind_app = "numactl --physcpubind=" . $distBind;
+    }
+
+    $disturbance_app = $disturbance_app . $bind_app . " bin/rtview -nthreads=" . $distCores . " -frames=" . $granFactor . " &>/dev/null";
+}
+
+print "Disturbance app is $disturbance_app\n";
+
+my $numaNodes = 2;
+my $coresNode1 = 14;
+my $coresNode2 = 10;
+my $schedPeriod = 0.2;
+my $numaSchedPeriod = 10;
+my $osSched = 0;
+
+my ($wtr, $rdr, $err);
+my ($wtr_app, $rdr_app, $err_app); 
+my $pid;
+
+my $nrThreads = $ARGV[0];
+my $osSched = $ARGV[1];
+    
+&create_sched_file ($osSched, $nrThreads, $numaNodes, $coresNode1, $coresNode2, $schedPeriod, $numaSchedPeriod);
+if ($distOnOff > 0) {
+    $pid = open3 ($wtr, $rdr, $err, $disturbance_app);
+}
+
+my $output;
+my $output_dist;
+my @core;
+my @dist_core;
+my $timeStamp = 0;
+my $running = 1;
+
+# Blackscholes
+# my $app_pid = open3 ($wtr_app, $rdr_app, $err_app, "bin/blackscholes_pthreads_sched $nrThreads examples/blackscholes/inputs/in_64K.txt out.txt scheduler.conf");
+# Fluid Animate
+# my $app_pid = open3 ($wtr_app, $rdr_app, $err_app, "bin/fluidanimate $nrThreads 1000 examples/fluidanimate/inputs/in_300K.fluid scheduler.conf");
+# Matrix Multiplication
+my $app_pid = open3 ($wtr_app, $rdr_app, $err_app, "bin/matmult_pthreads $nrThreads 100000");
+
+my $threadsCreated = 0;
+
+print "App_pid is $app_pid\n";
+print "Disturbance app pid is $pid\n";
+$pid += 2;
+
+while (1) {
+    if ($distOnOff > 0) {
+	$output_dist = `ps -mo pid,tid,%cpu,psr -p $pid`;
+	my @list_dist = split ("\n", $output_dist);
+	my $listSize_dist = @list_dist;
+	if ($listSize_dist >= $distCores + 3) {
+	    for (my $i=0; $i<$distCores; $i++) {
+		my @dist_raw = split (" ", $list_dist[$i+3]);
+		$dist_core[$timeStamp][$i] = $dist_raw[3];
+	    }
+	}
+    }
+	
+    $output = `ps -mo pid,tid,%cpu,psr -p $app_pid`;
+    my @list = split ("\n", $output);
+    my $listSize = @list;
+    if ($listSize < $nrThreads + 3) {
+	if ($threadsCreated) {
+	    last;
+	} else {
+	    next;
+	}
+    } else {
+	$threadsCreated = 1;
+	for (my $i=0; $i<$nrThreads; $i++) {
+	    my @raw = split (" ", $list[$i+3]);
+	    $core[$timeStamp][$i] = $raw[3];
+	}
+	$timeStamp++;
+	nanosleep (20000000);
+    }
+}
+
+my $maxTime = &process_output($rdr_app);
+print "Max time is $maxTime\n";
+
+my $trace;
+open ($trace, ">", "schedule.trace");
+
+my @cores_load;
+my $max_cores=28;
+my $num_cores_load = 0;
+my $total_cores_load = 0;
+my $all_loads = 0;
+my $num_loads = 0;
+
+for (my $stamp=0; $stamp<$timeStamp; $stamp++) {
+    $total_cores_load = 0;
+    $num_cores_load = 0;
+    for (my $i=0; $i<$max_cores; $i++) {
+	$cores_load[$i] = 0;
+    }
+    #print ("--Disturbance cores:\n");
+    for (my $dtId=0; $dtId<$distCores; $dtId++) {
+	#print "$dist_core[$stamp][$dtId] ";
+	$cores_load[$dist_core[$stamp][$dtId]]++;
+    }
+    #print "\n";
+    for (my $tId=0; $tId<$nrThreads; $tId++) {
+	$cores_load[$core[$stamp][$tId]]++;
+	$num_cores_load++;
+	$total_cores_load += $cores_load[$core[$stamp][$tId]];
+    }
+    my $avg_load = $total_cores_load / $num_cores_load;
+    if ($avg_load < 28) {
+	$all_loads += $avg_load;
+	$num_loads++;
+    }
+    for (my $tId=0; $tId<$nrThreads; $tId++) {
+	print $trace "$core[$stamp][$tId]($cores_load[$core[$stamp][$tId]]) ";
+    }
+    print $trace "\n";
+}
+
+my $average_load = $all_loads / $num_loads;
+print "Average core load is $average_load\n";
+close ($trace);
+
+
+
+
+
+
+

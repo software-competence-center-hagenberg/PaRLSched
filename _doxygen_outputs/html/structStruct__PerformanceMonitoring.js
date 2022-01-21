@@ -1,0 +1,25 @@
+var structStruct__PerformanceMonitoring =
+[
+    [ "initialize", "structStruct__PerformanceMonitoring.html#a97d5962047f0577a68ddd420b1da8a1e", null ],
+    [ "initialize_w_child", "structStruct__PerformanceMonitoring.html#aa7963e7c54d30095a7283bbf49f4a61b", null ],
+    [ "update_run_average_balanced_performance", "structStruct__PerformanceMonitoring.html#a73b2ca8763d02a85aa900c17c2187d18", null ],
+    [ "update_run_average_performance", "structStruct__PerformanceMonitoring.html#adcdd8d9911b6ef408cfe6680ab1fda43", null ],
+    [ "update_run_average_performance_per_child_resource", "structStruct__PerformanceMonitoring.html#a797d2ddf9ac5543dbc8d1a1cc6a757ad", null ],
+    [ "update_run_average_performance_per_main_resource", "structStruct__PerformanceMonitoring.html#a19680cdaf279198b2065f97045aa7861", null ],
+    [ "alg_performance_", "structStruct__PerformanceMonitoring.html#ae83002b76dac4f7250f1f5f85609b61c", null ],
+    [ "balanced_performance_", "structStruct__PerformanceMonitoring.html#af0c1251314c796cae71ab26c207fc175", null ],
+    [ "max_performance_", "structStruct__PerformanceMonitoring.html#a6a66143217c890e69bde67de78a38c80", null ],
+    [ "min_performance_", "structStruct__PerformanceMonitoring.html#af00d1d134575d0f5ccc3088bc468ab89", null ],
+    [ "num_sources_", "structStruct__PerformanceMonitoring.html#a4511f5fefac78cf5e8af5328b9c4fd4e", null ],
+    [ "overall_balanced_performance_", "structStruct__PerformanceMonitoring.html#a08bc2db12b9e3a773ba69f5183615f51", null ],
+    [ "overall_performance_", "structStruct__PerformanceMonitoring.html#ada27304bbb88f857e4d732510127e1ae", null ],
+    [ "performance_", "structStruct__PerformanceMonitoring.html#a988731ba990b5c6b4ec504260de3f58e", null ],
+    [ "performance_update_ind_", "structStruct__PerformanceMonitoring.html#ab31eba22d1c2c5035bdee635c8209f4c", null ],
+    [ "resource_", "structStruct__PerformanceMonitoring.html#a4befcad39a937f6b5e700096c2c59db8", null ],
+    [ "run_average_balanced_performance_", "structStruct__PerformanceMonitoring.html#a2dcbd8f140c688c7efc2f5c755074d01", null ],
+    [ "run_average_balanced_performance_before_", "structStruct__PerformanceMonitoring.html#ab346e075b6035bd4cc75f4c6a3536c98", null ],
+    [ "run_average_performance_", "structStruct__PerformanceMonitoring.html#a05d5a654c9026decca3ea69752d7ef61", null ],
+    [ "vec_num_child_sources_", "structStruct__PerformanceMonitoring.html#a55cf855d80649986fbb2530ea0fe80ba", null ],
+    [ "vec_run_average_performances_per_child_resource_", "structStruct__PerformanceMonitoring.html#aba51ce2ae3d06715b36bb88676cff5ff", null ],
+    [ "vec_run_average_performances_per_main_resource_", "structStruct__PerformanceMonitoring.html#a3b3938a4d94d1432357d6f577aba7839", null ]
+];

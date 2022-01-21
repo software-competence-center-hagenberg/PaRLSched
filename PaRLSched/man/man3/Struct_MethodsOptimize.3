@@ -1,0 +1,31 @@
+.TH "Struct_MethodsOptimize" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_MethodsOptimize \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBRL_optimize\fP (const std::vector< double > &vec_cummulative_estimates, const unsigned int &num_choices, unsigned int &action, const double &LAMBDA, const double &current_run_ave_performance)"
+.br
+.ti -1c
+.RI "unsigned int \fBrandom_selection_uniform\fP (const unsigned int &num_choices)"
+.br
+.ti -1c
+.RI "unsigned int \fBrandom_selection_strategy\fP (const unsigned int &num_choices, const std::vector< double > &estimates)"
+.br
+.ti -1c
+.RI "void \fBAL_optimize\fP (const bool &random_switch, const bool &action_change, const double &run_average_balanced_performance, const std::vector< double > &run_ave_performance_per_main_resource, const double &low_benchmark, const double &high_benchmark, unsigned int &action, unsigned int &num_actions, const double &LAMBDA, const unsigned int &thread, const double &numa_switch_threshold)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 54 of file MethodsOptimize\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

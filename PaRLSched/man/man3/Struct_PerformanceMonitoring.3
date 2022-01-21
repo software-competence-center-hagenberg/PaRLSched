@@ -1,0 +1,91 @@
+.TH "Struct_PerformanceMonitoring" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_PerformanceMonitoring \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user)"
+.br
+.ti -1c
+.RI "void \fBinitialize_w_child\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > vec_max_num_child_sources_user)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance\fP (const double &performance, const double &step_size, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_balanced_performance\fP (const double &balanced_performance, const double &step_size, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance_per_main_resource\fP (const double &performance, const unsigned int &main_source, const double &step_size, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance_per_child_resource\fP (const double &performance, const unsigned int &main_source, const unsigned int &child_source, const double &step_size, const unsigned int &iteration)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBresource_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBnum_sources_\fP"
+.br
+.ti -1c
+.RI "double \fBperformance_\fP"
+.br
+.ti -1c
+.RI "double \fBbalanced_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBalg_performance_\fP"
+.br
+.ti -1c
+.RI "bool \fBperformance_update_ind_\fP"
+.br
+.ti -1c
+.RI "double \fBoverall_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBoverall_balanced_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBmin_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBmax_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_balanced_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_balanced_performance_before_\fP"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBvec_num_child_sources_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBvec_run_average_performances_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBvec_run_average_performances_per_child_resource_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 192 of file MethodsPerformanceMonitoring\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

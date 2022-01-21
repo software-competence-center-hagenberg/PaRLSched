@@ -1,0 +1,159 @@
+\hypertarget{classThreadControl}{\section{Thread\-Control Class Reference}
+\label{classThreadControl}\index{Thread\-Control@{Thread\-Control}}
+}
+
+
+{\ttfamily \#include $<$Thread\-Control.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classThreadControl_a3815813a93f12ae7a699ff0bf3090c19}{thd\-\_\-init\-\_\-counters} (pthread\-\_\-t thread\-\_\-id, void $\ast$arg)
+\item 
+bool \hyperlink{classThreadControl_acf328e5da7324314bcc3380e6e75de95}{thd\-\_\-init\-\_\-counters} (pthread\-\_\-t thread\-\_\-id, \hyperlink{structthread__info}{thread\-\_\-info} \&info)
+\item 
+bool \hyperlink{classThreadControl_a27b61f21b34d679d262ac31fea1a0029}{thd\-\_\-stop\-\_\-counters} (const int \&thread\-\_\-id, \hyperlink{structthread__info}{thread\-\_\-info} \&info)
+\item 
+bool \hyperlink{classThreadControl_a61d268caa2b8dd55ef1c412fa86ada25}{thd\-\_\-record\-\_\-counters} (pthread\-\_\-t thread, void $\ast$arg)
+\item 
+bool \hyperlink{classThreadControl_ac2d690ddd11e212efad6b2381ad0cce4}{thd\-\_\-record\-\_\-counters} (\hyperlink{structthread__info}{thread\-\_\-info} \&info)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classThreadControl}{Thread\-Control}
+
+It includes all the necessary functions for recording the thread performance counters 
+
+Definition at line 29 of file Thread\-Control.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classThreadControl_a3815813a93f12ae7a699ff0bf3090c19}{\index{Thread\-Control@{Thread\-Control}!thd\-\_\-init\-\_\-counters@{thd\-\_\-init\-\_\-counters}}
+\index{thd\-\_\-init\-\_\-counters@{thd\-\_\-init\-\_\-counters}!ThreadControl@{Thread\-Control}}
+\subsubsection[{thd\-\_\-init\-\_\-counters}]{\setlength{\rightskip}{0pt plus 5cm}bool Thread\-Control\-::thd\-\_\-init\-\_\-counters (
+\begin{DoxyParamCaption}
+\item[{pthread\-\_\-t}]{thread\-\_\-id, }
+\item[{void $\ast$}]{arg}
+\end{DoxyParamCaption}
+)}}\label{classThreadControl_a3815813a93f12ae7a699ff0bf3090c19}
+The function thd\-\_\-initialize\-\_\-counters initializes the P\-A\-P\-I counters
+
+
+\begin{DoxyParams}{Parameters}
+{\em thread\-\_\-id} & an integer I\-D of this thread \\
+\hline
+{\em arg} & the info related to this thread \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 28 of file Thread\-Control.\-cpp.
+
+\hypertarget{classThreadControl_acf328e5da7324314bcc3380e6e75de95}{\index{Thread\-Control@{Thread\-Control}!thd\-\_\-init\-\_\-counters@{thd\-\_\-init\-\_\-counters}}
+\index{thd\-\_\-init\-\_\-counters@{thd\-\_\-init\-\_\-counters}!ThreadControl@{Thread\-Control}}
+\subsubsection[{thd\-\_\-init\-\_\-counters}]{\setlength{\rightskip}{0pt plus 5cm}bool Thread\-Control\-::thd\-\_\-init\-\_\-counters (
+\begin{DoxyParamCaption}
+\item[{pthread\-\_\-t}]{thread\-\_\-id, }
+\item[{{\bf thread\-\_\-info} \&}]{info}
+\end{DoxyParamCaption}
+)}}\label{classThreadControl_acf328e5da7324314bcc3380e6e75de95}
+Initialize counters
+
+
+\begin{DoxyParams}{Parameters}
+{\em thread\-\_\-id} & \\
+\hline
+{\em info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 107 of file Thread\-Control.\-cpp.
+
+\hypertarget{classThreadControl_a61d268caa2b8dd55ef1c412fa86ada25}{\index{Thread\-Control@{Thread\-Control}!thd\-\_\-record\-\_\-counters@{thd\-\_\-record\-\_\-counters}}
+\index{thd\-\_\-record\-\_\-counters@{thd\-\_\-record\-\_\-counters}!ThreadControl@{Thread\-Control}}
+\subsubsection[{thd\-\_\-record\-\_\-counters}]{\setlength{\rightskip}{0pt plus 5cm}bool Thread\-Control\-::thd\-\_\-record\-\_\-counters (
+\begin{DoxyParamCaption}
+\item[{pthread\-\_\-t}]{thread, }
+\item[{void $\ast$}]{arg}
+\end{DoxyParamCaption}
+)}}\label{classThreadControl_a61d268caa2b8dd55ef1c412fa86ada25}
+It records the selected counters for this thread
+
+
+\begin{DoxyParams}{Parameters}
+{\em thread} & the I\-D \# of this thread \\
+\hline
+{\em arg} & the info of this thread \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 212 of file Thread\-Control.\-cpp.
+
+
+
+Referenced by Scheduler\-::retrieve\-\_\-performances().
+
+\hypertarget{classThreadControl_ac2d690ddd11e212efad6b2381ad0cce4}{\index{Thread\-Control@{Thread\-Control}!thd\-\_\-record\-\_\-counters@{thd\-\_\-record\-\_\-counters}}
+\index{thd\-\_\-record\-\_\-counters@{thd\-\_\-record\-\_\-counters}!ThreadControl@{Thread\-Control}}
+\subsubsection[{thd\-\_\-record\-\_\-counters}]{\setlength{\rightskip}{0pt plus 5cm}bool Thread\-Control\-::thd\-\_\-record\-\_\-counters (
+\begin{DoxyParamCaption}
+\item[{{\bf thread\-\_\-info} \&}]{info}
+\end{DoxyParamCaption}
+)}}\label{classThreadControl_ac2d690ddd11e212efad6b2381ad0cce4}
+Thread record counters
+
+
+\begin{DoxyParams}{Parameters}
+{\em info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 293 of file Thread\-Control.\-cpp.
+
+\hypertarget{classThreadControl_a27b61f21b34d679d262ac31fea1a0029}{\index{Thread\-Control@{Thread\-Control}!thd\-\_\-stop\-\_\-counters@{thd\-\_\-stop\-\_\-counters}}
+\index{thd\-\_\-stop\-\_\-counters@{thd\-\_\-stop\-\_\-counters}!ThreadControl@{Thread\-Control}}
+\subsubsection[{thd\-\_\-stop\-\_\-counters}]{\setlength{\rightskip}{0pt plus 5cm}bool Thread\-Control\-::thd\-\_\-stop\-\_\-counters (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{thread\-\_\-id, }
+\item[{{\bf thread\-\_\-info} \&}]{info}
+\end{DoxyParamCaption}
+)}}\label{classThreadControl_a27b61f21b34d679d262ac31fea1a0029}
+Stop counters
+
+
+\begin{DoxyParams}{Parameters}
+{\em thread\-\_\-id} & \\
+\hline
+{\em info} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 184 of file Thread\-Control.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Thread\-Control.\-h\item 
+Thread\-Control.\-cpp\end{DoxyCompactItemize}

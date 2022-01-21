@@ -1,0 +1,135 @@
+\hypertarget{structStruct__MethodsEstimate}{\section{Struct\-\_\-\-Methods\-Estimate Struct Reference}
+\label{structStruct__MethodsEstimate}\index{Struct\-\_\-\-Methods\-Estimate@{Struct\-\_\-\-Methods\-Estimate}}
+}
+
+
+{\ttfamily \#include $<$Methods\-Estimate.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{structStruct__MethodsEstimate_a79b0089392ec35169c185f465f88b675}{R\-L\-\_\-update} (double \&maximum\-\_\-performance, std\-::vector$<$ double $>$ \&vec\-\_\-estimates, std\-::vector$<$ double $>$ \&vec\-\_\-cummulative\-\_\-estimates, const double \&current\-\_\-performance, const double \&current\-\_\-run\-\_\-ave\-\_\-performance, const unsigned int \&current\-\_\-action, const bool \&action\-\_\-main\-\_\-changed, const double \&step\-\_\-size\-\_\-\-R\-L, const bool \&R\-L\-\_\-active\-\_\-reshuffling, const bool \&R\-L\-\_\-performance\-\_\-reshuffling, const double \&factor\-\_\-h, const bool \&active\-\_\-threads\-\_\-change, const unsigned int \&thread)
+\item 
+\hypertarget{structStruct__MethodsEstimate_a13f8ba793252f8883a1769dbee5ddaaa}{void {\bfseries R\-L\-\_\-reshuffle\-\_\-mixed} (std\-::vector$<$ double $>$ \&vec\-\_\-estimates)}\label{structStruct__MethodsEstimate_a13f8ba793252f8883a1769dbee5ddaaa}
+
+\item 
+void \hyperlink{structStruct__MethodsEstimate_a81e63589cf2c8a3f83fbef1a16491aea}{A\-L\-\_\-update} (const double \&current\-\_\-performance, const double \&current\-\_\-run\-\_\-ave\-\_\-performance, const double \&run\-\_\-ave\-\_\-performance\-\_\-before, const double \&step\-\_\-size, const bool \&active\-\_\-threads\-\_\-change, const unsigned int \&thread, double \&low\-\_\-benchmark, double \&high\-\_\-benchmark, bool \&random\-\_\-switch, bool \&action\-\_\-change)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This structure provides alternative methodologies for creating estimates over the best selection. Inputs\-: For now, we assume that it takes as inputs the following\-:
+\begin{DoxyItemize}
+\item prior estimate data (maybe not created under the same rule)
+\item current performance (this may take different values depending on the resource to be allocated) 
+\end{DoxyItemize}
+
+Definition at line 237 of file Methods\-Estimate.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structStruct__MethodsEstimate_a81e63589cf2c8a3f83fbef1a16491aea}{\index{Struct\-\_\-\-Methods\-Estimate@{Struct\-\_\-\-Methods\-Estimate}!A\-L\-\_\-update@{A\-L\-\_\-update}}
+\index{A\-L\-\_\-update@{A\-L\-\_\-update}!Struct_MethodsEstimate@{Struct\-\_\-\-Methods\-Estimate}}
+\subsubsection[{A\-L\-\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Methods\-Estimate\-::\-A\-L\-\_\-update (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{current\-\_\-performance, }
+\item[{const double \&}]{current\-\_\-run\-\_\-ave\-\_\-performance, }
+\item[{const double \&}]{run\-\_\-ave\-\_\-performance\-\_\-before, }
+\item[{const double \&}]{step\-\_\-size, }
+\item[{const bool \&}]{active\-\_\-threads\-\_\-change, }
+\item[{const unsigned int \&}]{thread, }
+\item[{double \&}]{low\-\_\-benchmark, }
+\item[{double \&}]{high\-\_\-benchmark, }
+\item[{bool \&}]{random\-\_\-switch, }
+\item[{bool \&}]{action\-\_\-change}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsEstimate_a81e63589cf2c8a3f83fbef1a16491aea}
+A\-L\-: Aspiration-\/\-Learning Estimates Update based on Running Average \hyperlink{structPerformance}{Performance}
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\-\_\-performance} & current performance \\
+\hline
+{\em current\-\_\-run\-\_\-ave\-\_\-performance} & current running average performance \\
+\hline
+{\em run\-\_\-ave\-\_\-performance\-\_\-before} & previous running average performance \\
+\hline
+{\em step\-\_\-size} & step size \\
+\hline
+{\em active\-\_\-threads\-\_\-change} & indicator that the active threads have changed \\
+\hline
+{\em thread} & thread indicator \\
+\hline
+{\em low\-\_\-benchmark} & low performance benchmark \\
+\hline
+{\em high\-\_\-benchmark} & high performance benchmark \\
+\hline
+{\em random\-\_\-switch} & indicator random switch of sources \\
+\hline
+{\em action\-\_\-change} & indicator that action has changed \\
+\hline
+\end{DoxyParams}
+$<$ Updating benchmarks 
+
+Definition at line 395 of file Methods\-Estimate.\-h.
+
+\hypertarget{structStruct__MethodsEstimate_a79b0089392ec35169c185f465f88b675}{\index{Struct\-\_\-\-Methods\-Estimate@{Struct\-\_\-\-Methods\-Estimate}!R\-L\-\_\-update@{R\-L\-\_\-update}}
+\index{R\-L\-\_\-update@{R\-L\-\_\-update}!Struct_MethodsEstimate@{Struct\-\_\-\-Methods\-Estimate}}
+\subsubsection[{R\-L\-\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Methods\-Estimate\-::\-R\-L\-\_\-update (
+\begin{DoxyParamCaption}
+\item[{double \&}]{maximum\-\_\-performance, }
+\item[{std\-::vector$<$ double $>$ \&}]{vec\-\_\-estimates, }
+\item[{std\-::vector$<$ double $>$ \&}]{vec\-\_\-cummulative\-\_\-estimates, }
+\item[{const double \&}]{current\-\_\-performance, }
+\item[{const double \&}]{current\-\_\-run\-\_\-ave\-\_\-performance, }
+\item[{const unsigned int \&}]{current\-\_\-action, }
+\item[{const bool \&}]{action\-\_\-main\-\_\-changed, }
+\item[{const double \&}]{step\-\_\-size\-\_\-\-R\-L, }
+\item[{const bool \&}]{R\-L\-\_\-active\-\_\-reshuffling, }
+\item[{const bool \&}]{R\-L\-\_\-performance\-\_\-reshuffling, }
+\item[{const double \&}]{factor\-\_\-h, }
+\item[{const bool \&}]{active\-\_\-threads\-\_\-change, }
+\item[{const unsigned int \&}]{thread}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsEstimate_a79b0089392ec35169c185f465f88b675}
+Provides a framework for creating estimates over the best action, by using the current selection and the current performance It is assumed that a set of 'finite' number of actions/selections is available (e.\-g., number of available nodes).
+
+
+\begin{DoxyParams}{Parameters}
+{\em maximum\-\_\-performance} & maximum performance observed so far \\
+\hline
+{\em vec\-\_\-estimates} & vector of estimates \\
+\hline
+{\em vec\-\_\-cummulative\-\_\-estimates} & vector of cummulative estimates \\
+\hline
+{\em current\-\_\-performance} & current performance \\
+\hline
+{\em current\-\_\-run\-\_\-ave\-\_\-performance} & current running average performance \\
+\hline
+{\em current\-\_\-action} & current action \\
+\hline
+{\em action\-\_\-main\-\_\-changed} & indicator that the action of the main resource has changed \\
+\hline
+{\em step\-\_\-size\-\_\-\-R\-L} & step size of R\-L algorithm \\
+\hline
+{\em R\-L\-\_\-active\-\_\-reshuffling} & strategies are reshuffled when a thread becomes inactive \\
+\hline
+{\em R\-L\-\_\-performance\-\_\-reshuffling} & strategies are reshuffled when the performance drops significantly \\
+\hline
+{\em factor\-\_\-h} & factor h of aspiration-\/based R\-L algorithm \\
+\hline
+{\em active\-\_\-threads\-\_\-change} & indicators that the active threads have changed \\
+\hline
+{\em thread} & thread number \\
+\hline
+\end{DoxyParams}
+We define a new step-\/size just for updating the R\-L 
+
+Definition at line 259 of file Methods\-Estimate.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Estimate.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,171 @@
+.TH "Struct_Estimate" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_Estimate \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MethodsEstimate\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const unsigned int &initial_action, const bool &mixed)"
+.br
+.ti -1c
+.RI "void \fBinitialize_w_child\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num)"
+.br
+.ti -1c
+.RI "void \fBupdate_estimates\fP (const std::vector< double > &vec_estimates)"
+.br
+.ti -1c
+.RI "void \fBupdate_child_estimate\fP (const std::vector< double > &vec_estimates, const unsigned int &source_num)"
+.br
+.ti -1c
+.RI "void \fBupdate_action\fP (const std::vector< double > &vec_estimates, const unsigned int &source_num)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBresource_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBnum_sources_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< unsigned int > > \fBvec_child_sources_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBvec_estimates_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBvec_cummulative_estimates_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_performance_\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBStruct_Estimate\fP > \fBvec_child_estimates_\fP"
+.br
+.ti -1c
+.RI "double \fBlow_benchmark_\fP"
+.br
+.ti -1c
+.RI "double \fBhigh_benchmark_\fP"
+.br
+.ti -1c
+.RI "double \fBmaximum_performance_\fP"
+.br
+.ti -1c
+.RI "bool \fBrandom_switch_\fP"
+.br
+.ti -1c
+.RI "bool \fBaction_change_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBStruct_Estimate\fP
+.PP
+It provides the necessary information for keeping track our estimates for the performance of a thread over a specific node/cpu or the performance of a thread's memory over a specific node (or some further refinement if possible)
+.PP
+This structure is planned for 'per-thread' use, since it will hold estimates over the proper use of resources by each thread separately\&.
+.PP
+Within this structure, there is an additional struct that tracks the performances of the threads throughout the running time\&. 
+.PP
+Definition at line 43 of file MethodsEstimate\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_Estimate::initialize (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const unsigned int &initial_action, const bool &mixed)\fC [inline]\fP"
+This function initializes the structure
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource\fP resource type 
+.br
+\fInum_sources\fP number of sources 
+.br
+\fImax_num_sources_user\fP maximum number of sources per user 
+.br
+\fIinitial_action\fP initial action 
+.br
+\fImixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file MethodsEstimate\&.h\&.
+.PP
+Referenced by initialize_w_child()\&.
+.SS "void Struct_Estimate::initialize_w_child (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num)\fC [inline]\fP"
+It is implicitly assumed that the main resource also has a child resource For example, in the case of PROCESSING_BANDWIDTH, the main sources correspond to the NUMA nodes (if available) while the child sources correspond to the CPU units available in each NUMA node\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource\fP resource type 
+.br
+\fInum_sources\fP number of sources 
+.br
+\fImax_num_sources_user\fP maximum number of sources per user 
+.br
+\fIchild_resource\fP child resource type 
+.br
+\fIvec_num_child_sources\fP vector of number of child sources 
+.br
+\fIvec_max_num_child_sources_user\fP vector of maximum number of child sources per user 
+.br
+\fIthread_num\fP thread number 
+.RE
+.PP
+
+.PP
+Definition at line 129 of file MethodsEstimate\&.h\&.
+.PP
+References Struct_Actions::compute_initial_action(), and initialize()\&.
+.SS "void Struct_Estimate::update_action (const std::vector< double > &vec_estimates, const unsigned int &source_num)\fC [inline]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvec_estimates\fP 
+.br
+\fIsource_num\fP 
+.RE
+.PP
+
+.PP
+Definition at line 225 of file MethodsEstimate\&.h\&.
+.SS "void Struct_Estimate::update_child_estimate (const std::vector< double > &vec_estimates, const unsigned int &source_num)\fC [inline]\fP"
+This function receives a vector of estimates for the child resources, and assigns it to the existing structure
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvec_estimates\fP 
+.br
+\fIsource_num\fP 
+.RE
+.PP
+
+.PP
+Definition at line 213 of file MethodsEstimate\&.h\&.
+.SS "void Struct_Estimate::update_estimates (const std::vector< double > &vec_estimates)\fC [inline]\fP"
+This function receives a vector of estimates, and assigns it to the existing structure
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvec_estimates\fP 
+.RE
+.PP
+
+.PP
+Definition at line 201 of file MethodsEstimate\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

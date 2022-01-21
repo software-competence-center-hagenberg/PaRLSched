@@ -1,0 +1,211 @@
+.TH "Scheduler" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Scheduler \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Scheduler\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBScheduler\fP (const std::string &in_file, const unsigned int &num_threads)"
+.br
+.ti -1c
+.RI "\fBScheduler\fP (const \fBScheduler\fP &other)"
+.br
+.ti -1c
+.RI "\fBScheduler\fP & \fBoperator=\fP (const \fBScheduler\fP &other)"
+.br
+.ti -1c
+.RI "void \fBinitialize\fP (const unsigned int &num_threads, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &step_size, const double &LAMBDA, const double &sched_period, const bool &suspend_threads, const bool &printout_strategies, const bool &printout_actions, const bool &write_to_files, const bool &write_to_files_details, const double &gamma, const bool &OS_mapping, const bool &RL_mapping, const bool &PR_mapping, const bool &ST_mapping, const bool &optimize_main_resource)"
+.br
+.ti -1c
+.RI "void \fBupdate\fP (const unsigned int &resource_ind, std::vector< bool > &update_inds)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBretrieve_performances\fP (const unsigned int &resource_ind)"
+.br
+.ti -1c
+.RI "void \fBperformance_preprocessing\fP (const unsigned int &resource_ind)"
+.br
+.ti -1c
+.RI "void \fBapply_scheduling_policy\fP ()"
+.br
+.ti -1c
+.RI "\fBthread_info\fP * \fBget_tinfo\fP (void)"
+.br
+.ti -1c
+.RI "const unsigned int & \fBget_number_threads\fP (void) const "
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void * \fBsend_wrapper\fP (void *object)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBcounter_of_threads_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBScheduler\fP 
+.PP
+Definition at line 36 of file Scheduler\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Scheduler::Scheduler (const std::string &in_file, const unsigned int &num_threads)"
+The first part defines the number of NUMA nodes that should be used for pinning
+.PP
+The first pair defines the number of CPU nodes that should be used for pinning from each NUMA node
+.PP
+NON-ADJUSTABLE PARAMETERS (Please, do not change the following)
+.PP
+Definition at line 274 of file Scheduler\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Scheduler::apply_scheduling_policy ()"
+Applying scheduling policy 
+.PP
+Definition at line 1535 of file Scheduler\&.cpp\&.
+.PP
+Referenced by run()\&.
+.SS "const unsigned int& Scheduler::get_number_threads (void) const\fC [inline]\fP"
+Get number of threads 
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 139 of file Scheduler\&.h\&.
+.SS "\fBthread_info\fP* Scheduler::get_tinfo (void)\fC [inline]\fP"
+Get information of thread 
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 122 of file Scheduler\&.h\&.
+.SS "void Scheduler::initialize (const unsigned int &num_threads, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &step_size, const double &LAMBDA, const double &sched_period, const bool &suspend_threads, const bool &printout_strategies, const bool &printout_actions, const bool &write_to_files, const bool &write_to_files_details, const double &gamma, const bool &OS_mapping, const bool &RL_mapping, const bool &PR_mapping, const bool &ST_mapping, const bool &optimize_main_resource)"
+Initialize \fBScheduler\fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInum_threads\fP Number of threads 
+.br
+\fIRL_active_reshuffling\fP Reshuffle RL strategies if active threads have changed 
+.br
+\fIRL_performance_reshuffling\fP Reshuffle RL strategies if performance of active threads has dropped significantly 
+.br
+\fIstep_size\fP Step size of RL algorithm 
+.br
+\fILAMBDA\fP Perturbation factor of RL algorithm 
+.br
+\fIsched_period\fP Scheduling period of the child resources 
+.br
+\fIsuspend_threads\fP Suspend threads when switching NUMA nodes 
+.br
+\fIprintout_strategies\fP 
+.br
+\fIprintout_actions\fP 
+.br
+\fIwrite_to_files\fP 
+.br
+\fIwrite_to_files_details\fP 
+.br
+\fIgamma\fP Factor related to the definition of the balanced performance indicator 
+.br
+\fIOS_mapping\fP Mapping according to the OS scheduler 
+.br
+\fIRL_mapping\fP Mapping according to the RL scheduler 
+.br
+\fIPR_mapping\fP Mapping according to a predefined map 
+.br
+\fIST_mapping\fP Perform also allocation of thread memory 
+.br
+\fIoptimize_main_resource\fP Optimize the use of NUMA nodes 
+.RE
+.PP
+
+.SS "void Scheduler::performance_preprocessing (const unsigned int &resource_ind)"
+Preprocessing of performances 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1364 of file Scheduler\&.cpp\&.
+.PP
+References Struct_OverallPerformance::update_ave_balanced_performance_per_main_resource(), Struct_OverallPerformance::update_ave_balanced_performances_per_main_resource_per_action(), Struct_OverallPerformance::update_ave_performance_per_main_resource(), Struct_OverallPerformance::update_num_threads_using_main_resource_per_action(), Struct_OverallPerformance::update_run_average_balanced_performance_per_main_resource(), Struct_OverallPerformance::update_run_average_balanced_performances_per_main_resource_per_action(), Struct_OverallPerformance::update_run_average_performance_per_main_resource(), Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource(), Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource_per_action(), and Struct_OverallPerformance::update_sum_performances_per_main_resource()\&.
+.PP
+Referenced by run()\&.
+.SS "void Scheduler::retrieve_performances (const unsigned int &resource_ind)"
+Retrieve performances
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1298 of file Scheduler\&.cpp\&.
+.PP
+References ThreadControl::thd_record_counters()\&.
+.PP
+Referenced by run()\&.
+.SS "void Scheduler::run ()"
+Run scheduler
+.PP
+\fBParameters:\fP
+.RS 4
+\fInum_threads\fP 
+.br
+\fIrl_mapping\fP NON-ADJUSTABLE PARAMETERS (Please, do not change the following) Parameters w\&.r\&.t\&. the RL_mapping algorithm 
+.RE
+.PP
+
+.PP
+Definition at line 856 of file Scheduler\&.cpp\&.
+.PP
+References apply_scheduling_policy(), performance_preprocessing(), retrieve_performances(), and update()\&.
+.SS "void Scheduler::update (const unsigned int &resource_ind, std::vector< bool > &update_inds)"
+Update scheduling decisions 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIupdate_inds\fP 
+.RE
+.PP
+
+.PP
+Definition at line 924 of file Scheduler\&.cpp\&.
+.PP
+Referenced by run()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__MethodsOptimize" kind="struct" prot="public">
+    <compoundname>Struct_MethodsOptimize</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1aae92e8b55e02d8f476c70fd84a817b2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsOptimize::RL_optimize</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;vec_cummulative_estimates, const unsigned int &amp;num_choices, unsigned int &amp;action, const double &amp;LAMBDA, const double &amp;current_run_ave_performance)</argsstring>
+        <name>RL_optimize</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_cummulative_estimates</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_choices</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>LAMBDA</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>current_run_ave_performance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="67" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="67" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1a02f7220d538eae22064174816dd73bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_MethodsOptimize::random_selection_uniform</definition>
+        <argsstring>(const unsigned int &amp;num_choices)</argsstring>
+        <name>random_selection_uniform</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_choices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="111" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="111" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1af46b3c9b62e65360adb3ac65d7ecd8d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_MethodsOptimize::random_selection_strategy</definition>
+        <argsstring>(const unsigned int &amp;num_choices, const std::vector&lt; double &gt; &amp;estimates)</argsstring>
+        <name>random_selection_strategy</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_choices</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>estimates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="136" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="136" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__MethodsOptimize_1aec0f2037974da6b68e4e0fa7f84b8fa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_MethodsOptimize::AL_optimize</definition>
+        <argsstring>(const bool &amp;random_switch, const bool &amp;action_change, const double &amp;run_average_balanced_performance, const std::vector&lt; double &gt; &amp;run_ave_performance_per_main_resource, const double &amp;low_benchmark, const double &amp;high_benchmark, unsigned int &amp;action, unsigned int &amp;num_actions, const double &amp;LAMBDA, const unsigned int &amp;thread, const double &amp;numa_switch_threshold)</argsstring>
+        <name>AL_optimize</name>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>random_switch</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>action_change</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>run_average_balanced_performance</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>run_ave_performance_per_main_resource</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>low_benchmark</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>high_benchmark</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>num_actions</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>LAMBDA</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>numa_switch_threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="170" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="171" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" line="55" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsOptimize.h" bodystart="54" bodyend="253"/>
+    <listofallmembers>
+      <member refid="structStruct__MethodsOptimize_1aec0f2037974da6b68e4e0fa7f84b8fa8" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>AL_optimize</name></member>
+      <member refid="structStruct__MethodsOptimize_1af46b3c9b62e65360adb3ac65d7ecd8d3" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>random_selection_strategy</name></member>
+      <member refid="structStruct__MethodsOptimize_1a02f7220d538eae22064174816dd73bf6" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>random_selection_uniform</name></member>
+      <member refid="structStruct__MethodsOptimize_1aae92e8b55e02d8f476c70fd84a817b2d" prot="public" virt="non-virtual"><scope>Struct_MethodsOptimize</scope><name>RL_optimize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

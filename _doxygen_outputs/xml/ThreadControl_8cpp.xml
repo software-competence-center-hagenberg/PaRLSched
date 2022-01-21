@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="ThreadControl_8cpp" kind="file">
+    <compoundname>ThreadControl.cpp</compoundname>
+    <includes refid="ThreadControl_8h" local="yes">ThreadControl.h</includes>
+    <incdepgraph>
+      <node id="120">
+        <label>ThreadControl.cpp</label>
+        <link refid="ThreadControl.cpp"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>stdlib.h</label>
+      </node>
+      <node id="136">
+        <label>map</label>
+      </node>
+      <node id="121">
+        <label>ThreadControl.h</label>
+        <link refid="ThreadControl_8h_source"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>papi.h</label>
+      </node>
+      <node id="123">
+        <label>pthread.h</label>
+      </node>
+      <node id="135">
+        <label>tuple</label>
+      </node>
+      <node id="127">
+        <label>unistd.h</label>
+      </node>
+      <node id="133">
+        <label>vector</label>
+      </node>
+      <node id="124">
+        <label>signal.h</label>
+      </node>
+      <node id="132">
+        <label>MethodsActions.h</label>
+        <link refid="MethodsActions_8h_source"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>time.h</label>
+      </node>
+      <node id="131">
+        <label>ThreadInfo.h</label>
+        <link refid="ThreadInfo_8h_source"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>sys/time.h</label>
+      </node>
+      <node id="122">
+        <label>iostream</label>
+      </node>
+      <node id="134">
+        <label>set</label>
+      </node>
+      <node id="125">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ThreadControl_8cpp_1a66fb1d7b7be5c883434c0337ca0ec491" prot="public" static="no" mutable="no">
+        <type>pthread_mutex_t</type>
+        <definition>pthread_mutex_t mut_init_counters</definition>
+        <argsstring></argsstring>
+        <name>mut_init_counters</name>
+        <initializer>= PTHREAD_MUTEX_INITIALIZER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" line="19" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ThreadControl_8cpp_1ac9b43649ac199053b585b573135d898a" prot="public" static="no" mutable="no">
+        <type><ref refid="structthread__info" kindref="compound">thread_info</ref> *</type>
+        <definition>thread_info* object</definition>
+        <argsstring></argsstring>
+        <name>object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" line="21" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ThreadControl_8cpp_1a7987a28cc6a8d710327a3997897f6f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pthread_t</type>
+        <definition>pthread_t wrapper</definition>
+        <argsstring>(void)</argsstring>
+        <name>wrapper</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" line="23" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>ThreadControl.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>May<sp/>2,<sp/>2016</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Georgios<sp/>Chasparis</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ThreadControl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">ThreadControl::ThreadControl()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">ThreadControl::~ThreadControl()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">pthread_mutex_t<sp/>mut_init_counters<sp/>=<sp/>PTHREAD_MUTEX_INITIALIZER;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="structthread__info" kindref="compound">thread_info</ref><sp/>*<sp/>object;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">pthread_t<sp/>wrapper(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">-&gt;return_thread_id();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classThreadControl_1a3815813a93f12ae7a699ff0bf3090c19" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classThreadControl_1a3815813a93f12ae7a699ff0bf3090c19" kindref="member">ThreadControl::thd_init_counters</ref><sp/>(pthread_t<sp/>target_thread,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>arg)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structthread__info" kindref="compound">thread_info</ref><sp/>*<sp/>info<sp/>=<sp/>(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="structthread__info" kindref="compound">thread_info</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(arg));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Initializing<sp/>Performance<sp/>Counters<sp/>for<sp/>thread<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>info-&gt;tid<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>In<sp/>this<sp/>part,<sp/>I<sp/>was<sp/>experimenting<sp/>with<sp/>replacing<sp/>the<sp/>pthread_self()<sp/>command,<sp/>that<sp/>retrieves<sp/>the<sp/>ID<sp/>of<sp/>the<sp/>thread</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>but<sp/>it<sp/>may<sp/>only<sp/>run<sp/>within<sp/>the<sp/>thread<sp/>itself.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Now<sp/>the<sp/>ID<sp/>is<sp/>retrieved<sp/>through<sp/>the<sp/>info<sp/>of<sp/>each<sp/>thread,<sp/>and<sp/>by<sp/>assigning<sp/>the<sp/>corresponding<sp/>ID<sp/>to<sp/>the<sp/>global<sp/>variable<sp/>&apos;wrapper&apos;</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>initialization<sp/>works<sp/>properly,<sp/>which<sp/>means<sp/>that<sp/>this<sp/>function<sp/>can<sp/>be<sp/>called<sp/>outside<sp/>the<sp/>thread_execute<sp/>function<sp/>(i.e.,<sp/>it<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>called<sp/>from<sp/>the<sp/>scheduler).<sp/>But,<sp/>I<sp/>haven&apos;t<sp/>tried<sp/>that<sp/>yet.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_mutex_lock(&amp;mut_init_counters);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_thread_init(pthread_self)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;EVENT_SET<sp/>=<sp/>PAPI_NULL;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Create<sp/>the<sp/>Event<sp/>Set<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_create_eventset(&amp;info-&gt;EVENT_SET)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Add<sp/>Total<sp/>Instructions<sp/>Executed<sp/>to<sp/>our<sp/>EventSet<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_TOT_INS)<sp/>!=<sp/>PAPI_OK)<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>PAPI_TOT_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Add<sp/>Total<sp/>Cycles<sp/>to<sp/>our<sp/>EventSet<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_LST_INS)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Cycles<sp/>stalled<sp/>waiting<sp/>for<sp/>memory<sp/>accesses<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_TOT_CYC)<sp/>!=<sp/>PAPI_OK)<sp/>//PAPI_LST_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(&quot;%s:%d\t<sp/>ERROR\n&quot;,<sp/>__FILE__,<sp/>__LINE__);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>L1-Data<sp/>Misses*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_L1_DCM)<sp/>!=<sp/>PAPI_OK)<sp/></highlight><highlight class="comment">//PAPI_LST_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Data-Translation<sp/>lookaside<sp/>buffer<sp/>misses*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_TLB_DM)<sp/>!=<sp/>PAPI_OK)<sp/></highlight><highlight class="comment">//PAPI_LST_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_L1_DCM)<sp/>!=<sp/>PAPI_OK)<sp/>//<sp/>L1<sp/>Data<sp/>Misses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(&quot;%s:%d\t<sp/>ERROR\n&quot;,<sp/>__FILE__,<sp/>__LINE__);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_LD_INS)<sp/>!=<sp/>PAPI_OK)<sp/>//<sp/>L1<sp/>Data<sp/>Misses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(&quot;%s:%d\t<sp/>ERROR\n&quot;,<sp/>__FILE__,<sp/>__LINE__);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(PAPI_add_event(info-&gt;EVENT_SET,<sp/>PAPI_SR_INS)<sp/>!=<sp/>PAPI_OK)<sp/>//<sp/>L1<sp/>Data<sp/>Misses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(&quot;%s:%d\t<sp/>ERROR\n&quot;,<sp/>__FILE__,<sp/>__LINE__);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Start<sp/>counting<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_start(info-&gt;EVENT_SET)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;performance<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;performance_before<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Initializing<sp/>time</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tim;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>gettimeofday(&amp;tim,<sp/>NULL);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;time_init<sp/>=<sp/>(double)tim.tv_sec+((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)tim.tv_usec/1000000.0);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;time_before<sp/>=<sp/>info-&gt;time_init;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_mutex_unlock(&amp;mut_init_counters);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="classThreadControl_1acf328e5da7324314bcc3380e6e75de95" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classThreadControl_1a3815813a93f12ae7a699ff0bf3090c19" kindref="member">ThreadControl::thd_init_counters</ref><sp/>(pthread_t<sp/>thread_id,<sp/><ref refid="structthread__info" kindref="compound">thread_info</ref>&amp;<sp/>info)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Experimenting<sp/>with<sp/>replacing<sp/>the<sp/>pthread_self()<sp/>command,<sp/>that<sp/>retrieves<sp/>the<sp/>ID<sp/>of<sp/>the<sp/>thread</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>but<sp/>it<sp/>may<sp/>only<sp/>run<sp/>within<sp/>the<sp/>thread<sp/>itself.</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Now<sp/>the<sp/>ID<sp/>is<sp/>retrieved<sp/>through<sp/>the<sp/>info<sp/>of<sp/>each<sp/>thread,<sp/>and<sp/>by<sp/>assigning<sp/>the<sp/>corresponding<sp/>ID<sp/>to<sp/>the<sp/>global<sp/>variable<sp/>&apos;wrapper&apos;</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>initialization<sp/>works<sp/>properly,<sp/>which<sp/>means<sp/>that<sp/>this<sp/>function<sp/>can<sp/>be<sp/>called<sp/>outside<sp/>the<sp/>thread_execute<sp/>function<sp/>(i.e.,<sp/>it<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>called<sp/>from<sp/>the<sp/>scheduler).<sp/>However,<sp/>it<sp/>has<sp/>not<sp/>been<sp/>tested<sp/>properly.</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_mutex_lock(&amp;mut_init_counters);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>info.thread_id<sp/>=<sp/>thread_id;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(PAPI_thread_init((unsigned<sp/>long<sp/>(*)<sp/>(void))<sp/>(thread_num))<sp/>!=<sp/>PAPI_OK)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_thread_init(pthread_self)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>info.EVENT_SET<sp/>=<sp/>PAPI_NULL;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Create<sp/>the<sp/>Event<sp/>Set<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_create_eventset(&amp;info.EVENT_SET)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Add<sp/>Total<sp/>Instructions<sp/>Executed<sp/>to<sp/>our<sp/>EventSet<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info.EVENT_SET,<sp/>PAPI_TOT_INS)<sp/>!=<sp/>PAPI_OK)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>PAPI_TOT_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Add<sp/>Total<sp/>Cycles<sp/>to<sp/>our<sp/>EventSet<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info.EVENT_SET,<sp/>PAPI_LST_INS)<sp/>!=<sp/>PAPI_OK)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>/*<sp/>Cycles<sp/>stalled<sp/>waiting<sp/>for<sp/>memory<sp/>accesses<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(PAPI_add_event(info.EVENT_SET,<sp/>PAPI_TOT_CYC)<sp/>!=<sp/>PAPI_OK)<sp/>//PAPI_LST_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(&quot;%s:%d\t<sp/>ERROR\n&quot;,<sp/>__FILE__,<sp/>__LINE__);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>L1-Data<sp/>Misses*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info.EVENT_SET,<sp/>PAPI_L1_DCM)<sp/>!=<sp/>PAPI_OK)<sp/></highlight><highlight class="comment">//PAPI_LST_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Data-Translation<sp/>lookaside<sp/>buffer<sp/>misses*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_add_event(info.EVENT_SET,<sp/>PAPI_TLB_DM)<sp/>!=<sp/>PAPI_OK)<sp/></highlight><highlight class="comment">//PAPI_LST_INS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Start<sp/>counting<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_start(info.EVENT_SET)<sp/>!=<sp/>PAPI_OK){</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>PAPI<sp/>started<sp/>for<sp/>thread_id<sp/>=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>info.thread_id<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>info.performance<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>info.performance_before<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>info.loadstore_ins_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>info.loadstore_ins_before_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>info.L1misses_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>info.L1misses_before_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>info.tlb_dm_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>info.tlb_dm_before_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Initializing<sp/>time</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tim;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>gettimeofday(&amp;tim,<sp/>NULL);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>info.time_init<sp/>=<sp/>(double)tim.tv_sec+((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)tim.tv_usec/1000000.0);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>info.time_before<sp/>=<sp/>info.time_init;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_mutex_unlock(&amp;mut_init_counters);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="classThreadControl_1a27b61f21b34d679d262ac31fea1a0029" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classThreadControl_1a27b61f21b34d679d262ac31fea1a0029" kindref="member">ThreadControl::thd_stop_counters</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;<sp/>thread_id,<sp/><ref refid="structthread__info" kindref="compound">thread_info</ref>&amp;<sp/>info)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Terminating<sp/>Performance<sp/>Counters<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>In<sp/>this<sp/>part,<sp/>I<sp/>was<sp/>experimenting<sp/>with<sp/>replacing<sp/>the<sp/>pthread_self()<sp/>command,<sp/>that<sp/>retrieves<sp/>the<sp/>ID<sp/>of<sp/>the<sp/>thread</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>but<sp/>it<sp/>may<sp/>only<sp/>run<sp/>within<sp/>the<sp/>thread<sp/>itself.</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Now<sp/>the<sp/>ID<sp/>is<sp/>retrieved<sp/>through<sp/>the<sp/>info<sp/>of<sp/>each<sp/>thread,<sp/>and<sp/>by<sp/>assigning<sp/>the<sp/>corresponding<sp/>ID<sp/>to<sp/>the<sp/>global<sp/>variable<sp/>&apos;wrapper&apos;</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>initialization<sp/>works<sp/>properly,<sp/>which<sp/>means<sp/>that<sp/>this<sp/>function<sp/>can<sp/>be<sp/>called<sp/>outside<sp/>the<sp/>thread_execute<sp/>function<sp/>(i.e.,<sp/>it<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>called<sp/>from<sp/>the<sp/>scheduler).<sp/>But,<sp/>I<sp/>haven&apos;t<sp/>tried<sp/>that<sp/>yet.</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_mutex_lock(&amp;mut_init_counters);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>object<sp/>=<sp/>new<sp/>thread_info(*info);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>values[3];</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_stop(info.EVENT_SET,<sp/>values)<sp/>!=<sp/>PAPI_OK){</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>pthread_mutex_unlock(&amp;mut_init_counters);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="classThreadControl_1a61d268caa2b8dd55ef1c412fa86ada25" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classThreadControl_1a61d268caa2b8dd55ef1c412fa86ada25" kindref="member">ThreadControl::thd_record_counters</ref><sp/>(pthread_t<sp/>thread,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>arg)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structthread__info" kindref="compound">thread_info</ref><sp/>*<sp/>info<sp/>=<sp/>(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="structthread__info" kindref="compound">thread_info</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(arg));</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info-&gt;status<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Read<sp/>Performances<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>values[3];</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_read(info-&gt;EVENT_SET,<sp/>values)<sp/>!=<sp/>PAPI_OK){</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Retrieving<sp/>the<sp/>current<sp/>time</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tim;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>current_time;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>gettimeofday(&amp;tim,<sp/>NULL);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>current_time<sp/>=<sp/>(double)tim.tv_sec+((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)tim.tv_usec/1000000.0);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;time<sp/>=<sp/>current_time;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updating<sp/>the<sp/>performance<sp/>of<sp/>this<sp/>thread...</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>We<sp/>define<sp/>performance<sp/>as<sp/>the<sp/>total<sp/>instructions<sp/>completed</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance<sp/>=<sp/>((double)values[0]<sp/>-<sp/>info-&gt;performance_before)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance_before<sp/>=<sp/>(double)values[0];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance_update_ind<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance<sp/>=<sp/>((double)values[0]<sp/>-<sp/>1<sp/>*<sp/>(double)values[1]<sp/>-<sp/>info-&gt;performance_before)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance_before<sp/>=<sp/>(double)values[0]<sp/>-<sp/>1<sp/>*<sp/>(double)values[1];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance_update_ind<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;total_completed_ins_<sp/>=<sp/>((double)values[0]<sp/>-<sp/>info-&gt;total_completed_ins_before_)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;total_completed_ins_before_<sp/>=<sp/>(double)values[0];</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;total_cyc_<sp/>=<sp/>((double)values[1]-info-&gt;total_cyc_before_)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;total_cyc_before_<sp/>=<sp/>(double)values[1];</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;loadstore_ins_<sp/>=<sp/>((double)values[2]<sp/>-<sp/>info-&gt;loadstore_ins_before_)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;loadstore_ins_before_<sp/>=<sp/>(double)values[2];</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;L1misses_<sp/>=<sp/>((double)values[3]<sp/>-<sp/>info-&gt;L1misses_before_)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;L1misses_before_<sp/>=<sp/>(double)values[3];</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;tlb_dm_<sp/>=<sp/>((double)values[4]<sp/>-<sp/>info-&gt;tlb_dm_before_)/(info-&gt;time<sp/>-<sp/>info-&gt;time_before);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;tlb_dm_before_<sp/>=<sp/>(double)values[4];</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance<sp/>=<sp/>info-&gt;total_completed_ins_<sp/>-<sp/>10*info-&gt;L1misses_;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>info-&gt;performance_before<sp/>=<sp/>info-&gt;total_completed_ins_before_<sp/>-<sp/>10*info-&gt;L1misses_before_;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;performance<sp/>=<sp/>info-&gt;total_completed_ins_;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;performance_before<sp/>=<sp/>info-&gt;total_completed_ins_before_;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;performance_update_ind<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Printing<sp/>out<sp/>counters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/>Thread<sp/>:<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>TOTAL<sp/>instructions<sp/>/<sp/>sec<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;total_completed_ins_<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>TOTAL<sp/>cycles<sp/>/<sp/>sec<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;total_cyc_<sp/><sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>Load/Store<sp/>instructions<sp/>/<sp/>sec<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;loadstore_ins_<sp/><sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>L1<sp/>cache<sp/>misses<sp/>/<sp/>sec<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;L1misses_<sp/><sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>total<sp/>Ins<sp/>/<sp/>Load-Store<sp/>Ins<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;performance<sp/>/<sp/>info-&gt;loadstore_ins_<sp/><sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>LoadStore<sp/>Instructions<sp/>/<sp/>L1<sp/>misses<sp/>/<sp/>sec<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;loadstore_ins_<sp/>/<sp/>info-&gt;L1misses_<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;thread_num<sp/>&lt;&lt;<sp/>&quot;<sp/>Data<sp/>Translations<sp/>/<sp/>LoadStore<sp/>Instructions<sp/>/<sp/>sec<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>info-&gt;tlb_dm_<sp/>/<sp/>info-&gt;loadstore_ins_<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="281"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updating<sp/>the<sp/>elapsed<sp/>time</highlight></codeline>
+<codeline lineno="282"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;termination_time<sp/>+=<sp/>info-&gt;time<sp/>-<sp/>info-&gt;time_before;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updating<sp/>the<sp/>last<sp/>recording<sp/>time</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;time_before<sp/>=<sp/>current_time;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="classThreadControl_1ac2d690ddd11e212efad6b2381ad0cce4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classThreadControl_1a61d268caa2b8dd55ef1c412fa86ada25" kindref="member">ThreadControl::thd_record_counters</ref><sp/>(<ref refid="structthread__info" kindref="compound">thread_info</ref>&amp;<sp/>info)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;Retrieving<sp/>Performance<sp/>Counters&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>thread_info<sp/>*<sp/>info<sp/>=<sp/>(static_cast&lt;thread_info*&gt;(arg));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info.status<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Read<sp/>Performances<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>values[3];</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PAPI_read(info.EVENT_SET,<sp/>values)<sp/>!=<sp/>PAPI_OK){</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d\t<sp/>ERROR\n&quot;</highlight><highlight class="normal">,<sp/>__FILE__,<sp/>__LINE__);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Retrieving<sp/>the<sp/>current<sp/>time</highlight></codeline>
+<codeline lineno="310"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tim;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>current_time;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>gettimeofday(&amp;tim,<sp/>NULL);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>current_time<sp/>=<sp/>(double)tim.tv_sec+((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)tim.tv_usec/1000000.0);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>info.time<sp/>=<sp/>current_time;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updating<sp/>the<sp/>performance<sp/>of<sp/>this<sp/>thread...</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>info.performance<sp/>=<sp/>((double)values[0]<sp/>-<sp/>info.performance_before)/(info.time<sp/>-<sp/>info.time_before);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>info.performance_before<sp/>=<sp/>(double)values[0];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>info.performance_update_ind<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="326"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updating<sp/>the<sp/>elapsed<sp/>time</highlight></codeline>
+<codeline lineno="327"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>info.termination_time<sp/>+=<sp/>info.time<sp/>-<sp/>info.time_before;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Updating<sp/>the<sp/>last<sp/>recording<sp/>time</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>info.time_before<sp/>=<sp/>current_time;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp"/>
+  </compounddef>
+</doxygen>

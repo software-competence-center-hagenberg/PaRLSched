@@ -1,0 +1,67 @@
+\hypertarget{structStruct__Actions}{\section{Struct\-\_\-\-Actions Struct Reference}
+\label{structStruct__Actions}\index{Struct\-\_\-\-Actions@{Struct\-\_\-\-Actions}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__Actions_ad28379afcba301fca72e1e6939fa4c4f}{void {\bfseries initialize} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, std\-::vector$<$ unsigned int $>$ \&action\-\_\-main\-\_\-old, const unsigned int \&thread\-\_\-num)}\label{structStruct__Actions_ad28379afcba301fca72e1e6939fa4c4f}
+
+\item 
+\hypertarget{structStruct__Actions_a65aec6da3f4aa08047e285566fe45487}{void {\bfseries initialize\-\_\-w\-\_\-child} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const std\-::string \&child\-\_\-resource, const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num, std\-::vector$<$ unsigned int $>$ \&action\-\_\-main\-\_\-old, const unsigned int \&policy, const unsigned int \&neighborhood\-\_\-size)}\label{structStruct__Actions_a65aec6da3f4aa08047e285566fe45487}
+
+\item 
+\hypertarget{structStruct__Actions_a2d1d697fe7778e807179b7bef8c809db}{std\-::vector$<$ unsigned int $>$ {\bfseries compute\-\_\-initial\-\_\-action} (const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num, const unsigned int \&max\-\_\-number\-\_\-available\-\_\-main\-\_\-sources)}\label{structStruct__Actions_a2d1d697fe7778e807179b7bef8c809db}
+
+\item 
+\hypertarget{structStruct__Actions_a41346a1cddc836c0fcf0509debb5bcd6}{std\-::vector$<$ unsigned int $>$ {\bfseries compute\-\_\-initial\-\_\-action\-\_\-rr} (const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num)}\label{structStruct__Actions_a41346a1cddc836c0fcf0509debb5bcd6}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__Actions_ac929169603c419d6a0d1e6cb8dacc980}{std\-::string {\bfseries resource\-\_\-}}\label{structStruct__Actions_ac929169603c419d6a0d1e6cb8dacc980}
+
+\item 
+\hypertarget{structStruct__Actions_aa3d36d82f026212fb1f59dac88da98b2}{std\-::string {\bfseries child\-\_\-resource\-\_\-}}\label{structStruct__Actions_aa3d36d82f026212fb1f59dac88da98b2}
+
+\item 
+\hypertarget{structStruct__Actions_a5042128cbd5fb915614f1309ad1b2cf2}{unsigned int {\bfseries num\-\_\-actions\-\_\-main\-\_\-resource\-\_\-}}\label{structStruct__Actions_a5042128cbd5fb915614f1309ad1b2cf2}
+
+\item 
+\hypertarget{structStruct__Actions_a7e5104b8c833631f55201f20433680f4}{std\-::vector$<$ unsigned int $>$ {\bfseries vec\-\_\-num\-\_\-child\-\_\-actions\-\_\-per\-\_\-main\-\_\-resource\-\_\-}}\label{structStruct__Actions_a7e5104b8c833631f55201f20433680f4}
+
+\item 
+\hypertarget{structStruct__Actions_ae03ee4c360ea92bd7c381d113047c11f}{std\-::map$<$ std\-::tuple$<$ unsigned \\*
+int, unsigned int, unsigned \\*
+int $>$, std\-::vector$<$ unsigned \\*
+int $>$ $>$ {\bfseries map\-\_\-neighbors\-\_\-}}\label{structStruct__Actions_ae03ee4c360ea92bd7c381d113047c11f}
+
+\item 
+\hypertarget{structStruct__Actions_a687f670fd743b3c4ae86daf8cf2be3b4}{unsigned int {\bfseries action\-\_\-per\-\_\-main\-\_\-source\-\_\-}}\label{structStruct__Actions_a687f670fd743b3c4ae86daf8cf2be3b4}
+
+\item 
+\hypertarget{structStruct__Actions_a500af033d64e40e926d47ca3abb69397}{unsigned int {\bfseries previous\-\_\-action\-\_\-per\-\_\-main\-\_\-source\-\_\-}}\label{structStruct__Actions_a500af033d64e40e926d47ca3abb69397}
+
+\item 
+\hypertarget{structStruct__Actions_a58e3c004e83fe50762c69d6d4bc50022}{unsigned int {\bfseries action\-\_\-per\-\_\-child\-\_\-source\-\_\-}}\label{structStruct__Actions_a58e3c004e83fe50762c69d6d4bc50022}
+
+\item 
+\hypertarget{structStruct__Actions_abf351c2b735511e15a54c3821002b9da}{unsigned int {\bfseries previous\-\_\-action\-\_\-per\-\_\-child\-\_\-source\-\_\-}}\label{structStruct__Actions_abf351c2b735511e15a54c3821002b9da}
+
+\item 
+\hypertarget{structStruct__Actions_aae321f0f30f1249a87113e4dd9644630}{std\-::vector$<$ std\-::vector\\*
+$<$ unsigned int $>$ $>$ {\bfseries vec\-\_\-child\-\_\-sources\-\_\-}}\label{structStruct__Actions_aae321f0f30f1249a87113e4dd9644630}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 26 of file Methods\-Actions.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Actions.\-h\end{DoxyCompactItemize}

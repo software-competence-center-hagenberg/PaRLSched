@@ -1,0 +1,192 @@
+\hypertarget{structStruct__MethodsOptimize}{\section{Struct\-\_\-\-Methods\-Optimize Struct Reference}
+\label{structStruct__MethodsOptimize}\index{Struct\-\_\-\-Methods\-Optimize@{Struct\-\_\-\-Methods\-Optimize}}
+}
+
+
+{\ttfamily \#include $<$Methods\-Optimize.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{structStruct__MethodsOptimize_aae92e8b55e02d8f476c70fd84a817b2d}{R\-L\-\_\-optimize} (const std\-::vector$<$ double $>$ \&vec\-\_\-cummulative\-\_\-estimates, const unsigned int \&num\-\_\-choices, unsigned int \&action, const double \&L\-A\-M\-B\-D\-A, const double \&current\-\_\-run\-\_\-ave\-\_\-performance)
+\item 
+unsigned int \hyperlink{structStruct__MethodsOptimize_a02f7220d538eae22064174816dd73bf6}{random\-\_\-selection\-\_\-uniform} (const unsigned int \&num\-\_\-choices)
+\item 
+unsigned int \hyperlink{structStruct__MethodsOptimize_af46b3c9b62e65360adb3ac65d7ecd8d3}{random\-\_\-selection\-\_\-strategy} (const unsigned int \&num\-\_\-choices, const std\-::vector$<$ double $>$ \&estimates)
+\item 
+void \hyperlink{structStruct__MethodsOptimize_aec0f2037974da6b68e4e0fa7f84b8fa8}{A\-L\-\_\-optimize} (const bool \&random\-\_\-switch, const bool \&action\-\_\-change, const double \&run\-\_\-average\-\_\-balanced\-\_\-performance, const std\-::vector$<$ double $>$ \&run\-\_\-ave\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource, const double \&low\-\_\-benchmark, const double \&high\-\_\-benchmark, unsigned int \&action, unsigned int \&num\-\_\-actions, const double \&L\-A\-M\-B\-D\-A, const unsigned int \&thread, const double \&numa\-\_\-switch\-\_\-threshold)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+It provides the necessary functions/algorithms for optimizing the selection of resources from the threads. It may or may not make use of the estimates over the most rewarding resources, as created by the \hyperlink{MethodsEstimate_8h_source}{Methods\-Estimate.\-h} library. 
+
+Definition at line 24 of file Methods\-Optimize.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structStruct__MethodsOptimize_aec0f2037974da6b68e4e0fa7f84b8fa8}{\index{Struct\-\_\-\-Methods\-Optimize@{Struct\-\_\-\-Methods\-Optimize}!A\-L\-\_\-optimize@{A\-L\-\_\-optimize}}
+\index{A\-L\-\_\-optimize@{A\-L\-\_\-optimize}!Struct_MethodsOptimize@{Struct\-\_\-\-Methods\-Optimize}}
+\subsubsection[{A\-L\-\_\-optimize}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Methods\-Optimize\-::\-A\-L\-\_\-optimize (
+\begin{DoxyParamCaption}
+\item[{const bool \&}]{random\-\_\-switch, }
+\item[{const bool \&}]{action\-\_\-change, }
+\item[{const double \&}]{run\-\_\-average\-\_\-balanced\-\_\-performance, }
+\item[{const std\-::vector$<$ double $>$ \&}]{run\-\_\-ave\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource, }
+\item[{const double \&}]{low\-\_\-benchmark, }
+\item[{const double \&}]{high\-\_\-benchmark, }
+\item[{unsigned int \&}]{action, }
+\item[{unsigned int \&}]{num\-\_\-actions, }
+\item[{const double \&}]{L\-A\-M\-B\-D\-A, }
+\item[{const unsigned int \&}]{thread, }
+\item[{const double \&}]{numa\-\_\-switch\-\_\-threshold}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsOptimize_aec0f2037974da6b68e4e0fa7f84b8fa8}
+It provides a framework for computing the optimal allocation of resources based on Aspiration Learning
+
+
+\begin{DoxyParams}{Parameters}
+{\em random\-\_\-switch} & Indicator that a Random Switch should be executed \\
+\hline
+{\em action\-\_\-change} & Indicator that the action should be changed \\
+\hline
+{\em run\-\_\-average\-\_\-balanced\-\_\-performance} & Running average balanced performance \\
+\hline
+{\em run\-\_\-ave\-\_\-performance\-\_\-per\-\_\-main\-\_\-resource} & Running average performance per main resource \\
+\hline
+{\em low\-\_\-benchmark} & Low benchmark of aspiration learning \\
+\hline
+{\em high\-\_\-benchmark} & High benchmark of aspiration learning \\
+\hline
+{\em action} & Action \\
+\hline
+{\em num\-\_\-actions} & Number of actions \\
+\hline
+{\em L\-A\-M\-B\-D\-A} & Perturbation factor \\
+\hline
+{\em thread} & Thread indicator \\
+\hline
+{\em numa\-\_\-switch\-\_\-threshold} & Threshold over which the N\-U\-M\-A (main resource) is updated \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 143 of file Methods\-Optimize.\-h.
+
+
+
+References random\-\_\-selection\-\_\-uniform().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structStruct__MethodsOptimize_aec0f2037974da6b68e4e0fa7f84b8fa8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structStruct__MethodsOptimize_af46b3c9b62e65360adb3ac65d7ecd8d3}{\index{Struct\-\_\-\-Methods\-Optimize@{Struct\-\_\-\-Methods\-Optimize}!random\-\_\-selection\-\_\-strategy@{random\-\_\-selection\-\_\-strategy}}
+\index{random\-\_\-selection\-\_\-strategy@{random\-\_\-selection\-\_\-strategy}!Struct_MethodsOptimize@{Struct\-\_\-\-Methods\-Optimize}}
+\subsubsection[{random\-\_\-selection\-\_\-strategy}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Struct\-\_\-\-Methods\-Optimize\-::random\-\_\-selection\-\_\-strategy (
+\begin{DoxyParamCaption}
+\item[{const unsigned int \&}]{num\-\_\-choices, }
+\item[{const std\-::vector$<$ double $>$ \&}]{estimates}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsOptimize_af46b3c9b62e65360adb3ac65d7ecd8d3}
+Random Selection Strategy assigns a random selection based on the provided estimates 
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-choices} & \\
+\hline
+{\em estimates} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 94 of file Methods\-Optimize.\-h.
+
+
+
+Referenced by R\-L\-\_\-optimize().
+
+\hypertarget{structStruct__MethodsOptimize_a02f7220d538eae22064174816dd73bf6}{\index{Struct\-\_\-\-Methods\-Optimize@{Struct\-\_\-\-Methods\-Optimize}!random\-\_\-selection\-\_\-uniform@{random\-\_\-selection\-\_\-uniform}}
+\index{random\-\_\-selection\-\_\-uniform@{random\-\_\-selection\-\_\-uniform}!Struct_MethodsOptimize@{Struct\-\_\-\-Methods\-Optimize}}
+\subsubsection[{random\-\_\-selection\-\_\-uniform}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Struct\-\_\-\-Methods\-Optimize\-::random\-\_\-selection\-\_\-uniform (
+\begin{DoxyParamCaption}
+\item[{const unsigned int \&}]{num\-\_\-choices}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsOptimize_a02f7220d538eae22064174816dd73bf6}
+Random selection of resources based on a uniform distribution
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-choices} & available number of choices \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 64 of file Methods\-Optimize.\-h.
+
+
+
+Referenced by A\-L\-\_\-optimize(), and R\-L\-\_\-optimize().
+
+\hypertarget{structStruct__MethodsOptimize_aae92e8b55e02d8f476c70fd84a817b2d}{\index{Struct\-\_\-\-Methods\-Optimize@{Struct\-\_\-\-Methods\-Optimize}!R\-L\-\_\-optimize@{R\-L\-\_\-optimize}}
+\index{R\-L\-\_\-optimize@{R\-L\-\_\-optimize}!Struct_MethodsOptimize@{Struct\-\_\-\-Methods\-Optimize}}
+\subsubsection[{R\-L\-\_\-optimize}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Methods\-Optimize\-::\-R\-L\-\_\-optimize (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ double $>$ \&}]{vec\-\_\-cummulative\-\_\-estimates, }
+\item[{const unsigned int \&}]{num\-\_\-choices, }
+\item[{unsigned int \&}]{action, }
+\item[{const double \&}]{L\-A\-M\-B\-D\-A, }
+\item[{const double \&}]{current\-\_\-run\-\_\-ave\-\_\-performance}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__MethodsOptimize_aae92e8b55e02d8f476c70fd84a817b2d}
+Provides a framework for computing the optimal allocation of resources based on the estimates created by an R\-L estimator.
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec\-\_\-cummulative\-\_\-estimates} & vector of cummulative estimates \\
+\hline
+{\em num\-\_\-choices} & number of choices \\
+\hline
+{\em action} & action \\
+\hline
+{\em L\-A\-M\-B\-D\-A} & perturbation factor \\
+\hline
+{\em current\-\_\-run\-\_\-ave\-\_\-performance} & current running average performance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file Methods\-Optimize.\-h.
+
+
+
+References random\-\_\-selection\-\_\-strategy(), and random\-\_\-selection\-\_\-uniform().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structStruct__MethodsOptimize_aae92e8b55e02d8f476c70fd84a817b2d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Optimize.\-h\end{DoxyCompactItemize}

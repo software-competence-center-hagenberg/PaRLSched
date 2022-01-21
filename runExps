@@ -1,0 +1,304 @@
+#!/usr/bin/perl
+
+use Getopt::Long;
+use strict;
+use IPC::Open3;
+use Try::Tiny;
+
+if (! -e './_scheduler_inputs') {
+ mkdir('./_scheduler_inputs') or die "Can't create ./_scheduler_inputs:$!\n";
+} 
+
+open (my $fh, ">", "./_scheduler_inputs/scheduler.conf");
+open (my $fh2, "<", "./_scheduler_inputs/disturbance.conf");
+
+sub create_sched_file {
+    open (my $fh, ">", "./_scheduler_inputs/scheduler.conf");
+    print $fh "#PARLSCHED (boolean variable that initiates RL mapping)\n";
+    my $PARLSCHED = shift;
+    print $fh "$PARLSCHED\n";
+    print $fh "#MAX_NUMBER_MAIN_RESOURCES (number of NUMA nodes)\n";
+    my $MAX_NUMBER_MAIN_RESOURCES = shift;
+    print $fh "$MAX_NUMBER_MAIN_RESOURCES\n";
+    print $fh "#MAX_NUMBER_CHILD_RESOURCES NUMA 0 (number of CPU nodes)\n";
+    my $MAX_NUMBER_CHILD_RESOURCES_NUMA0 = shift;
+    print $fh "$MAX_NUMBER_CHILD_RESOURCES_NUMA0\n";
+    print $fh "#MAX_NUMBER_CHILD_RESOURCES NUMA 1 (number of CPU nodes)\n";
+    my $MAX_NUMBER_CHILD_RESOURCES_NUMA1 = shift;
+    print $fh "$MAX_NUMBER_CHILD_RESOURCES_NUMA1\n";
+    print $fh "#SCHED_PERIOD (period for allocating the CPU nodes)\n";
+    my $SCHED_PERIOD = shift;
+    print $fh "$SCHED_PERIOD\n";
+    print $fh "#OPTIMIZING_MAIN_RESOURCE (optimizing with respect to the NUMA nodes)\n";
+    my $OPTIMIZING_MAIN_RESOURCE = shift;
+    print $fh "$OPTIMIZING_MAIN_RESOURCE\n";
+    print $fh "#MAIN_RESOURCE_SCHED_PERIOD (this is the period for deciding the allocation over the NUMA nodes) - product of SCHED_PERIOD\n";
+    my $MAIN_RESOURCE_SCHED_PERIOD = shift;
+    print $fh "$MAIN_RESOURCE_SCHED_PERIOD\n";
+    print $fh "#ZETA (percentage, if 0.5 over 1/2 of the threads have to be running on the new NUMA node destination before binding the (stack) memory of a thread to it)\n";
+    my $ZETA = shift;
+    print $fh "$ZETA\n";
+    print $fh "#NUMA_SWITCH_THRESHOLD (percentage of the performance drop after which switching of the NUMA node is allowed)\n";
+    my $NUMA_SWITCH_THRESHOLD = shift;
+    print $fh "$NUMA_SWITCH_THRESHOLD\n";
+    print $fh "#STEP_SIZE_RL (step-size constant of the RL algorithm for allocating threads to CPUs)\n";
+    my $STEP_SIZE_RL = shift;
+    print $fh "$STEP_SIZE_RL\n";
+    print $fh "#STEP_SIZE_AL (step-size constant of the AL algorithm for allocating threads to NUMA nodes)\n";
+    my $STEP_SIZE_AL = shift;
+    print $fh "$STEP_SIZE_AL\n";
+    print $fh "#UTILITY_NORMALIZATION (constant for normalizing the utility measurements for use in the RL algorithm)\n";
+    my $UTILITY_NORMALIZATION = shift;
+    print $fh "$UTILITY_NORMALIZATION\n";
+    print $fh "#LAMBDA_RL (mutation parameter for RL algorithm for allocating threads to CPU nodes)\n";
+    my $LAMBDA_RL = shift;
+    print $fh "$LAMBDA_RL\n";
+    print $fh "#LAMBDA_AL (mutation parameter for AL algorithm for allocating threads to NUMA nodes)\n";
+    my $LAMBDA_AL = shift;
+    print $fh "$LAMBDA_AL\n";
+    print $fh "#GAMMA (constant for penalizing deviation of utilities between threads)\n";
+    my $GAMMA = shift;
+    print $fh "$GAMMA\n";
+    print $fh "#ACTIVE RESHUFFLING (reshuffling the strategies of the active threads when one or more threads become inactive)\n";
+    my $ACTIVE_RESHUFFLING = shift;
+    print $fh "$ACTIVE_RESHUFFLING\n";
+    print $fh "#PERFORMACE_RESHUFFLING (reshuffling the strategies of a thread when its performance significantly drops)\n";
+    my $PERFORMANCE_RESHUFFLING = shift;
+    print $fh "$PERFORMANCE_RESHUFFLING\n";
+    print $fh "#PRINTOUT_STRATEGIES (print the strategies of the threads)\n";
+    my $PRINTOUT_STRATEGIES = shift;
+    print $fh "$PRINTOUT_STRATEGIES\n";
+    print $fh "#PRINTOUT_ACTIONS (print the actions of the threads)\n";
+    my $PRINTOUT_ACTIONS = shift;
+    print $fh "$PRINTOUT_ACTIONS\n";
+    print $fh "#WRITE_TO_FILES (write to files)\n";
+    my $WRITE_TO_FILES = shift;
+    print $fh "$WRITE_TO_FILES\n";
+    print $fh "#WRITE_TO_FILES_DETAILS (write all details to files)\n";
+    my $WRITE_TO_FILES_DETAILS = shift;
+    print $fh "$WRITE_TO_FILES_DETAILS\n";
+    print $fh "#PR_MAPPING (using a predefined mapping)\n";
+    my $PR_MAPPING = shift;
+    print $fh "$PR_MAPPING\n";
+    print $fh "#ST_MAPPING (allocating memory when moving a thread to a different NUMA node)\n";
+    my $ST_MAPPING = shift;
+    print $fh "$ST_MAPPING\n";
+    print $fh "#NEIGHBORHOOD_SIZE (creating groups of CPUs and allocating threads into groups)\n";
+    my $NEIGHBORHOOD_SIZE = shift;
+    print $fh "$NEIGHBORHOOD_SIZE\n";
+    print $fh "#SUSPEND_THREADS (suspending threads before allocating them)\n";
+    my $SUSPEND_THREADS = shift;
+    print $fh "$SUSPEND_THREADS\n";
+    print $fh "#FACTOR_H (this factor is used in the aspiration-based reinforcement learning for allocating threads to CPUs)\n";
+    my $FACTOR_H = shift;
+    print $fh "$FACTOR_H\n";
+    
+    close ($fh);
+}
+
+sub process_output {
+    my $maxTime = 0;
+    my $out = shift;
+    my @arr_out = split ("\n",$out);
+    my $one;
+    foreach $one (@arr_out) {
+	my @tokens = split (" ", $one);
+	if ($tokens[0] eq "Status") {
+	    my $time = $tokens[9];
+	    if ($time > $maxTime) {
+		$maxTime = $time;
+	    }
+	}
+    }
+    return $maxTime;
+}
+
+sub calculate_deviation {
+    my ($values, $mean, $nr) = @_;
+    my $totalDev = 0;
+    my @valArray = @{ $values };
+
+    for (my $i=0; $i<$nr; $i++) {
+	$totalDev += abs($valArray[$i] - $mean);
+    }
+
+    return ($totalDev / $nr);
+}
+
+
+#set up disturbance app(s)
+my $disturbance_app = '';
+my @distOnOffRaw = split ("\n",<$fh2>);
+my $distOnOff = $distOnOffRaw[0];
+my $distCores = 0;
+my $distDelay = 0;
+my $distGran = 0;
+my $distBind = 0;
+
+if ($distOnOff > 0) {
+    my @distCoresRaw = split("\n", <$fh2>);
+    $distCores = $distCoresRaw[0];
+    my @distDelayRaw = split("\n", <$fh2>);
+    $distDelay = $distDelayRaw[0];
+    my @distGranRaw = split("\n", <$fh2>);
+    $distGran = $distGranRaw[0];
+    my @distBindRaw = split("\n", <$fh2>);
+    $distBind = $distBindRaw[0];
+}
+
+# set up a disturbance command
+if ($distOnOff>0) {
+    if ($distDelay>0) {
+	$disturbance_app = "sleep " . $distDelay . " && ";
+    }
+    my $granFactor = 1000;
+    if ($distGran>0) {
+	$granFactor = $distGran * 1000;
+    }
+    my $bind_app = '';
+    if ($distBind > 0) {
+	$bind_app = "numactl --physcpubind=" . $distBind;
+    }
+
+    $disturbance_app = $disturbance_app . $bind_app . " bin/rtview -nthreads=" . $distCores . " -frames=" . $granFactor . " &>/dev/null &";
+}
+
+# General Parameters
+my $NUM_ITERS = 3;
+my $RUN_BOTH_OS_RL = 1;		# Running both OS and RL schedulers and also providing comparisons
+
+
+my $PARLSCHED = 0;
+my $MAX_NUMBER_MAIN_RESOURCES = 2;
+my $MAX_NUMBER_CHILD_RESOURCES_NUMA0 = 6;
+my $MAX_NUMBER_CHILD_RESOURCES_NUMA1 = 0;
+my $SCHED_PERIOD = 0.025;
+my $OPTIMIZING_MAIN_RESOURCE = 0;
+my $MAIN_RESOURCE_SCHED_PERIOD = 40;
+my $ZETA = 0.5;
+my $NUMA_SWITCH_THRESHOLD = 0.9;
+my $STEP_SIZE_RL = 0.05;
+my $STEP_SIZE_AL = 0.05;
+my $UTILITY_NORMALIZATION = 1e+7;
+my $LAMBDA_RL = 0.02;
+my $LAMBDA_AL = 0.02;
+my $GAMMA = 0.0;
+my $ACTIVE_RESHUFFLING = 1;
+my $PERFORMACE_RESHUFFLING = 0;
+my $PRINTOUT_STRATEGIES = 0;
+my $PRINTOUT_ACTIONS = 1;
+my $WRITE_TO_FILES = 1;
+my $WRITE_TO_FILES_DETAILS = 0;
+my $PR_MAPPING = 0;
+my $ST_MAPPING = 0;
+my $NEIGHBORHOOD_SIZE = 2;
+my $SUSPEND_THREADS = 0;
+my $FACTOR_H = 1;
+
+my ($wtr, $rdr, $err);
+my $pid;
+
+#print "\\begin{figure}\n";
+#print "\\begin{tabular}{|c|c|c|c|c|c|}\n";
+#print "\\hline\n";
+#print "\\textbf{Threads} & \\textbf{OS Time} &  \\textbf{OS Mean Dev} & \\textbf{RL Time} & \\textbf{RL Mean Dev} & \\textbf{Imp. over OS} \\\\\n";
+#print "\\hline \\hline\n";
+
+for (my $nrThreads=6; $nrThreads<=18; $nrThreads+=6) {
+    my @osTimes;
+    my @rlTimes;
+    my $totalOSTime = 0;
+    my $totalRLTime = 0;
+    my $meanOSTime;
+    my $meanRLTime;
+    my $meanOSDev;
+    my $meanRLDev;
+
+    print "---- $nrThreads threads ----\n";
+    
+    if ($RUN_BOTH_OS_RL == 1) {
+      
+	$PARLSCHED = 0;
+	
+	&create_sched_file ($PARLSCHED, $MAX_NUMBER_MAIN_RESOURCES, $MAX_NUMBER_CHILD_RESOURCES_NUMA0, $MAX_NUMBER_CHILD_RESOURCES_NUMA1, $SCHED_PERIOD, $OPTIMIZING_MAIN_RESOURCE, $MAIN_RESOURCE_SCHED_PERIOD, $ZETA, $NUMA_SWITCH_THRESHOLD, $STEP_SIZE_RL, $STEP_SIZE_AL, $UTILITY_NORMALIZATION, $LAMBDA_RL, $LAMBDA_AL, $GAMMA, $ACTIVE_RESHUFFLING, $PERFORMACE_RESHUFFLING, $PRINTOUT_STRATEGIES, $PRINTOUT_ACTIONS, $WRITE_TO_FILES, $WRITE_TO_FILES_DETAILS, $PR_MAPPING, $ST_MAPPING, $NEIGHBORHOOD_SIZE, $SUSPEND_THREADS, $FACTOR_H);
+	
+	for (my $counter=0; $counter < $NUM_ITERS; $counter++) {
+	    
+	    if ($distOnOff > 0) {
+		$pid = open3 ($wtr, $rdr, $err, $disturbance_app);
+	    }
+	    
+# AntColonyPthreads w/o Scheduler
+	    # my $output = `./AntColonyPthreads_wo_Sched 18 1 500 ./AntColonyPthreads_inputs/wt10000.txt 0 1`
+# AntColonyPthreads with Scheduler
+	    my $output = `../build_PaRLSched/bin/AntColonyPthreads_w_Sched $nrThreads 1 500 ./_inputs/AntColonyPthreads_inputs/wt10000.txt 0 ./_scheduler_inputs/scheduler.conf`;
+# Blackscholes
+	    # my $output = `../build_PaRLSched/bin/blackscholes_pthreads_sched $nrThreads ./_inputs/Blackscholes_inputs/in_10M.txt ./_outputs/Blackscholes_outputs/output.txt ./_scheduler_inputs/scheduler.conf`;
+# Swaptions
+	    # my $output = `../build_PaRLSched/bin/swaptions -ns 20000 -sm 20000 -nt $nrThreads -sc "./_scheduler_inputs/scheduler.conf"`;
+
+    # process the output
+	    my $maxTime = &process_output ($output);
+	    print "OS time in iteration $counter is $maxTime\n";
+	    $totalOSTime += $maxTime;
+	    $osTimes[$counter] = $maxTime;
+	    if ($distOnOff > 0) {
+		`killall rtview`;
+		sleep 5;
+	    }
+	}
+
+	$meanOSTime = $totalOSTime / $NUM_ITERS;
+	$meanOSDev = &calculate_deviation (\@osTimes, $meanOSTime, $NUM_ITERS); 
+      
+    }
+
+    #print "Mean time $meanOSTime , deviation $meanOSDev\n";
+
+    $PARLSCHED = 1;
+    &create_sched_file ($PARLSCHED, $MAX_NUMBER_MAIN_RESOURCES, $MAX_NUMBER_CHILD_RESOURCES_NUMA0, $MAX_NUMBER_CHILD_RESOURCES_NUMA1, $SCHED_PERIOD, $OPTIMIZING_MAIN_RESOURCE, $MAIN_RESOURCE_SCHED_PERIOD, $ZETA, $NUMA_SWITCH_THRESHOLD, $STEP_SIZE_RL, $STEP_SIZE_AL, $UTILITY_NORMALIZATION, $LAMBDA_RL, $LAMBDA_AL, $GAMMA, $ACTIVE_RESHUFFLING, $PERFORMACE_RESHUFFLING, $PRINTOUT_STRATEGIES, $PRINTOUT_ACTIONS, $WRITE_TO_FILES, $WRITE_TO_FILES_DETAILS, $PR_MAPPING, $ST_MAPPING, $NEIGHBORHOOD_SIZE, $SUSPEND_THREADS, $FACTOR_H);
+
+    for (my $counter=0; $counter < $NUM_ITERS; $counter++) {
+	if ($distOnOff > 0) {
+	    $pid = open3 ($wtr, $rdr, $err, $disturbance_app);
+	}
+	#my $output = `bin/fluidanimate $nrThreads 100 examples/fluidanimate/inputs/in_300K.fluid scheduler.conf`;
+	
+# AntColonyPthreads_w_Sched   
+	    my $output = `../build_PaRLSched/bin/AntColonyPthreads_w_Sched $nrThreads 1 500 ./_inputs/AntColonyPthreads_inputs/wt10000.txt  0 ./_scheduler_inputs/scheduler.conf`;
+# Blackscholes w Sceduler
+	    # my $output = `../build_PaRLSched/bin/blackscholes_pthreads_sched $nrThreads ./_inputs/Blackscholes_inputs/in_10M.txt ./_outputs/Blackscholes_outputs/output.txt ./_scheduler_inputs/scheduler.conf`;
+# Swaptions
+	    # my $output = `../build_PaRLSched/bin/swaptions -ns 20000 -sm 20000 -nt $nrThreads -sc "./_scheduler_inputs/scheduler.conf"`;
+# process the output
+	my $maxTime = &process_output ($output);
+	print "RL time in iteration $counter is $maxTime\n";
+	$totalRLTime += $maxTime;
+	$rlTimes[$counter] = $maxTime;
+	if ($distOnOff > 0) {
+	    `killall rtview`;
+	    sleep 5;
+	}
+    }
+
+    $meanRLTime = $totalRLTime / $NUM_ITERS;
+    $meanRLDev = &calculate_deviation (\@rlTimes, $meanRLTime, $NUM_ITERS);
+    
+    my $imp;
+    if ($RUN_BOTH_OS_RL == 1) {
+	$imp = (($meanOSTime - $meanRLTime) * 100) / $meanOSTime;
+    }
+
+    #print "$nrThreads $meanOSTime $meanOSDev $meanRLTime $meanRLDev $imp\n";
+    print "#Threads    OS Time     OS Mean Dev     RL Time     RL Mean Dev     Imp. over OS \n";
+    print "$nrThreads ";
+    printf("%.3f ", $meanOSTime);
+    printf("%.3f ", $meanOSDev);
+    printf("%.3f ", $meanRLTime);
+    printf("%.3f ", $meanRLDev);
+    printf("%.3f \\\\\n ", $imp);
+
+}
+
+print "Simulation runs are complete!\n";
+

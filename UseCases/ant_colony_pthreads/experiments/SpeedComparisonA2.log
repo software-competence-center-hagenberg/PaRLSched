@@ -1,0 +1,2918 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.7.3)  14 DEC 2017 11:01
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./SpeedComparisonA2.tex
+(./SpeedComparisonA2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(c:/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks15
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+
+(c:/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks18
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count88
+\c@pgf@countb=\count89
+\c@pgf@countc=\count90
+\c@pgf@countd=\count91
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+ (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count92
+\pgfsyssoftpath@bigbuffer@items=\count93
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count94
+\pgfmath@box=\box27
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count95
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count96
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count97
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count98
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count99
+\tikznumberofchildren=\count100
+\tikznumberofcurrentchild=\count101
+\tikz@fig@count=\count102
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count103
+\pgfmatrixcurrentcolumn=\count104
+\pgf@matrix@numberofcolumns=\count105
+)
+\tikz@expandcount=\count106
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks27
+\t@pgfplots@tokb=\toks28
+\t@pgfplots@tokc=\toks29
+\pgfplots@tmpa=\dimen151
+\c@pgfplots@coordindex=\count107
+\c@pgfplots@scanlineindex=\count108
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgflibraryfpu.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count109
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count110
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count111
+\t@pgfplotstable@a=\toks30
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count112
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-pdftex.def)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen152
+\pgfdecoratedremainingdistance=\dimen153
+\pgfdecoratedinputsegmentcompleteddistance=\dimen154
+\pgfdecoratedinputsegmentremainingdistance=\dimen155
+\pgf@decorate@distancetomove=\dimen156
+\pgf@decorate@repeatstate=\count113
+\pgfdecorationsegmentamplitude=\dimen157
+\pgfdecorationsegmentlength=\dimen158
+)
+\tikz@lib@dec@box=\box37
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+\pgfplots@numplots=\count114
+\pgfplots@xmin@reg=\dimen159
+\pgfplots@xmax@reg=\dimen160
+\pgfplots@ymin@reg=\dimen161
+\pgfplots@ymax@reg=\dimen162
+\pgfplots@zmin@reg=\dimen163
+\pgfplots@zmax@reg=\dimen164
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (c:/texlive/2016/texmf-dist/tex/latex/filecontents/filecontents.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+)
+(c:/Users/chasparis/Documents/Research_Lobby/texmf/tex/latex/local/tabularx/ver
+batim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks31
+\verbatim@line=\toks32
+\verbatim@in@stream=\read2
+) (c:/texlive/2016/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.89 (AUCTeX/preview-latex)
+
+(c:/texlive/2016/texmf-dist/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen165
+)
+\pr@snippet=\count115
+\pr@box=\box38
+\pr@output=\toks33
+)
+
+LaTeX Warning: Overwriting file `./SpeedComparisonA2.csv'.
+
+\openout15 = `SpeedComparisonA2.csv'.
+
+
+(./SpeedComparisonA2.aux)
+\openout1 = `SpeedComparisonA2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8648.
+LaTeX Font Info:    ... okay on input line 8648.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8648.
+LaTeX Font Info:    ... okay on input line 8648.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8648.
+LaTeX Font Info:    ... okay on input line 8648.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8648.
+LaTeX Font Info:    ... okay on input line 8648.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8648.
+LaTeX Font Info:    ... okay on input line 8648.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8648.
+LaTeX Font Info:    ... okay on input line 8648.
+
+(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen166
+\scratchbox=\box39
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen167
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks35
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
+your preamble.
+ on input line 8648.
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+PGFPlots: reading {SpeedComparisonA2.csv}
+PGFPlots: reading {SpeedComparisonA2.csv}
+NOTE: coordinate (1495.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1496.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1496.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1496.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1496.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1496.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1497.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1497.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1497.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1497.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1497.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1498.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1498.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1498.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1498.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1498.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1499.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1499.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1499.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1499.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1499.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1500.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1500.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1500.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1500.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1500.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1501.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1501.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1501.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1501.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1501.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1502.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1502.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1502.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1502.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1502.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1503.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1503.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1503.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1503.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1503.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1504.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1504.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1504.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1504.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1504.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1505.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1505.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1505.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1505.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1505.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1506.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1506.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1506.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1506.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1506.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1507.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1507.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1507.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1507.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1507.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1508.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1508.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1508.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1508.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1508.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1509.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1509.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1509.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1509.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1509.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1510.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1510.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1510.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1510.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1510.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1511.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1511.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1511.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1511.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1511.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1512.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1512.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1512.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1512.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1512.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1513.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1513.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1513.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1513.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1513.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1514.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1514.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1514.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1514.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1514.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1515.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1515.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1515.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1515.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1515.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1516.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1516.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1516.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1516.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1516.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1517.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1517.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1517.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1517.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1517.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1518.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1518.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1518.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1518.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1518.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1519.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1519.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1519.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1519.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1519.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1520.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1520.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1520.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1520.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1520.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1521.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1521.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1521.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1521.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1521.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1522.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1522.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1522.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1522.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1522.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1523.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1523.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1523.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1523.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1523.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1524.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1524.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1524.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1524.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1524.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1525.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1525.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1525.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1525.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1525.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1526.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1526.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1526.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1526.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1526.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1527.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1527.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1527.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1527.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1527.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1528.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1528.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1528.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1528.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1528.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1529.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1529.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1529.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1529.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1529.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1530.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1530.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1530.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1530.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1530.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1531.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1531.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1531.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1531.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1531.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1532.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1532.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1532.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1532.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1532.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1533.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1533.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1533.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1533.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1533.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1534.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1534.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1534.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1534.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1534.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1535.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1535.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1535.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1535.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1535.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1536.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1536.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1536.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1536.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1536.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1537.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1537.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1537.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1537.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1538,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1538.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1538.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1538.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1538.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1539,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1539.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1539.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1539.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1539.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1540,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1540.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1540.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1540.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1540.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1541,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1541.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1541.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1541.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1541.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1542,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1542.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1542.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1542.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1542.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1543,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1543.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1543.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1543.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1543.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1544.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1544.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1544.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1544.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1544.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1545.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1545.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1545.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1545.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1545.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1546.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1546.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1546.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1546.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1546.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1547.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1547.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1547.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1547.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1547.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1548.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1548.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1548.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1548.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1548.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1549.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1549.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1549.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1549.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1549.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1550.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1550.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1550.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1550.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1550.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1551.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1551.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1551.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1551.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1551.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1552.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1552.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1552.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1552.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1552.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1553.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1553.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1553.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1553.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1553.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1554.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1554.26,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1554.46,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1554.66,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1554.86,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1555.06,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1555.26,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1555.46,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1555.66,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1555.86,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1556.06,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1556.26,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1556.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1556.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1556.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1557.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1557.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1557.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1557.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1557.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1558.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1558.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1558.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1558.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1558.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1559.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1559.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1559.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1559.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1559.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1560.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1560.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1560.48,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1560.68,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1560.88,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1561.08,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1561.28,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1561.48,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1561.68,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1561.88,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1562.08,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1562.28,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1562.48,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1562.68,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1562.88,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1563.08,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1563.28,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1563.48,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1563.68,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1563.88,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1564.08,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1564.28,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1564.48,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1564.68,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1564.88,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1565.08,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1565.28,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1565.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1565.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1565.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1566.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1566.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1566.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1566.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1566.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1567.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1567.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1567.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1567.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1567.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1568.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1568.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1568.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1568.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1568.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1569.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1569.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1569.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1569.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1569.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1570.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1570.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1570.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1570.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1570.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1571.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1571.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1571.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1571.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1571.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1572.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1572.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1572.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1572.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1572.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1573.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1573.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1573.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1573.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1573.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1574.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1574.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1574.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1574.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1574.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1575.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1575.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1575.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1575.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1575.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1576.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1576.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1576.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1576.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1576.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1577.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1577.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1577.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1577.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1577.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1578.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1578.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1578.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1578.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1578.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1579.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1579.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1579.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1579.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1579.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1580.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1580.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1580.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1580.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1580.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1581.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1581.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1581.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1581.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1581.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1582.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1582.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1582.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1582.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1582.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1583.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1583.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1583.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1583.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1583.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1584.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1584.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1584.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1584.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1584.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1585.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1585.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1585.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1585.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1585.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1586.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1586.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1586.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1586.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1586.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1587.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1587.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1587.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1587.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1587.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1588.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1588.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1588.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1588.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1588.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1589.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1589.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1589.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1589.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1589.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1590.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1590.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1590.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1590.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1590.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1591.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1591.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1591.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1591.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1591.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1592.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1592.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1592.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1592.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1592.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1593.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1593.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1593.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1593.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1593.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1594.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1594.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1594.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1594.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1594.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1595.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1595.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1595.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1595.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1595.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1596.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1596.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1596.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1596.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1596.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1597.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1597.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1597.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1597.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1597.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1598.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1598.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1598.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1598.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1598.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1599.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1599.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1599.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1599.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1599.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1600.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1600.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1600.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1600.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1600.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1601.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1601.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1601.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1601.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1601.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1602.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1602.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1602.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1602.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1602.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1603.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1603.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1603.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1603.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1603.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1604.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1604.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1604.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1604.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1604.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1605.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1605.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1605.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1605.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1605.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1606.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1606.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1606.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1606.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1606.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1607.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1607.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1607.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1607.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1607.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1608.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1608.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1608.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1608.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1608.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1609.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1609.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1609.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1609.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1609.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1610.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1610.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1610.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1610.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1610.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1611.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1611.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1611.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1611.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1611.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1612.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1612.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1612.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1612.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1612.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1613.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1613.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1613.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1613.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1613.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1614.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1614.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1614.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1614.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1614.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1615.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1615.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1615.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1615.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1615.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1616.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1616.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1616.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1616.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1616.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1617.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1617.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1617.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1617.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1617.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1618.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1618.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1618.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1618.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1618.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1619.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1619.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1619.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1619.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1619.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1620.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1620.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1620.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1620.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1620.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1621.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1621.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1621.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1621.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1621.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1622.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1622.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1622.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1622.77,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1622.97,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1623.17,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1623.37,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1623.57,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1623.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1623.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1624.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1624.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1624.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1624.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1624.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1625.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1625.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1625.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1625.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1625.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1626.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1626.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1626.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1626.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1626.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1627.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1627.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1627.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1627.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1627.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1628.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1628.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1628.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1628.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1628.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1629.18,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1629.38,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1629.58,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1629.78,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1629.98,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1630.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1630.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1630.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1630.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1630.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1631.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1631.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1631.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1631.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1631.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1632.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1632.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1632.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1632.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1632.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1633.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1633.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1633.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1633.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1633.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1634.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1634.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1634.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1634.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1634.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1635.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1635.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1635.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1635.79,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1635.99,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1636.19,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1636.39,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1636.59,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1636.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1637,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1637.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1637.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1637.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1637.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1638,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1638.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1638.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1638.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1638.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1639,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1639.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1639.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1639.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1639.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1640,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1640.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1640.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1640.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1640.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1641,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1641.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1641.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1641.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1641.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1642,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1642.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1642.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1642.6,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1642.8,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1643,) has been dropped because of a coordinate filter. (see 
+also unbounded coords=jump). 
+NOTE: coordinate (1643.2,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1643.4,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1643.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1643.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1644.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1644.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1644.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1644.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1644.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1645.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1645.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1645.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1645.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1645.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1646.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1646.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1646.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1646.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1646.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1647.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1647.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1647.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1647.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1647.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1648.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1648.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1648.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1648.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1648.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1649.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1649.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1649.41,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1649.61,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1649.81,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1650.01,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1650.21,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1650.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1650.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1650.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1651.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1651.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1651.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1651.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1651.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1652.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1652.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1652.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1652.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1652.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1653.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1653.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1653.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1653.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1653.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1654.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1654.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1654.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1654.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1654.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1655.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1655.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1655.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1655.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1655.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1656.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1656.22,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1656.42,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1656.62,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1656.82,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1657.02,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1657.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1657.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1657.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1657.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1658.03,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1658.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1658.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1658.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1658.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1659.03,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1659.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1659.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1659.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1659.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1660.03,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1660.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1660.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1660.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1660.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1661.03,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1661.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1661.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1661.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1661.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1662.03,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1662.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1662.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1662.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1662.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1663.03,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1663.23,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1663.43,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1663.63,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1663.83,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1664.04,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1664.24,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1664.44,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1664.64,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1664.84,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1665.04,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1665.24,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1665.44,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1665.64,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1665.86,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1666.06,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1666.26,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1666.46,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1666.66,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1666.86,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1667.06,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1667.26,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1667.46,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1667.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1667.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1668.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1668.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1668.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1668.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1668.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1669.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1669.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1669.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1669.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1669.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1670.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1670.27,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1670.47,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1670.67,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1670.87,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1671.07,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1671.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1671.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1671.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1671.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1672.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1672.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1672.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1672.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1672.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1673.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1673.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1673.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1673.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1673.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1674.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1674.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1674.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1674.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1674.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1675.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1675.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1675.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1675.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1675.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1676.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1676.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1676.49,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1676.69,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1676.89,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1677.09,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1677.29,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1677.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1677.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1677.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1678.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1678.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1678.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1678.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1678.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1679.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1679.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1679.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1679.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1679.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1680.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1680.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1680.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1680.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1680.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1681.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1681.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1681.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1681.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1681.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1682.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1682.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1682.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1682.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1682.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1683.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1683.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1683.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1683.7,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1683.9,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1684.1,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1684.3,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1684.5,) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1684.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1684.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1685.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1685.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1685.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1685.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1685.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1686.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1686.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1686.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1686.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1686.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1687.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1687.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1687.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1687.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1687.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1688.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1688.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1688.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1688.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1688.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1689.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1689.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1689.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1689.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1689.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1690.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1690.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1690.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1690.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1690.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1691.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1691.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1691.51,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1691.71,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1691.91,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1692.11,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1692.31,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1692.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1692.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1692.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1693.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1693.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1693.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1693.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1693.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1694.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1694.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1694.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1694.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1694.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1695.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1695.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1695.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1695.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1695.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1696.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1696.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1696.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1696.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1696.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1697.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1697.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1697.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1697.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1697.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1698.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1698.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1698.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1698.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1698.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1699.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1699.32,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1699.52,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1699.72,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1699.92,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1700.12,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1700.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1700.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1700.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1700.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1701.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1701.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1701.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1701.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1701.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1702.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1702.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1702.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1702.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1702.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1703.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1703.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1703.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1703.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1703.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1704.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1704.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1704.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1704.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1704.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1705.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1705.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1705.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1705.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1705.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1706.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1706.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1706.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1706.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1706.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1707.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1707.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1707.53,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1707.73,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1707.93,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1708.13,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1708.33,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1708.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1708.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1708.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1709.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1709.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1709.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1709.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1709.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1710.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1710.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1710.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1710.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1710.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1711.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1711.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1711.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1711.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1711.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1712.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1712.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1712.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1712.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1712.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1713.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1713.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1713.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1713.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1713.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1714.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1714.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1714.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1714.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1714.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1715.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1715.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1715.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1715.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1715.94,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1716.14,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1716.34,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1716.54,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1716.74,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1716.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1717.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1717.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1717.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1717.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1717.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1718.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1718.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1718.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1718.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1718.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1719.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1719.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1719.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1719.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1719.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1720.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1720.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1720.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1720.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1720.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1721.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1721.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1721.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1721.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1721.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1722.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1722.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1722.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1722.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1722.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1723.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1723.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1723.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1723.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1723.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1724.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1724.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1724.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1724.75,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1724.95,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1725.15,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1725.35,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1725.55,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1725.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1725.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1726.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1726.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1726.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1726.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1726.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1727.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1727.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1727.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1727.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1727.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1728.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1728.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1728.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1728.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1728.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1729.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1729.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1729.56,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1729.76,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1729.96,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1730.16,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+NOTE: coordinate (1730.36,) has been dropped because of a coordinate filter. (s
+ee also unbounded coords=jump). 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8665.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8665.
+Preview: Tightpage -655360 -655360 655360 655360
+[1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./SpeedComparisonA2.aux) ) 
+Here is how much of TeX's memory you used:
+ 21541 strings out of 493013
+ 571294 string characters out of 6136994
+ 3267677 words of memory out of 5000000
+ 24745 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,18n,96p,740b,2076s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+Output written on SpeedComparisonA2.pdf (1 page, 159286 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,225 @@
+\hypertarget{structStruct__Actions}{\section{Struct\-\_\-\-Actions Struct Reference}
+\label{structStruct__Actions}\index{Struct\-\_\-\-Actions@{Struct\-\_\-\-Actions}}
+}
+
+
+{\ttfamily \#include $<$Methods\-Actions.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{structStruct__Actions_ad28379afcba301fca72e1e6939fa4c4f}{initialize} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, std\-::vector$<$ unsigned int $>$ \&action\-\_\-main\-\_\-old, const unsigned int \&thread\-\_\-num)
+\item 
+void \hyperlink{structStruct__Actions_a65aec6da3f4aa08047e285566fe45487}{initialize\-\_\-w\-\_\-child} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const std\-::string \&child\-\_\-resource, const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num, std\-::vector$<$ unsigned int $>$ \&action\-\_\-main\-\_\-old, const unsigned int \&policy, const unsigned int \&neighborhood\-\_\-size)
+\item 
+std\-::vector$<$ unsigned int $>$ \hyperlink{structStruct__Actions_a2d1d697fe7778e807179b7bef8c809db}{compute\-\_\-initial\-\_\-action} (const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num, const unsigned int \&max\-\_\-number\-\_\-available\-\_\-main\-\_\-sources)
+\item 
+std\-::vector$<$ unsigned int $>$ \hyperlink{structStruct__Actions_a41346a1cddc836c0fcf0509debb5bcd6}{compute\-\_\-initial\-\_\-action\-\_\-rr} (const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__Actions_ac929169603c419d6a0d1e6cb8dacc980}{std\-::string {\bfseries resource\-\_\-}}\label{structStruct__Actions_ac929169603c419d6a0d1e6cb8dacc980}
+
+\item 
+\hypertarget{structStruct__Actions_aa3d36d82f026212fb1f59dac88da98b2}{std\-::string {\bfseries child\-\_\-resource\-\_\-}}\label{structStruct__Actions_aa3d36d82f026212fb1f59dac88da98b2}
+
+\item 
+\hypertarget{structStruct__Actions_a5042128cbd5fb915614f1309ad1b2cf2}{unsigned int {\bfseries num\-\_\-actions\-\_\-main\-\_\-resource\-\_\-}}\label{structStruct__Actions_a5042128cbd5fb915614f1309ad1b2cf2}
+
+\item 
+\hypertarget{structStruct__Actions_a7e5104b8c833631f55201f20433680f4}{std\-::vector$<$ unsigned int $>$ {\bfseries vec\-\_\-num\-\_\-child\-\_\-actions\-\_\-per\-\_\-main\-\_\-resource\-\_\-}}\label{structStruct__Actions_a7e5104b8c833631f55201f20433680f4}
+
+\item 
+\hypertarget{structStruct__Actions_ae03ee4c360ea92bd7c381d113047c11f}{std\-::map$<$ std\-::tuple$<$ unsigned \\*
+int, unsigned int, unsigned \\*
+int $>$, std\-::vector$<$ unsigned \\*
+int $>$ $>$ {\bfseries map\-\_\-neighbors\-\_\-}}\label{structStruct__Actions_ae03ee4c360ea92bd7c381d113047c11f}
+
+\item 
+\hypertarget{structStruct__Actions_a687f670fd743b3c4ae86daf8cf2be3b4}{unsigned int {\bfseries action\-\_\-per\-\_\-main\-\_\-source\-\_\-}}\label{structStruct__Actions_a687f670fd743b3c4ae86daf8cf2be3b4}
+
+\item 
+\hypertarget{structStruct__Actions_a500af033d64e40e926d47ca3abb69397}{unsigned int {\bfseries previous\-\_\-action\-\_\-per\-\_\-main\-\_\-source\-\_\-}}\label{structStruct__Actions_a500af033d64e40e926d47ca3abb69397}
+
+\item 
+\hypertarget{structStruct__Actions_a58e3c004e83fe50762c69d6d4bc50022}{unsigned int {\bfseries action\-\_\-per\-\_\-child\-\_\-source\-\_\-}}\label{structStruct__Actions_a58e3c004e83fe50762c69d6d4bc50022}
+
+\item 
+\hypertarget{structStruct__Actions_abf351c2b735511e15a54c3821002b9da}{unsigned int {\bfseries previous\-\_\-action\-\_\-per\-\_\-child\-\_\-source\-\_\-}}\label{structStruct__Actions_abf351c2b735511e15a54c3821002b9da}
+
+\item 
+\hypertarget{structStruct__Actions_aae321f0f30f1249a87113e4dd9644630}{std\-::vector$<$ std\-::vector\\*
+$<$ unsigned int $>$ $>$ {\bfseries vec\-\_\-child\-\_\-sources\-\_\-}}\label{structStruct__Actions_aae321f0f30f1249a87113e4dd9644630}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This structure gathers information that is relevant for keeping in track the actions selected by each thread with respect to the resources that need to be optimized (e.\-g., cpu placement, memory placement) 
+
+Definition at line 23 of file Methods\-Actions.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structStruct__Actions_a2d1d697fe7778e807179b7bef8c809db}{\index{Struct\-\_\-\-Actions@{Struct\-\_\-\-Actions}!compute\-\_\-initial\-\_\-action@{compute\-\_\-initial\-\_\-action}}
+\index{compute\-\_\-initial\-\_\-action@{compute\-\_\-initial\-\_\-action}!Struct_Actions@{Struct\-\_\-\-Actions}}
+\subsubsection[{compute\-\_\-initial\-\_\-action}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$unsigned int$>$ Struct\-\_\-\-Actions\-::compute\-\_\-initial\-\_\-action (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&}]{vec\-\_\-num\-\_\-child\-\_\-sources, }
+\item[{const std\-::vector$<$ unsigned int $>$ \&}]{vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, }
+\item[{const unsigned int \&}]{thread\-\_\-num, }
+\item[{const unsigned int \&}]{max\-\_\-number\-\_\-available\-\_\-main\-\_\-sources}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Actions_a2d1d697fe7778e807179b7bef8c809db}
+Compute initial action
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec\-\_\-num\-\_\-child\-\_\-sources} & vector of number of child sources \\
+\hline
+{\em vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user} & vector of maximum number of child sources \\
+\hline
+{\em thread\-\_\-num} & thread number \\
+\hline
+{\em max\-\_\-number\-\_\-available\-\_\-main\-\_\-sources} & maximum number of available main sources \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 185 of file Methods\-Actions.\-h.
+
+
+
+Referenced by initialize\-\_\-w\-\_\-child(), and Struct\-\_\-\-Estimate\-::initialize\-\_\-w\-\_\-child().
+
+\hypertarget{structStruct__Actions_a41346a1cddc836c0fcf0509debb5bcd6}{\index{Struct\-\_\-\-Actions@{Struct\-\_\-\-Actions}!compute\-\_\-initial\-\_\-action\-\_\-rr@{compute\-\_\-initial\-\_\-action\-\_\-rr}}
+\index{compute\-\_\-initial\-\_\-action\-\_\-rr@{compute\-\_\-initial\-\_\-action\-\_\-rr}!Struct_Actions@{Struct\-\_\-\-Actions}}
+\subsubsection[{compute\-\_\-initial\-\_\-action\-\_\-rr}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$unsigned int$>$ Struct\-\_\-\-Actions\-::compute\-\_\-initial\-\_\-action\-\_\-rr (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&}]{vec\-\_\-num\-\_\-child\-\_\-sources, }
+\item[{const std\-::vector$<$ unsigned int $>$ \&}]{vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, }
+\item[{const unsigned int \&}]{thread\-\_\-num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Actions_a41346a1cddc836c0fcf0509debb5bcd6}
+Compute initial action with Round Robin algorithm
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec\-\_\-num\-\_\-child\-\_\-sources} & vector of number of child sources \\
+\hline
+{\em vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user} & vector of maximum number of child sources per user \\
+\hline
+{\em thread\-\_\-num} & thread number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 241 of file Methods\-Actions.\-h.
+
+
+
+Referenced by initialize\-\_\-w\-\_\-child().
+
+\hypertarget{structStruct__Actions_ad28379afcba301fca72e1e6939fa4c4f}{\index{Struct\-\_\-\-Actions@{Struct\-\_\-\-Actions}!initialize@{initialize}}
+\index{initialize@{initialize}!Struct_Actions@{Struct\-\_\-\-Actions}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Actions\-::initialize (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{resource, }
+\item[{const unsigned int \&}]{num\-\_\-sources, }
+\item[{const unsigned int \&}]{max\-\_\-num\-\_\-sources\-\_\-user, }
+\item[{std\-::vector$<$ unsigned int $>$ \&}]{action\-\_\-main\-\_\-old, }
+\item[{const unsigned int \&}]{thread\-\_\-num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Actions_ad28379afcba301fca72e1e6939fa4c4f}
+We initialize the structure \hyperlink{structStruct__Actions}{Struct\-\_\-\-Actions}
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource} & resource type \\
+\hline
+{\em num\-\_\-sources} & number of sources \\
+\hline
+{\em max\-\_\-num\-\_\-sources\-\_\-user} & maximum number of sources \\
+\hline
+{\em action\-\_\-main\-\_\-old} & old action of the main resource \\
+\hline
+{\em thread\-\_\-num} & thread number \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file Methods\-Actions.\-h.
+
+\hypertarget{structStruct__Actions_a65aec6da3f4aa08047e285566fe45487}{\index{Struct\-\_\-\-Actions@{Struct\-\_\-\-Actions}!initialize\-\_\-w\-\_\-child@{initialize\-\_\-w\-\_\-child}}
+\index{initialize\-\_\-w\-\_\-child@{initialize\-\_\-w\-\_\-child}!Struct_Actions@{Struct\-\_\-\-Actions}}
+\subsubsection[{initialize\-\_\-w\-\_\-child}]{\setlength{\rightskip}{0pt plus 5cm}void Struct\-\_\-\-Actions\-::initialize\-\_\-w\-\_\-child (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{resource, }
+\item[{const unsigned int \&}]{num\-\_\-sources, }
+\item[{const unsigned int \&}]{max\-\_\-num\-\_\-sources\-\_\-user, }
+\item[{const std\-::string \&}]{child\-\_\-resource, }
+\item[{const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&}]{vec\-\_\-num\-\_\-child\-\_\-sources, }
+\item[{const std\-::vector$<$ unsigned int $>$ \&}]{vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, }
+\item[{const unsigned int \&}]{thread\-\_\-num, }
+\item[{std\-::vector$<$ unsigned int $>$ \&}]{action\-\_\-main\-\_\-old, }
+\item[{const unsigned int \&}]{policy, }
+\item[{const unsigned int \&}]{neighborhood\-\_\-size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structStruct__Actions_a65aec6da3f4aa08047e285566fe45487}
+Initialize the performance tracking variables when child resources are also present.
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource} & type of resource \\
+\hline
+{\em num\-\_\-sources} & number of sources \\
+\hline
+{\em max\-\_\-num\-\_\-sources\-\_\-user} & maximum number of sources \\
+\hline
+{\em child\-\_\-resource} & type of child resource \\
+\hline
+{\em vec\-\_\-num\-\_\-child\-\_\-sources} & vector of number of child sources per main source \\
+\hline
+{\em vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user} & vector of maximum number of child sources per main source \\
+\hline
+{\em thread\-\_\-num} & thread number \\
+\hline
+{\em action\-\_\-main\-\_\-old} & old action of the main resource \\
+\hline
+{\em policy} & policy \\
+\hline
+{\em neighborhood\-\_\-size} & neighborhood size (for considering groups of child sources) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file Methods\-Actions.\-h.
+
+
+
+References compute\-\_\-initial\-\_\-action(), and compute\-\_\-initial\-\_\-action\-\_\-rr().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structStruct__Actions_a65aec6da3f4aa08047e285566fe45487_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Actions.\-h\end{DoxyCompactItemize}

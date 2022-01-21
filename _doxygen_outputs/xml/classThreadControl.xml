@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classThreadControl" kind="class" prot="public">
+    <compoundname>ThreadControl</compoundname>
+    <includes refid="ThreadControl_8h" local="no">ThreadControl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classThreadControl_1a5beda4b4b1eae9a0769e64c6ddd83f1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ThreadControl::ThreadControl</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="32" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classThreadControl_1a0205e9a2c9b47eaac35749fc73063570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ThreadControl::~ThreadControl</definition>
+        <argsstring>()</argsstring>
+        <name>~ThreadControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="33" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classThreadControl_1a3815813a93f12ae7a699ff0bf3090c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThreadControl::thd_init_counters</definition>
+        <argsstring>(pthread_t thread_id, void *arg)</argsstring>
+        <name>thd_init_counters</name>
+        <param>
+          <type>pthread_t</type>
+          <declname>thread_id</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function thd_initialize_counters initializes the PAPI counters</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>thread_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an integer ID of this thread </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the info related to this thread </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="42" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="28" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classThreadControl_1acf328e5da7324314bcc3380e6e75de95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThreadControl::thd_init_counters</definition>
+        <argsstring>(pthread_t thread_id, thread_info &amp;info)</argsstring>
+        <name>thd_init_counters</name>
+        <param>
+          <type>pthread_t</type>
+          <declname>thread_id</declname>
+        </param>
+        <param>
+          <type><ref refid="structthread__info" kindref="compound">thread_info</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize counters</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>thread_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="51" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="107" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classThreadControl_1a27b61f21b34d679d262ac31fea1a0029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThreadControl::thd_stop_counters</definition>
+        <argsstring>(const int &amp;thread_id, thread_info &amp;info)</argsstring>
+        <name>thd_stop_counters</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>thread_id</declname>
+        </param>
+        <param>
+          <type><ref refid="structthread__info" kindref="compound">thread_info</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stop counters</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>thread_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="60" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="184" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classThreadControl_1a61d268caa2b8dd55ef1c412fa86ada25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThreadControl::thd_record_counters</definition>
+        <argsstring>(pthread_t thread, void *arg)</argsstring>
+        <name>thd_record_counters</name>
+        <param>
+          <type>pthread_t</type>
+          <declname>thread</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>It records the selected counters for this thread</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>thread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the ID # of this thread </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the info of this thread </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="69" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="212" bodyend="291"/>
+        <referencedby refid="classScheduler_1ad187198f24a2b283a4628f0e0b3ffd84" compoundref="Scheduler_8cpp" startline="1298" endline="1361">Scheduler::retrieve_performances</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classThreadControl_1ac2d690ddd11e212efad6b2381ad0cce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThreadControl::thd_record_counters</definition>
+        <argsstring>(thread_info &amp;info)</argsstring>
+        <name>thd_record_counters</name>
+        <param>
+          <type><ref refid="structthread__info" kindref="compound">thread_info</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Thread record counters</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="77" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.cpp" bodystart="293" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classThreadControl" kindref="compound">ThreadControl</ref></para><para>It includes all the necessary functions for recording the thread performance counters </para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" line="30" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/ThreadControl.h" bodystart="29" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classThreadControl_1a3815813a93f12ae7a699ff0bf3090c19" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>thd_init_counters</name></member>
+      <member refid="classThreadControl_1acf328e5da7324314bcc3380e6e75de95" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>thd_init_counters</name></member>
+      <member refid="classThreadControl_1a61d268caa2b8dd55ef1c412fa86ada25" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>thd_record_counters</name></member>
+      <member refid="classThreadControl_1ac2d690ddd11e212efad6b2381ad0cce4" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>thd_record_counters</name></member>
+      <member refid="classThreadControl_1a27b61f21b34d679d262ac31fea1a0029" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>thd_stop_counters</name></member>
+      <member refid="classThreadControl_1a5beda4b4b1eae9a0769e64c6ddd83f1e" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>ThreadControl</name></member>
+      <member refid="classThreadControl_1a0205e9a2c9b47eaac35749fc73063570" prot="public" virt="non-virtual"><scope>ThreadControl</scope><name>~ThreadControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

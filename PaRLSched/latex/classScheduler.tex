@@ -1,0 +1,102 @@
+\hypertarget{classScheduler}{\section{Scheduler Class Reference}
+\label{classScheduler}\index{Scheduler@{Scheduler}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classScheduler_a9d9fdac53788885928fa849892250819}{Scheduler} (const std\-::string \&in\-\_\-file, const unsigned int \&num\-\_\-threads)
+\item 
+\hypertarget{classScheduler_aa55196b20c6a062b2f479776738622fd}{{\bfseries Scheduler} (const \hyperlink{classScheduler}{Scheduler} \&other)}\label{classScheduler_aa55196b20c6a062b2f479776738622fd}
+
+\item 
+\hypertarget{classScheduler_a8a41677eaa1266ec0ab41dcf0ac0d865}{\hyperlink{classScheduler}{Scheduler} \& {\bfseries operator=} (const \hyperlink{classScheduler}{Scheduler} \&other)}\label{classScheduler_a8a41677eaa1266ec0ab41dcf0ac0d865}
+
+\item 
+\hypertarget{classScheduler_a27e2a247cde3ad80ac25b9188a1e17ee}{void {\bfseries initialize} (const unsigned int \&num\-\_\-threads, const bool \&R\-L\-\_\-active\-\_\-reshuffling, const bool \&R\-L\-\_\-performance\-\_\-reshuffling, const double \&step\-\_\-size, const double \&L\-A\-M\-B\-D\-A, const double \&sched\-\_\-period, const bool \&suspend\-\_\-threads, const bool \&printout\-\_\-strategies, const bool \&printout\-\_\-actions, const bool \&write\-\_\-to\-\_\-files, const bool \&write\-\_\-to\-\_\-files\-\_\-details, const double \&gamma, const bool \&O\-S\-\_\-mapping, const bool \&R\-L\-\_\-mapping, const bool \&P\-R\-\_\-mapping, const bool \&S\-T\-\_\-mapping, const bool \&optimize\-\_\-main\-\_\-resource)}\label{classScheduler_a27e2a247cde3ad80ac25b9188a1e17ee}
+
+\item 
+\hypertarget{classScheduler_ac0f68dd6a14fdf70dc964c67dc8d39b2}{void {\bfseries update} (const unsigned int \&resource\-\_\-ind, std\-::vector$<$ bool $>$ \&update\-\_\-inds)}\label{classScheduler_ac0f68dd6a14fdf70dc964c67dc8d39b2}
+
+\item 
+void \hyperlink{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3}{run} ()
+\item 
+\hypertarget{classScheduler_ad187198f24a2b283a4628f0e0b3ffd84}{void {\bfseries retrieve\-\_\-performances} (const unsigned int \&resource\-\_\-ind)}\label{classScheduler_ad187198f24a2b283a4628f0e0b3ffd84}
+
+\item 
+\hypertarget{classScheduler_a2e8eeafda5ee215213d1a8ad076e86e7}{void {\bfseries performance\-\_\-preprocessing} (const unsigned int \&resource\-\_\-ind)}\label{classScheduler_a2e8eeafda5ee215213d1a8ad076e86e7}
+
+\item 
+\hypertarget{classScheduler_a782dd674fc65f8f96bbcdad24e48b75e}{void {\bfseries apply\-\_\-scheduling\-\_\-policy} ()}\label{classScheduler_a782dd674fc65f8f96bbcdad24e48b75e}
+
+\item 
+\hypertarget{classScheduler_a9e0189d3b9815eac90901ba171722525}{\hyperlink{structthread__info}{thread\-\_\-info} $\ast$ {\bfseries get\-\_\-tinfo} (void)}\label{classScheduler_a9e0189d3b9815eac90901ba171722525}
+
+\item 
+\hypertarget{classScheduler_ab640e06ed98152a9acd8cf032b7ad455}{const unsigned int \& {\bfseries get\-\_\-number\-\_\-threads} (void) const }\label{classScheduler_ab640e06ed98152a9acd8cf032b7ad455}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classScheduler_adc23bd3b2f1babde08ce237c8f43cc19}{static void $\ast$ {\bfseries send\-\_\-wrapper} (void $\ast$object)}\label{classScheduler_adc23bd3b2f1babde08ce237c8f43cc19}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classScheduler_a991ae0f798df9ce56116d5c66f615c9f}{unsigned int {\bfseries counter\-\_\-of\-\_\-threads\-\_\-}}\label{classScheduler_a991ae0f798df9ce56116d5c66f615c9f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 62 of file Scheduler.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classScheduler_a9d9fdac53788885928fa849892250819}{\index{Scheduler@{Scheduler}!Scheduler@{Scheduler}}
+\index{Scheduler@{Scheduler}!Scheduler@{Scheduler}}
+\subsubsection[{Scheduler}]{\setlength{\rightskip}{0pt plus 5cm}Scheduler\-::\-Scheduler (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{in\-\_\-file, }
+\item[{const unsigned int \&}]{num\-\_\-threads}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a9d9fdac53788885928fa849892250819}
+The first part defines the number of N\-U\-M\-A nodes that should be used for pinning
+
+The first pair defines the number of C\-P\-U nodes that should be used for pinning from each N\-U\-M\-A node
+
+N\-O\-N-\/\-A\-D\-J\-U\-S\-T\-A\-B\-L\-E P\-A\-R\-A\-M\-E\-T\-E\-R\-S (Please, do not change the following)
+
+Definition at line 278 of file Scheduler.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3}{\index{Scheduler@{Scheduler}!run@{run}}
+\index{run@{run}!Scheduler@{Scheduler}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void Scheduler\-::run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classScheduler_a58fba108ce2748870a6288cd6f5fd1e3}
+
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-threads} & \\
+\hline
+{\em rl\-\_\-mapping} & N\-O\-N-\/\-A\-D\-J\-U\-S\-T\-A\-B\-L\-E P\-A\-R\-A\-M\-E\-T\-E\-R\-S (Please, do not change the following) Parameters w.\-r.\-t. the R\-L\-\_\-mapping algorithm \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 861 of file Scheduler.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Scheduler.\-h\item 
+Scheduler.\-cpp\end{DoxyCompactItemize}

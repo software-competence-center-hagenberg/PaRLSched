@@ -1,0 +1,258 @@
+.TH "Struct_OverallPerformance" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_OverallPerformance \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MethodsPerformanceMonitoring\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const unsigned int &num_main_resources, const std::vector< unsigned int > &num_actions)"
+.br
+.ti -1c
+.RI "void \fBupdate_sum_performances_per_main_resource\fP (const unsigned int &resource_ind, const double &sum_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_ave_performance_per_main_resource\fP (const unsigned int &resource_ind, const double &ave_performance)"
+.br
+.ti -1c
+.RI "void \fBupdate_sum_balanced_performances_per_main_resource\fP (const unsigned int &resource_ind, const double &sum_balanced_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_ave_balanced_performance_per_main_resource\fP (const unsigned int &resource_ind, const double &ave_balanced_performance)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance_per_main_resource\fP (const unsigned int &resource_ind, const double &ave_performance, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_balanced_performance_per_main_resource\fP (const unsigned int &resource_ind, const double ave_balanced_performance, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_sum_balanced_performances_per_main_resource_per_action\fP (const unsigned int &resource_ind, const std::vector< double > &sum_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_ave_balanced_performances_per_main_resource_per_action\fP (const unsigned int &resource_ind, const std::vector< double > &ave_performances)"
+.br
+.ti -1c
+.RI "void \fBupdate_num_threads_using_main_resource_per_action\fP (const unsigned int &resource_ind, const std::vector< unsigned int > &vec_threads)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_balanced_performances_per_main_resource_per_action\fP (const unsigned int &resource_ind, const unsigned int &action, const double &ave_balanced_performance, const unsigned int &iteration)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::vector< double > \fBsum_performances_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBsum_balanced_performances_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBave_performance_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBave_balanced_performance_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBsum_balanced_performances_per_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBave_balanced_performances_per_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< unsigned int > > \fBnum_threads_using_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBrun_ave_balanced_performances_per_main_resource_per_action_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBrun_average_performance_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBrun_average_balanced_performance_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The role of this structure is to gather some overall information regarding the performance of the threads e\&.g\&., the sum of the performances of the threads 
+.PP
+Definition at line 21 of file MethodsPerformanceMonitoring\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_OverallPerformance::update_ave_balanced_performance_per_main_resource (const unsigned int &resource_ind, const double &ave_balanced_performance)\fC [inline]\fP"
+Update average balanced performances per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIave_balanced_performance\fP 
+.RE
+.PP
+
+.PP
+Definition at line 125 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_ave_balanced_performances_per_main_resource_per_action (const unsigned int &resource_ind, const std::vector< double > &ave_performances)\fC [inline]\fP"
+Update average balanced performances per main resource and per action
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIave_performances\fP 
+.RE
+.PP
+
+.PP
+Definition at line 194 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_ave_performance_per_main_resource (const unsigned int &resource_ind, const double &ave_performance)\fC [inline]\fP"
+Update average performance per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIave_performance\fP 
+.RE
+.PP
+
+.PP
+Definition at line 103 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_num_threads_using_main_resource_per_action (const unsigned int &resource_ind, const std::vector< unsigned int > &vec_threads)\fC [inline]\fP"
+Update number of threads using main resource per action
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIvec_threads\fP 
+.RE
+.PP
+
+.PP
+Definition at line 205 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_run_average_balanced_performance_per_main_resource (const unsigned int &resource_ind, const doubleave_balanced_performance, const unsigned int &iteration)\fC [inline]\fP"
+Update running average balanced performances per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIave_balanced_performance\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+
+.PP
+Definition at line 161 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_run_average_balanced_performances_per_main_resource_per_action (const unsigned int &resource_ind, const unsigned int &action, const double &ave_balanced_performance, const unsigned int &iteration)\fC [inline]\fP"
+Update running average balanced performances per main resource and per action
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIaction\fP 
+.br
+\fIave_balanced_performance\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+Here, we calculate the running average resource for each one of the actions of the main resource\&. 
+.PP
+Definition at line 218 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_run_average_performance_per_main_resource (const unsigned int &resource_ind, const double &ave_performance, const unsigned int &iteration)\fC [inline]\fP"
+Update running average performances per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIave_performance\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+
+.PP
+Definition at line 137 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource (const unsigned int &resource_ind, const double &sum_balanced_performances)\fC [inline]\fP"
+Update sum of balanced performances per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIsum_balanced_performances\fP 
+.RE
+.PP
+
+.PP
+Definition at line 114 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource_per_action (const unsigned int &resource_ind, const std::vector< double > &sum_performances)\fC [inline]\fP"
+Update sum of balanced performances per main resource and per action
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIsum_performances\fP 
+.RE
+.PP
+
+.PP
+Definition at line 183 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+.SS "void Struct_OverallPerformance::update_sum_performances_per_main_resource (const unsigned int &resource_ind, const double &sum_performances)\fC [inline]\fP"
+Update sum of performances per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource_ind\fP 
+.br
+\fIsum_performances\fP 
+.RE
+.PP
+
+.PP
+Definition at line 92 of file MethodsPerformanceMonitoring\&.h\&.
+.PP
+Referenced by Scheduler::performance_preprocessing()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

@@ -1,0 +1,38 @@
+.TH "Struct_MethodsEstimate" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_MethodsEstimate \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBRL_update\fP (double &maximum_performance, std::vector< double > &vec_estimates, std::vector< double > &vec_cummulative_estimates, const double &current_performance, const double &current_run_ave_performance, const unsigned int &current_action, const bool &action_main_changed, const double &step_size_RL, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &factor_h, const bool &active_threads_change, const unsigned int &thread)"
+.br
+.ti -1c
+.RI "void \fBRL_reshuffle_mixed\fP (std::vector< double > &vec_estimates)"
+.br
+.ti -1c
+.RI "void \fBAL_update\fP (const double &current_performance, const double &current_run_ave_performance, const double &run_ave_performance_before, const double &step_size, const bool &active_threads_change, const unsigned int &thread, double &low_benchmark, double &high_benchmark, bool &random_switch, bool &action_change)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 223 of file MethodsEstimate\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_MethodsEstimate::AL_update (const double &current_performance, const double &current_run_ave_performance, const double &run_ave_performance_before, const double &step_size, const bool &active_threads_change, const unsigned int &thread, double &low_benchmark, double &high_benchmark, bool &random_switch, bool &action_change)\fC [inline]\fP"
+< Updating benchmarks 
+.PP
+Definition at line 358 of file MethodsEstimate\&.h\&.
+.SS "void Struct_MethodsEstimate::RL_update (double &maximum_performance, std::vector< double > &vec_estimates, std::vector< double > &vec_cummulative_estimates, const double &current_performance, const double &current_run_ave_performance, const unsigned int &current_action, const bool &action_main_changed, const double &step_size_RL, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &factor_h, const bool &active_threads_change, const unsigned int &thread)\fC [inline]\fP"
+We define a new step-size just for updating the RL 
+.PP
+Definition at line 230 of file MethodsEstimate\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

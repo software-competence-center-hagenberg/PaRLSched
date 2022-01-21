@@ -1,0 +1,73 @@
+\hypertarget{structStruct__Estimate}{\section{Struct\-\_\-\-Estimate Struct Reference}
+\label{structStruct__Estimate}\index{Struct\-\_\-\-Estimate@{Struct\-\_\-\-Estimate}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__Estimate_a86b258312b0cbd9a988a8b8c80f72fb4}{void {\bfseries initialize} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const unsigned int \&initial\-\_\-action, const bool \&mixed)}\label{structStruct__Estimate_a86b258312b0cbd9a988a8b8c80f72fb4}
+
+\item 
+\hypertarget{structStruct__Estimate_a14707ec3b60745fc143894f8b335e2eb}{void {\bfseries initialize\-\_\-w\-\_\-child} (const std\-::string \&resource, const unsigned int \&num\-\_\-sources, const unsigned int \&max\-\_\-num\-\_\-sources\-\_\-user, const std\-::string \&child\-\_\-resource, const std\-::vector$<$ std\-::vector$<$ unsigned int $>$ $>$ \&vec\-\_\-num\-\_\-child\-\_\-sources, const std\-::vector$<$ unsigned int $>$ \&vec\-\_\-max\-\_\-num\-\_\-child\-\_\-sources\-\_\-user, const unsigned int \&thread\-\_\-num)}\label{structStruct__Estimate_a14707ec3b60745fc143894f8b335e2eb}
+
+\item 
+\hypertarget{structStruct__Estimate_a1319536e0446f7017c1551375b7bd6bc}{void {\bfseries update\-\_\-estimates} (const std\-::vector$<$ double $>$ \&vec\-\_\-estimates)}\label{structStruct__Estimate_a1319536e0446f7017c1551375b7bd6bc}
+
+\item 
+\hypertarget{structStruct__Estimate_aafbf20ed9ca283b3d8e2da6a2d44a43e}{void {\bfseries update\-\_\-child\-\_\-estimate} (const std\-::vector$<$ double $>$ \&vec\-\_\-estimates, const unsigned int \&source\-\_\-num)}\label{structStruct__Estimate_aafbf20ed9ca283b3d8e2da6a2d44a43e}
+
+\item 
+\hypertarget{structStruct__Estimate_a304683373750daa1d4409658ab5e3164}{void {\bfseries update\-\_\-action} (const std\-::vector$<$ double $>$ \&vec\-\_\-estimates, const unsigned int \&source\-\_\-num)}\label{structStruct__Estimate_a304683373750daa1d4409658ab5e3164}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structStruct__Estimate_a7866b20f273f4bbe7ce2645c5b434a35}{std\-::string {\bfseries resource\-\_\-}}\label{structStruct__Estimate_a7866b20f273f4bbe7ce2645c5b434a35}
+
+\item 
+\hypertarget{structStruct__Estimate_a24bdea270a40349a809470af81bafb0e}{unsigned int {\bfseries num\-\_\-sources\-\_\-}}\label{structStruct__Estimate_a24bdea270a40349a809470af81bafb0e}
+
+\item 
+\hypertarget{structStruct__Estimate_adabb78baf36f2ef0bc0d0e8e04828b97}{std\-::vector$<$ std\-::vector\\*
+$<$ unsigned int $>$ $>$ {\bfseries vec\-\_\-child\-\_\-sources\-\_\-}}\label{structStruct__Estimate_adabb78baf36f2ef0bc0d0e8e04828b97}
+
+\item 
+\hypertarget{structStruct__Estimate_a0b0945a15f4acdd71673c1d1e45b567a}{std\-::vector$<$ double $>$ {\bfseries vec\-\_\-estimates\-\_\-}}\label{structStruct__Estimate_a0b0945a15f4acdd71673c1d1e45b567a}
+
+\item 
+\hypertarget{structStruct__Estimate_a897b46cd85b87c27a982bf18186c9f64}{std\-::vector$<$ double $>$ {\bfseries vec\-\_\-cummulative\-\_\-estimates\-\_\-}}\label{structStruct__Estimate_a897b46cd85b87c27a982bf18186c9f64}
+
+\item 
+\hypertarget{structStruct__Estimate_a85fe5ddb41f66097b960f2f715cc82c4}{double {\bfseries run\-\_\-average\-\_\-performance\-\_\-}}\label{structStruct__Estimate_a85fe5ddb41f66097b960f2f715cc82c4}
+
+\item 
+\hypertarget{structStruct__Estimate_a94dbf41446b7bad1f8c161c16e9f22c1}{std\-::vector$<$ \hyperlink{structStruct__Estimate}{Struct\-\_\-\-Estimate} $>$ {\bfseries vec\-\_\-child\-\_\-estimates\-\_\-}}\label{structStruct__Estimate_a94dbf41446b7bad1f8c161c16e9f22c1}
+
+\item 
+\hypertarget{structStruct__Estimate_a39eecaa17793e0813cdb89338ed794f3}{double {\bfseries low\-\_\-benchmark\-\_\-}}\label{structStruct__Estimate_a39eecaa17793e0813cdb89338ed794f3}
+
+\item 
+\hypertarget{structStruct__Estimate_aa876453ecd5a4e13ab9bf772ea4daac5}{double {\bfseries high\-\_\-benchmark\-\_\-}}\label{structStruct__Estimate_aa876453ecd5a4e13ab9bf772ea4daac5}
+
+\item 
+\hypertarget{structStruct__Estimate_a9fba7f1bb54a7b5a3f1683f2a567e3d7}{double {\bfseries maximum\-\_\-performance\-\_\-}}\label{structStruct__Estimate_a9fba7f1bb54a7b5a3f1683f2a567e3d7}
+
+\item 
+\hypertarget{structStruct__Estimate_aa1470fc0ef35f78f59abd0cc51916711}{bool {\bfseries random\-\_\-switch\-\_\-}}\label{structStruct__Estimate_aa1470fc0ef35f78f59abd0cc51916711}
+
+\item 
+\hypertarget{structStruct__Estimate_ac267b3a432bde596b9bf3548c7ac65df}{bool {\bfseries action\-\_\-change\-\_\-}}\label{structStruct__Estimate_ac267b3a432bde596b9bf3548c7ac65df}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 54 of file Methods\-Estimate.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Methods\-Estimate.\-h\end{DoxyCompactItemize}

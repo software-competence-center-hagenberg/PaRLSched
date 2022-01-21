@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__PerformanceMonitoring" kind="struct" prot="public">
+    <compoundname>Struct_PerformanceMonitoring</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a4befcad39a937f6b5e700096c2c59db8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Struct_PerformanceMonitoring::resource_</definition>
+        <argsstring></argsstring>
+        <name>resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="201" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a4511f5fefac78cf5e8af5328b9c4fd4e" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_PerformanceMonitoring::num_sources_</definition>
+        <argsstring></argsstring>
+        <name>num_sources_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="202" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a988731ba990b5c6b4ec504260de3f58e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::performance_</definition>
+        <argsstring></argsstring>
+        <name>performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="207" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1af0c1251314c796cae71ab26c207fc175" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::balanced_performance_</definition>
+        <argsstring></argsstring>
+        <name>balanced_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="208" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1ae83002b76dac4f7250f1f5f85609b61c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::alg_performance_</definition>
+        <argsstring></argsstring>
+        <name>alg_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="209" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1ab31eba22d1c2c5035bdee635c8209f4c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Struct_PerformanceMonitoring::performance_update_ind_</definition>
+        <argsstring></argsstring>
+        <name>performance_update_ind_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="211" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1ada27304bbb88f857e4d732510127e1ae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::overall_performance_</definition>
+        <argsstring></argsstring>
+        <name>overall_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="216" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a08bc2db12b9e3a773ba69f5183615f51" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::overall_balanced_performance_</definition>
+        <argsstring></argsstring>
+        <name>overall_balanced_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="217" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1af00d1d134575d0f5ccc3088bc468ab89" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::min_performance_</definition>
+        <argsstring></argsstring>
+        <name>min_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="223" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a6a66143217c890e69bde67de78a38c80" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::max_performance_</definition>
+        <argsstring></argsstring>
+        <name>max_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="224" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a05d5a654c9026decca3ea69752d7ef61" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::run_average_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="229" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a2dcbd8f140c688c7efc2f5c755074d01" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::run_average_balanced_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_balanced_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="230" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1ab346e075b6035bd4cc75f4c6a3536c98" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_PerformanceMonitoring::run_average_balanced_performance_before_</definition>
+        <argsstring></argsstring>
+        <name>run_average_balanced_performance_before_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="232" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a55cf855d80649986fbb2530ea0fe80ba" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; Struct_PerformanceMonitoring::vec_num_child_sources_</definition>
+        <argsstring></argsstring>
+        <name>vec_num_child_sources_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="242" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1a3b3938a4d94d1432357d6f577aba7839" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_PerformanceMonitoring::vec_run_average_performances_per_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>vec_run_average_performances_per_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="243" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__PerformanceMonitoring_1aba51ce2ae3d06715b36bb88676cff5ff" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector &lt; double &gt; &gt; Struct_PerformanceMonitoring::vec_run_average_performances_per_child_resource_</definition>
+        <argsstring></argsstring>
+        <name>vec_run_average_performances_per_child_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="244" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__PerformanceMonitoring_1a97d5962047f0577a68ddd420b1da8a1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_PerformanceMonitoring::initialize</definition>
+        <argsstring>(const std::string &amp;resource, const unsigned int &amp;num_sources, const unsigned int &amp;max_num_sources_user)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_sources</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_num_sources_user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="251" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="252" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__PerformanceMonitoring_1aa7963e7c54d30095a7283bbf49f4a61b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_PerformanceMonitoring::initialize_w_child</definition>
+        <argsstring>(const std::string &amp;resource, const unsigned int &amp;num_sources, const unsigned int &amp;max_num_sources_user, const std::string &amp;child_resource, const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;vec_num_child_sources, const std::vector&lt; unsigned int &gt; vec_max_num_child_sources_user)</argsstring>
+        <name>initialize_w_child</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_sources</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_num_sources_user</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>child_resource</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;</type>
+          <declname>vec_num_child_sources</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt;</type>
+          <declname>vec_max_num_child_sources_user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="278" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="279" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__PerformanceMonitoring_1adcdd8d9911b6ef408cfe6680ab1fda43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_PerformanceMonitoring::update_run_average_performance</definition>
+        <argsstring>(const double &amp;performance, const double &amp;step_size, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_performance</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>performance</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="309" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="309" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__PerformanceMonitoring_1a73b2ca8763d02a85aa900c17c2187d18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_PerformanceMonitoring::update_run_average_balanced_performance</definition>
+        <argsstring>(const double &amp;balanced_performance, const double &amp;step_size, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_balanced_performance</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>balanced_performance</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="325" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="325" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__PerformanceMonitoring_1a19680cdaf279198b2065f97045aa7861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_PerformanceMonitoring::update_run_average_performance_per_main_resource</definition>
+        <argsstring>(const double &amp;performance, const unsigned int &amp;main_source, const double &amp;step_size, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_performance_per_main_resource</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>performance</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>main_source</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="335" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="335" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__PerformanceMonitoring_1a797d2ddf9ac5543dbc8d1a1cc6a757ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_PerformanceMonitoring::update_run_average_performance_per_child_resource</definition>
+        <argsstring>(const double &amp;performance, const unsigned int &amp;main_source, const unsigned int &amp;child_source, const double &amp;step_size, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_performance_per_child_resource</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>performance</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>main_source</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>child_source</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="343" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="343" bodyend="351"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="193" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="192" bodyend="354"/>
+    <listofallmembers>
+      <member refid="structStruct__PerformanceMonitoring_1ae83002b76dac4f7250f1f5f85609b61c" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>alg_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1af0c1251314c796cae71ab26c207fc175" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>balanced_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a97d5962047f0577a68ddd420b1da8a1e" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>initialize</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1aa7963e7c54d30095a7283bbf49f4a61b" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>initialize_w_child</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a6a66143217c890e69bde67de78a38c80" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>max_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1af00d1d134575d0f5ccc3088bc468ab89" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>min_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a4511f5fefac78cf5e8af5328b9c4fd4e" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>num_sources_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a08bc2db12b9e3a773ba69f5183615f51" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>overall_balanced_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1ada27304bbb88f857e4d732510127e1ae" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>overall_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a988731ba990b5c6b4ec504260de3f58e" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1ab31eba22d1c2c5035bdee635c8209f4c" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>performance_update_ind_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a4befcad39a937f6b5e700096c2c59db8" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>resource_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a2dcbd8f140c688c7efc2f5c755074d01" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>run_average_balanced_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1ab346e075b6035bd4cc75f4c6a3536c98" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>run_average_balanced_performance_before_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a05d5a654c9026decca3ea69752d7ef61" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>run_average_performance_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a73b2ca8763d02a85aa900c17c2187d18" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>update_run_average_balanced_performance</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1adcdd8d9911b6ef408cfe6680ab1fda43" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>update_run_average_performance</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a797d2ddf9ac5543dbc8d1a1cc6a757ad" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>update_run_average_performance_per_child_resource</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a19680cdaf279198b2065f97045aa7861" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>update_run_average_performance_per_main_resource</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a55cf855d80649986fbb2530ea0fe80ba" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>vec_num_child_sources_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1aba51ce2ae3d06715b36bb88676cff5ff" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>vec_run_average_performances_per_child_resource_</name></member>
+      <member refid="structStruct__PerformanceMonitoring_1a3b3938a4d94d1432357d6f577aba7839" prot="public" virt="non-virtual"><scope>Struct_PerformanceMonitoring</scope><name>vec_run_average_performances_per_main_resource_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

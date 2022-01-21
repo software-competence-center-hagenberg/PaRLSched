@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__Estimate" kind="struct" prot="public">
+    <compoundname>Struct_Estimate</compoundname>
+    <includes refid="MethodsEstimate_8h" local="no">MethodsEstimate.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStruct__Estimate_1a7866b20f273f4bbe7ce2645c5b434a35" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Struct_Estimate::resource_</definition>
+        <argsstring></argsstring>
+        <name>resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="46" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a24bdea270a40349a809470af81bafb0e" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Struct_Estimate::num_sources_</definition>
+        <argsstring></argsstring>
+        <name>num_sources_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="47" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1adabb78baf36f2ef0bc0d0e8e04828b97" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; unsigned int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; unsigned int &gt; &gt; Struct_Estimate::vec_child_sources_</definition>
+        <argsstring></argsstring>
+        <name>vec_child_sources_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="48" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a0b0945a15f4acdd71673c1d1e45b567a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; Struct_Estimate::vec_estimates_</definition>
+        <argsstring></argsstring>
+        <name>vec_estimates_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="50" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a897b46cd85b87c27a982bf18186c9f64" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; Struct_Estimate::vec_cummulative_estimates_</definition>
+        <argsstring></argsstring>
+        <name>vec_cummulative_estimates_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="51" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a85fe5ddb41f66097b960f2f715cc82c4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_Estimate::run_average_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="53" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a94dbf41446b7bad1f8c161c16e9f22c1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structStruct__Estimate" kindref="compound">Struct_Estimate</ref> &gt;</type>
+        <definition>std::vector&lt; Struct_Estimate &gt; Struct_Estimate::vec_child_estimates_</definition>
+        <argsstring></argsstring>
+        <name>vec_child_estimates_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="55" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a39eecaa17793e0813cdb89338ed794f3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_Estimate::low_benchmark_</definition>
+        <argsstring></argsstring>
+        <name>low_benchmark_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="57" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1aa876453ecd5a4e13ab9bf772ea4daac5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_Estimate::high_benchmark_</definition>
+        <argsstring></argsstring>
+        <name>high_benchmark_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="58" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1a9fba7f1bb54a7b5a3f1683f2a567e3d7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Struct_Estimate::maximum_performance_</definition>
+        <argsstring></argsstring>
+        <name>maximum_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="60" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1aa1470fc0ef35f78f59abd0cc51916711" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Struct_Estimate::random_switch_</definition>
+        <argsstring></argsstring>
+        <name>random_switch_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="61" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__Estimate_1ac267b3a432bde596b9bf3548c7ac65df" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Struct_Estimate::action_change_</definition>
+        <argsstring></argsstring>
+        <name>action_change_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="62" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__Estimate_1a86b258312b0cbd9a988a8b8c80f72fb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Estimate::initialize</definition>
+        <argsstring>(const std::string &amp;resource, const unsigned int &amp;num_sources, const unsigned int &amp;max_num_sources_user, const unsigned int &amp;initial_action, const bool &amp;mixed)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_sources</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_num_sources_user</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>initial_action</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>mixed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function initializes the structure</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resource type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_num_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum number of sources per user </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initial_action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial action </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="74" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="74" bodyend="112"/>
+        <referencedby refid="structStruct__Estimate_1a14707ec3b60745fc143894f8b335e2eb" compoundref="MethodsEstimate_8h" startline="129" endline="193">initialize_w_child</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Estimate_1a14707ec3b60745fc143894f8b335e2eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Estimate::initialize_w_child</definition>
+        <argsstring>(const std::string &amp;resource, const unsigned int &amp;num_sources, const unsigned int &amp;max_num_sources_user, const std::string &amp;child_resource, const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;vec_num_child_sources, const std::vector&lt; unsigned int &gt; &amp;vec_max_num_child_sources_user, const unsigned int &amp;thread_num)</argsstring>
+        <name>initialize_w_child</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_sources</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>max_num_sources_user</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>child_resource</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; unsigned int &gt; &gt; &amp;</type>
+          <declname>vec_num_child_sources</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>vec_max_num_child_sources_user</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>thread_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>It is implicitly assumed that the main resource also has a child resource For example, in the case of PROCESSING_BANDWIDTH, the main sources correspond to the NUMA nodes (if available) while the child sources correspond to the CPU units available in each NUMA node.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resource type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_num_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum number of sources per user </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>child_resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>child resource type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_num_child_sources</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of number of child sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_max_num_child_sources_user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of maximum number of child sources per user </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>thread number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="128" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="129" bodyend="193"/>
+        <references refid="structStruct__Actions_1a2d1d697fe7778e807179b7bef8c809db" compoundref="MethodsActions_8h" startline="185" endline="229">Struct_Actions::compute_initial_action</references>
+        <references refid="structStruct__Estimate_1a86b258312b0cbd9a988a8b8c80f72fb4" compoundref="MethodsEstimate_8h" startline="74" endline="112">initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Estimate_1a1319536e0446f7017c1551375b7bd6bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Estimate::update_estimates</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;vec_estimates)</argsstring>
+        <name>update_estimates</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_estimates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function receives a vector of estimates, and assigns it to the existing structure</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="201" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="201" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Estimate_1aafbf20ed9ca283b3d8e2da6a2d44a43e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Estimate::update_child_estimate</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;vec_estimates, const unsigned int &amp;source_num)</argsstring>
+        <name>update_child_estimate</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_estimates</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>source_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function receives a vector of estimates for the child resources, and assigns it to the existing structure</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="213" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="213" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__Estimate_1a304683373750daa1d4409658ab5e3164" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_Estimate::update_action</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;vec_estimates, const unsigned int &amp;source_num)</argsstring>
+        <name>update_action</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>vec_estimates</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>source_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vec_estimates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="225" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="225" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="structStruct__Estimate" kindref="compound">Struct_Estimate</ref></para><para>It provides the necessary information for keeping track our estimates for the performance of a thread over a specific node/cpu or the performance of a thread&apos;s memory over a specific node (or some further refinement if possible)</para><para>This structure is planned for &apos;per-thread&apos; use, since it will hold estimates over the proper use of resources by each thread separately.</para><para>Within this structure, there is an additional struct that tracks the performances of the threads throughout the running time. </para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" line="44" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsEstimate.h" bodystart="43" bodyend="227"/>
+    <listofallmembers>
+      <member refid="structStruct__Estimate_1ac267b3a432bde596b9bf3548c7ac65df" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>action_change_</name></member>
+      <member refid="structStruct__Estimate_1aa876453ecd5a4e13ab9bf772ea4daac5" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>high_benchmark_</name></member>
+      <member refid="structStruct__Estimate_1a86b258312b0cbd9a988a8b8c80f72fb4" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>initialize</name></member>
+      <member refid="structStruct__Estimate_1a14707ec3b60745fc143894f8b335e2eb" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>initialize_w_child</name></member>
+      <member refid="structStruct__Estimate_1a39eecaa17793e0813cdb89338ed794f3" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>low_benchmark_</name></member>
+      <member refid="structStruct__Estimate_1a9fba7f1bb54a7b5a3f1683f2a567e3d7" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>maximum_performance_</name></member>
+      <member refid="structStruct__Estimate_1a24bdea270a40349a809470af81bafb0e" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>num_sources_</name></member>
+      <member refid="structStruct__Estimate_1aa1470fc0ef35f78f59abd0cc51916711" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>random_switch_</name></member>
+      <member refid="structStruct__Estimate_1a7866b20f273f4bbe7ce2645c5b434a35" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>resource_</name></member>
+      <member refid="structStruct__Estimate_1a85fe5ddb41f66097b960f2f715cc82c4" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>run_average_performance_</name></member>
+      <member refid="structStruct__Estimate_1a304683373750daa1d4409658ab5e3164" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>update_action</name></member>
+      <member refid="structStruct__Estimate_1aafbf20ed9ca283b3d8e2da6a2d44a43e" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>update_child_estimate</name></member>
+      <member refid="structStruct__Estimate_1a1319536e0446f7017c1551375b7bd6bc" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>update_estimates</name></member>
+      <member refid="structStruct__Estimate_1a94dbf41446b7bad1f8c161c16e9f22c1" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>vec_child_estimates_</name></member>
+      <member refid="structStruct__Estimate_1adabb78baf36f2ef0bc0d0e8e04828b97" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>vec_child_sources_</name></member>
+      <member refid="structStruct__Estimate_1a897b46cd85b87c27a982bf18186c9f64" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>vec_cummulative_estimates_</name></member>
+      <member refid="structStruct__Estimate_1a0b0945a15f4acdd71673c1d1e45b567a" prot="public" virt="non-virtual"><scope>Struct_Estimate</scope><name>vec_estimates_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

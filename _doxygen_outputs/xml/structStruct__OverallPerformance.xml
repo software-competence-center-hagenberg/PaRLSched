@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structStruct__OverallPerformance" kind="struct" prot="public">
+    <compoundname>Struct_OverallPerformance</compoundname>
+    <includes refid="MethodsPerformanceMonitoring_8h" local="no">MethodsPerformanceMonitoring.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1ab93f96f56b1c50775e2899a164a15da3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_OverallPerformance::sum_performances_per_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>sum_performances_per_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="23" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1a1f97ba922669b0ee8a71a6a7839e69ed" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_OverallPerformance::sum_balanced_performances_per_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>sum_balanced_performances_per_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="24" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1a872e5ba2ae6de73c681aa426a2f115c4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_OverallPerformance::ave_performance_per_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>ave_performance_per_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="25" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1ac72bab23968737727e9e655e500d4426" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_OverallPerformance::ave_balanced_performance_per_main_resource_</definition>
+        <argsstring></argsstring>
+        <name>ave_balanced_performance_per_main_resource_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="26" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1a119209ab011e556f03ecfe79b0504d73" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector &lt; double &gt; &gt; Struct_OverallPerformance::sum_balanced_performances_per_main_resource_per_action_</definition>
+        <argsstring></argsstring>
+        <name>sum_balanced_performances_per_main_resource_per_action_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="28" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1a451e116ad8e1a5528757ddaa4c6b8815" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector &lt; double &gt; &gt; Struct_OverallPerformance::ave_balanced_performances_per_main_resource_per_action_</definition>
+        <argsstring></argsstring>
+        <name>ave_balanced_performances_per_main_resource_per_action_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="29" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1aaef2ec8af207e3ab7ec22aacbf6c6148" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; unsigned int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; unsigned int &gt; &gt; Struct_OverallPerformance::num_threads_using_main_resource_per_action_</definition>
+        <argsstring></argsstring>
+        <name>num_threads_using_main_resource_per_action_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="30" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1af286bc0a54cf35dc819b8b36b4e2f11e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; double &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; double &gt; &gt; Struct_OverallPerformance::run_ave_balanced_performances_per_main_resource_per_action_</definition>
+        <argsstring></argsstring>
+        <name>run_ave_balanced_performances_per_main_resource_per_action_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="31" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1a2a228d31c1f56c628e7a597d8c3782b4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_OverallPerformance::run_average_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="33" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStruct__OverallPerformance_1a79de6182a1fead9069b00a1db4a87b9a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; Struct_OverallPerformance::run_average_balanced_performance_</definition>
+        <argsstring></argsstring>
+        <name>run_average_balanced_performance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="34" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structStruct__OverallPerformance_1a0c0008feee04c905191d898c6424e6de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::initialize</definition>
+        <argsstring>(const unsigned int &amp;num_main_resources, const std::vector&lt; unsigned int &gt; &amp;num_actions)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>num_main_resources</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>num_actions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="36" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="36" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1adbf1ef74ab376a91a004e66c2307bda8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_sum_performances_per_main_resource</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const double &amp;sum_performances)</argsstring>
+        <name>update_sum_performances_per_main_resource</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>sum_performances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update sum of performances per main resource</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sum_performances</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="92" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="92" bodyend="95"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1ac89f69c2e0042fb2294a280259c59014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_ave_performance_per_main_resource</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const double &amp;ave_performance)</argsstring>
+        <name>update_ave_performance_per_main_resource</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>ave_performance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update average performance per main resource</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ave_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="103" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="103" bodyend="106"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1a2657703dcd0c2d95fd91e7cf7d36f104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const double &amp;sum_balanced_performances)</argsstring>
+        <name>update_sum_balanced_performances_per_main_resource</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>sum_balanced_performances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update sum of balanced performances per main resource</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sum_balanced_performances</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="114" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="114" bodyend="117"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1a600d40acdcd532ad9a69451192e5c72f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_ave_balanced_performance_per_main_resource</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const double &amp;ave_balanced_performance)</argsstring>
+        <name>update_ave_balanced_performance_per_main_resource</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>ave_balanced_performance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update average balanced performances per main resource</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ave_balanced_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="125" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="125" bodyend="128"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1ac454dbd325a845a55aa4270a2776eb10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_run_average_performance_per_main_resource</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const double &amp;ave_performance, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_performance_per_main_resource</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>ave_performance</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update running average performances per main resource</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ave_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iteration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="137" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="137" bodyend="152"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1a935b197290050caf10fc7449c3888fbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_run_average_balanced_performance_per_main_resource</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const double ave_balanced_performance, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_balanced_performance_per_main_resource</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>ave_balanced_performance</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update running average balanced performances per main resource</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ave_balanced_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iteration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="161" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="161" bodyend="175"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1a4d1d91cfa679c3ecc8672ab20935aef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_sum_balanced_performances_per_main_resource_per_action</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const std::vector&lt; double &gt; &amp;sum_performances)</argsstring>
+        <name>update_sum_balanced_performances_per_main_resource_per_action</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>sum_performances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update sum of balanced performances per main resource and per action</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sum_performances</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="183" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="183" bodyend="186"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1ab1ac4196ecdc79d80b79bada3a05fbd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_ave_balanced_performances_per_main_resource_per_action</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const std::vector&lt; double &gt; &amp;ave_performances)</argsstring>
+        <name>update_ave_balanced_performances_per_main_resource_per_action</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>ave_performances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update average balanced performances per main resource and per action</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ave_performances</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="194" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="194" bodyend="197"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1aafe90e8e3cc2632788e1f9018613db68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_num_threads_using_main_resource_per_action</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const std::vector&lt; unsigned int &gt; &amp;vec_threads)</argsstring>
+        <name>update_num_threads_using_main_resource_per_action</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>vec_threads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update number of threads using main resource per action</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vec_threads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="205" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="205" bodyend="208"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structStruct__OverallPerformance_1a9e7fb7b45be4dfab7234e626cd576aeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Struct_OverallPerformance::update_run_average_balanced_performances_per_main_resource_per_action</definition>
+        <argsstring>(const unsigned int &amp;resource_ind, const unsigned int &amp;action, const double &amp;ave_balanced_performance, const unsigned int &amp;iteration)</argsstring>
+        <name>update_run_average_balanced_performances_per_main_resource_per_action</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>resource_ind</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>ave_balanced_performance</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>iteration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update running average balanced performances per main resource and per action</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource_ind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ave_balanced_performance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iteration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Here, we calculate the running average resource for each one of the actions of the main resource. </para>        </inbodydescription>
+        <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="218" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="218" bodyend="235"/>
+        <referencedby refid="classScheduler_1a2e8eeafda5ee215213d1a8ad076e86e7" compoundref="Scheduler_8cpp" startline="1364" endline="1532">Scheduler::performance_preprocessing</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The role of this structure is to gather some overall information regarding the performance of the threads e.g., the sum of the performances of the threads </para>    </detaileddescription>
+    <location file="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" line="22" column="1" bodyfile="/home/chasparis/Documents/RePhrase_git/RePhrase_new/PaRLSched/MethodsPerformanceMonitoring.h" bodystart="21" bodyend="237"/>
+    <listofallmembers>
+      <member refid="structStruct__OverallPerformance_1ac72bab23968737727e9e655e500d4426" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>ave_balanced_performance_per_main_resource_</name></member>
+      <member refid="structStruct__OverallPerformance_1a451e116ad8e1a5528757ddaa4c6b8815" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>ave_balanced_performances_per_main_resource_per_action_</name></member>
+      <member refid="structStruct__OverallPerformance_1a872e5ba2ae6de73c681aa426a2f115c4" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>ave_performance_per_main_resource_</name></member>
+      <member refid="structStruct__OverallPerformance_1a0c0008feee04c905191d898c6424e6de" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>initialize</name></member>
+      <member refid="structStruct__OverallPerformance_1aaef2ec8af207e3ab7ec22aacbf6c6148" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>num_threads_using_main_resource_per_action_</name></member>
+      <member refid="structStruct__OverallPerformance_1af286bc0a54cf35dc819b8b36b4e2f11e" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>run_ave_balanced_performances_per_main_resource_per_action_</name></member>
+      <member refid="structStruct__OverallPerformance_1a79de6182a1fead9069b00a1db4a87b9a" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>run_average_balanced_performance_</name></member>
+      <member refid="structStruct__OverallPerformance_1a2a228d31c1f56c628e7a597d8c3782b4" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>run_average_performance_</name></member>
+      <member refid="structStruct__OverallPerformance_1a1f97ba922669b0ee8a71a6a7839e69ed" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>sum_balanced_performances_per_main_resource_</name></member>
+      <member refid="structStruct__OverallPerformance_1a119209ab011e556f03ecfe79b0504d73" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>sum_balanced_performances_per_main_resource_per_action_</name></member>
+      <member refid="structStruct__OverallPerformance_1ab93f96f56b1c50775e2899a164a15da3" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>sum_performances_per_main_resource_</name></member>
+      <member refid="structStruct__OverallPerformance_1a600d40acdcd532ad9a69451192e5c72f" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_ave_balanced_performance_per_main_resource</name></member>
+      <member refid="structStruct__OverallPerformance_1ab1ac4196ecdc79d80b79bada3a05fbd9" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_ave_balanced_performances_per_main_resource_per_action</name></member>
+      <member refid="structStruct__OverallPerformance_1ac89f69c2e0042fb2294a280259c59014" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_ave_performance_per_main_resource</name></member>
+      <member refid="structStruct__OverallPerformance_1aafe90e8e3cc2632788e1f9018613db68" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_num_threads_using_main_resource_per_action</name></member>
+      <member refid="structStruct__OverallPerformance_1a935b197290050caf10fc7449c3888fbe" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_run_average_balanced_performance_per_main_resource</name></member>
+      <member refid="structStruct__OverallPerformance_1a9e7fb7b45be4dfab7234e626cd576aeb" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_run_average_balanced_performances_per_main_resource_per_action</name></member>
+      <member refid="structStruct__OverallPerformance_1ac454dbd325a845a55aa4270a2776eb10" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_run_average_performance_per_main_resource</name></member>
+      <member refid="structStruct__OverallPerformance_1a2657703dcd0c2d95fd91e7cf7d36f104" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_sum_balanced_performances_per_main_resource</name></member>
+      <member refid="structStruct__OverallPerformance_1a4d1d91cfa679c3ecc8672ab20935aef1" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_sum_balanced_performances_per_main_resource_per_action</name></member>
+      <member refid="structStruct__OverallPerformance_1adbf1ef74ab376a91a004e66c2307bda8" prot="public" virt="non-virtual"><scope>Struct_OverallPerformance</scope><name>update_sum_performances_per_main_resource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

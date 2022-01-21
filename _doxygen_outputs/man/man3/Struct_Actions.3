@@ -1,0 +1,173 @@
+.TH "Struct_Actions" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_Actions \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MethodsActions\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, std::vector< unsigned int > &action_main_old, const unsigned int &thread_num)"
+.br
+.ti -1c
+.RI "void \fBinitialize_w_child\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num, std::vector< unsigned int > &action_main_old, const unsigned int &policy, const unsigned int &neighborhood_size)"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBcompute_initial_action\fP (const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num, const unsigned int &max_number_available_main_sources)"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBcompute_initial_action_rr\fP (const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBresource_\fP"
+.br
+.ti -1c
+.RI "std::string \fBchild_resource_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBnum_actions_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBvec_num_child_actions_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::map< std::tuple< unsigned 
+.br
+int, unsigned int, unsigned 
+.br
+int >, std::vector< unsigned 
+.br
+int > > \fBmap_neighbors_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBaction_per_main_source_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBprevious_action_per_main_source_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBaction_per_child_source_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBprevious_action_per_child_source_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< unsigned int > > \fBvec_child_sources_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This structure gathers information that is relevant for keeping in track the actions selected by each thread with respect to the resources that need to be optimized (e\&.g\&., cpu placement, memory placement) 
+.PP
+Definition at line 23 of file MethodsActions\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "std::vector<unsigned int> Struct_Actions::compute_initial_action (const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num, const unsigned int &max_number_available_main_sources)\fC [inline]\fP"
+Compute initial action
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvec_num_child_sources\fP vector of number of child sources 
+.br
+\fIvec_max_num_child_sources_user\fP vector of maximum number of child sources 
+.br
+\fIthread_num\fP thread number 
+.br
+\fImax_number_available_main_sources\fP maximum number of available main sources 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 185 of file MethodsActions\&.h\&.
+.PP
+Referenced by initialize_w_child(), and Struct_Estimate::initialize_w_child()\&.
+.SS "std::vector<unsigned int> Struct_Actions::compute_initial_action_rr (const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num)\fC [inline]\fP"
+Compute initial action with Round Robin algorithm
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvec_num_child_sources\fP vector of number of child sources 
+.br
+\fIvec_max_num_child_sources_user\fP vector of maximum number of child sources per user 
+.br
+\fIthread_num\fP thread number 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 241 of file MethodsActions\&.h\&.
+.PP
+Referenced by initialize_w_child()\&.
+.SS "void Struct_Actions::initialize (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, std::vector< unsigned int > &action_main_old, const unsigned int &thread_num)\fC [inline]\fP"
+We initialize the structure \fBStruct_Actions\fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource\fP resource type 
+.br
+\fInum_sources\fP number of sources 
+.br
+\fImax_num_sources_user\fP maximum number of sources 
+.br
+\fIaction_main_old\fP old action of the main resource 
+.br
+\fIthread_num\fP thread number 
+.RE
+.PP
+
+.PP
+Definition at line 61 of file MethodsActions\&.h\&.
+.SS "void Struct_Actions::initialize_w_child (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num, std::vector< unsigned int > &action_main_old, const unsigned int &policy, const unsigned int &neighborhood_size)\fC [inline]\fP"
+Initialize the performance tracking variables when child resources are also present\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource\fP type of resource 
+.br
+\fInum_sources\fP number of sources 
+.br
+\fImax_num_sources_user\fP maximum number of sources 
+.br
+\fIchild_resource\fP type of child resource 
+.br
+\fIvec_num_child_sources\fP vector of number of child sources per main source 
+.br
+\fIvec_max_num_child_sources_user\fP vector of maximum number of child sources per main source 
+.br
+\fIthread_num\fP thread number 
+.br
+\fIaction_main_old\fP old action of the main resource 
+.br
+\fIpolicy\fP policy 
+.br
+\fIneighborhood_size\fP neighborhood size (for considering groups of child sources) 
+.RE
+.PP
+
+.PP
+Definition at line 93 of file MethodsActions\&.h\&.
+.PP
+References compute_initial_action(), and compute_initial_action_rr()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

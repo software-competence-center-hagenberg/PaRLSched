@@ -1,0 +1,73 @@
+.TH "Struct_Actions" 3 "Mon Nov 29 2021" "PaRLSchedv1.0" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_Actions \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, std::vector< unsigned int > &action_main_old, const unsigned int &thread_num)"
+.br
+.ti -1c
+.RI "void \fBinitialize_w_child\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num, std::vector< unsigned int > &action_main_old, const unsigned int &policy, const unsigned int &neighborhood_size)"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBcompute_initial_action\fP (const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num, const unsigned int &max_number_available_main_sources)"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBcompute_initial_action_rr\fP (const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > &vec_max_num_child_sources_user, const unsigned int &thread_num)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBresource_\fP"
+.br
+.ti -1c
+.RI "std::string \fBchild_resource_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBnum_actions_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBvec_num_child_actions_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::map< std::tuple< unsigned 
+.br
+int, unsigned int, unsigned 
+.br
+int >, std::vector< unsigned 
+.br
+int > > \fBmap_neighbors_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBaction_per_main_source_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBprevious_action_per_main_source_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBaction_per_child_source_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBprevious_action_per_child_source_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< unsigned int > > \fBvec_child_sources_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 26 of file MethodsActions\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSchedv1\&.0 from the source code\&.

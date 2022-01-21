@@ -1,0 +1,104 @@
+.TH "Struct_MethodsEstimate" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_MethodsEstimate \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MethodsEstimate\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBRL_update\fP (double &maximum_performance, std::vector< double > &vec_estimates, std::vector< double > &vec_cummulative_estimates, const double &current_performance, const double &current_run_ave_performance, const unsigned int &current_action, const bool &action_main_changed, const double &step_size_RL, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &factor_h, const bool &active_threads_change, const unsigned int &thread)"
+.br
+.ti -1c
+.RI "void \fBRL_reshuffle_mixed\fP (std::vector< double > &vec_estimates)"
+.br
+.ti -1c
+.RI "void \fBAL_update\fP (const double &current_performance, const double &current_run_ave_performance, const double &run_ave_performance_before, const double &step_size, const bool &active_threads_change, const unsigned int &thread, double &low_benchmark, double &high_benchmark, bool &random_switch, bool &action_change)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This structure provides alternative methodologies for creating estimates over the best selection\&. Inputs: For now, we assume that it takes as inputs the following:
+.IP "\(bu" 2
+prior estimate data (maybe not created under the same rule)
+.IP "\(bu" 2
+current performance (this may take different values depending on the resource to be allocated) 
+.PP
+
+.PP
+Definition at line 237 of file MethodsEstimate\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_MethodsEstimate::AL_update (const double &current_performance, const double &current_run_ave_performance, const double &run_ave_performance_before, const double &step_size, const bool &active_threads_change, const unsigned int &thread, double &low_benchmark, double &high_benchmark, bool &random_switch, bool &action_change)\fC [inline]\fP"
+AL: Aspiration-Learning Estimates Update based on Running Average \fBPerformance\fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcurrent_performance\fP current performance 
+.br
+\fIcurrent_run_ave_performance\fP current running average performance 
+.br
+\fIrun_ave_performance_before\fP previous running average performance 
+.br
+\fIstep_size\fP step size 
+.br
+\fIactive_threads_change\fP indicator that the active threads have changed 
+.br
+\fIthread\fP thread indicator 
+.br
+\fIlow_benchmark\fP low performance benchmark 
+.br
+\fIhigh_benchmark\fP high performance benchmark 
+.br
+\fIrandom_switch\fP indicator random switch of sources 
+.br
+\fIaction_change\fP indicator that action has changed 
+.RE
+.PP
+< Updating benchmarks 
+.PP
+Definition at line 395 of file MethodsEstimate\&.h\&.
+.SS "void Struct_MethodsEstimate::RL_update (double &maximum_performance, std::vector< double > &vec_estimates, std::vector< double > &vec_cummulative_estimates, const double &current_performance, const double &current_run_ave_performance, const unsigned int &current_action, const bool &action_main_changed, const double &step_size_RL, const bool &RL_active_reshuffling, const bool &RL_performance_reshuffling, const double &factor_h, const bool &active_threads_change, const unsigned int &thread)\fC [inline]\fP"
+Provides a framework for creating estimates over the best action, by using the current selection and the current performance It is assumed that a set of 'finite' number of actions/selections is available (e\&.g\&., number of available nodes)\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximum_performance\fP maximum performance observed so far 
+.br
+\fIvec_estimates\fP vector of estimates 
+.br
+\fIvec_cummulative_estimates\fP vector of cummulative estimates 
+.br
+\fIcurrent_performance\fP current performance 
+.br
+\fIcurrent_run_ave_performance\fP current running average performance 
+.br
+\fIcurrent_action\fP current action 
+.br
+\fIaction_main_changed\fP indicator that the action of the main resource has changed 
+.br
+\fIstep_size_RL\fP step size of RL algorithm 
+.br
+\fIRL_active_reshuffling\fP strategies are reshuffled when a thread becomes inactive 
+.br
+\fIRL_performance_reshuffling\fP strategies are reshuffled when the performance drops significantly 
+.br
+\fIfactor_h\fP factor h of aspiration-based RL algorithm 
+.br
+\fIactive_threads_change\fP indicators that the active threads have changed 
+.br
+\fIthread\fP thread number 
+.RE
+.PP
+We define a new step-size just for updating the RL 
+.PP
+Definition at line 259 of file MethodsEstimate\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.

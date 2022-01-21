@@ -1,0 +1,201 @@
+.TH "Struct_PerformanceMonitoring" 3 "Tue Jan 18 2022" "PaRLSched" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Struct_PerformanceMonitoring \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MethodsPerformanceMonitoring\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitialize\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user)"
+.br
+.ti -1c
+.RI "void \fBinitialize_w_child\fP (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int > vec_max_num_child_sources_user)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance\fP (const double &performance, const double &step_size, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_balanced_performance\fP (const double &balanced_performance, const double &step_size, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance_per_main_resource\fP (const double &performance, const unsigned int &main_source, const double &step_size, const unsigned int &iteration)"
+.br
+.ti -1c
+.RI "void \fBupdate_run_average_performance_per_child_resource\fP (const double &performance, const unsigned int &main_source, const unsigned int &child_source, const double &step_size, const unsigned int &iteration)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBresource_\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBnum_sources_\fP"
+.br
+.ti -1c
+.RI "double \fBperformance_\fP"
+.br
+.ti -1c
+.RI "double \fBbalanced_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBalg_performance_\fP"
+.br
+.ti -1c
+.RI "bool \fBperformance_update_ind_\fP"
+.br
+.ti -1c
+.RI "double \fBoverall_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBoverall_balanced_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBmin_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBmax_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_balanced_performance_\fP"
+.br
+.ti -1c
+.RI "double \fBrun_average_balanced_performance_before_\fP"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBvec_num_child_sources_\fP"
+.br
+.ti -1c
+.RI "std::vector< double > \fBvec_run_average_performances_per_main_resource_\fP"
+.br
+.ti -1c
+.RI "std::vector< std::vector
+.br
+< double > > \fBvec_run_average_performances_per_child_resource_\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+An important aspect of creating estimates over future performances is to be able to aggregate prior performances of threads\&. The possibilities of how to aggregate such performance may vary depending on the application itself\&.
+.PP
+This structure is planned for 'per-thread' use, since it will hold aggregate information over prior performances of a thread\&. 
+.PP
+Definition at line 247 of file MethodsPerformanceMonitoring\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Struct_PerformanceMonitoring::initialize (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user)\fC [inline]\fP"
+We simply initialize the performance tracking variables
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource\fP 
+.br
+\fInum_sources\fP 
+.br
+\fImax_num_sources_user\fP 
+.RE
+.PP
+
+.PP
+Definition at line 310 of file MethodsPerformanceMonitoring\&.h\&.
+.SS "void Struct_PerformanceMonitoring::initialize_w_child (const std::string &resource, const unsigned int &num_sources, const unsigned int &max_num_sources_user, const std::string &child_resource, const std::vector< std::vector< unsigned int > > &vec_num_child_sources, const std::vector< unsigned int >vec_max_num_child_sources_user)\fC [inline]\fP"
+We simply initialize the performance tracking variables when child resources are also present
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresource\fP 
+.br
+\fInum_sources\fP 
+.br
+\fImax_num_sources_user\fP 
+.br
+\fIchild_resource\fP 
+.br
+\fIvec_num_child_sources\fP 
+.br
+\fIvec_max_num_child_sources_user\fP 
+.RE
+.PP
+
+.PP
+Definition at line 343 of file MethodsPerformanceMonitoring\&.h\&.
+.SS "void Struct_PerformanceMonitoring::update_run_average_balanced_performance (const double &balanced_performance, const double &step_size, const unsigned int &iteration)\fC [inline]\fP"
+Update running average balanced performance
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbalanced_performance\fP 
+.br
+\fIstep_size\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+
+.PP
+Definition at line 400 of file MethodsPerformanceMonitoring\&.h\&.
+.SS "void Struct_PerformanceMonitoring::update_run_average_performance (const double &performance, const double &step_size, const unsigned int &iteration)\fC [inline]\fP"
+Update running average performance
+.PP
+\fBParameters:\fP
+.RS 4
+\fIperformance\fP 
+.br
+\fIstep_size\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+
+.PP
+Definition at line 380 of file MethodsPerformanceMonitoring\&.h\&.
+.SS "void Struct_PerformanceMonitoring::update_run_average_performance_per_child_resource (const double &performance, const unsigned int &main_source, const unsigned int &child_source, const double &step_size, const unsigned int &iteration)\fC [inline]\fP"
+Update running average performance per child resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIperformance\fP 
+.br
+\fImain_source\fP 
+.br
+\fIchild_source\fP 
+.br
+\fIstep_size\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+
+.PP
+Definition at line 437 of file MethodsPerformanceMonitoring\&.h\&.
+.SS "void Struct_PerformanceMonitoring::update_run_average_performance_per_main_resource (const double &performance, const unsigned int &main_source, const double &step_size, const unsigned int &iteration)\fC [inline]\fP"
+Update running average performance per main resource
+.PP
+\fBParameters:\fP
+.RS 4
+\fIperformance\fP 
+.br
+\fImain_source\fP 
+.br
+\fIstep_size\fP 
+.br
+\fIiteration\fP 
+.RE
+.PP
+
+.PP
+Definition at line 419 of file MethodsPerformanceMonitoring\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PaRLSched from the source code\&.
